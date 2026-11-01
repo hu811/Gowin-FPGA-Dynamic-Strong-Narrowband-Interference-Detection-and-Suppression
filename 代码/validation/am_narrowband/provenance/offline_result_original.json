@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "new_rtl_run": true,
+  "board_experiment_performed": false,
+  "command": [
+    "D:\\FPGA_Competition\\timing_sweep_work_20261028\\compiled\\native\\Release\\fullrtl.exe",
+    "+SAMPLES=16000",
+    "+INPUT=D:/FPGA_Competition/支撑材料/项目资料/08_Simulation/20261028_am_narrowband/prepared/am_interference/input.mem",
+    "+FOLDER=D:/FPGA_Competition/支撑材料/项目资料/08_Simulation/20261028_am_narrowband/offline/am_interference/rtl_trace/"
+  ],
+  "wall_seconds_not_fpga_latency": 290.3746933000002,
+  "input_payload_sha256": "701f2becab0b7458276490d20efa0e75afadd4f400e26e0e696fd27d4675349f",
+  "output_our_payload_sha256": "d085840a0e3476e7e826594f7d036fadd6a4e47b1aa17a7ac7423bf794aa4c9a",
+  "output_reference_payload_sha256": "9f1f87db3619546f6f4863e672bc3282cd89183ffe099c13926bd2ea1d55af0f",
+  "rtl_status": {
+    "case": 0,
+    "sent": 16000,
+    "outputs": 16000,
+    "obs": 243,
+    "commits": 17,
+    "max_fir": 1296,
+    "detect": 81494,
+    "active": 0,
+    "waiting": 0,
+    "running": 0,
+    "dropped": 0,
+    "sat": 0,
+    "numeric": 0,
+    "deadline": 0,
+    "seqfault": 0,
+    "errors": 0,
+    "error_code": 0,
+    "gap_min": 1562,
+    "gap_max": 1563
+  },
+  "software_stats": {
+    "observations": 235,
+    "updates": 20,
+    "strong_overflow_observations": 0,
+    "maximum_active_centers": 4,
+    "sample_count": 16000,
+    "sample_rate_hz": 32000,
+    "window_samples": 1024,
+    "hop_samples": 64,
+    "threshold_db": 21,
+    "max_centers": 4,
+    "filter_taps": 641,
+    "coefficient_fraction_bits": 16,
+    "fade_samples": 32,
+    "alignment_samples": 320,
+    "coefficient_guard_failures": 0,
+    "output_saturations": 0,
+    "frontend_compute_waiting_samples": 0,
+    "coefficient_prepare_waiting_samples": 0,
+    "layer": "Finite-arithmetic software reference; not FPGA timing or board output",
+    "input_information": "Mixed samples only; no reference, labels, or actual output supplied"
+  },
+  "metrics": {
+    "full_common": {
+      "input_nrmse_pct": 1461.5959137908794,
+      "nrmse_512_pct": 206.57200519191352,
+      "nrmse_1024_pct": 266.90743883816003,
+      "relative_reduction_pct": 22.605377320648994,
+      "source_sample_range": [
+        0,
+        15680
+      ],
+      "output_sample_range": [
+        320,
+        16000
+      ],
+      "common_samples": 15680
+    },
+    "entry": {
+      "input_nrmse_pct": 1853.8696695559943,
+      "nrmse_512_pct": 338.56214410742064,
+      "nrmse_1024_pct": 449.7768023481363,
+      "relative_reduction_pct": 24.72663277876952,
+      "source_sample_range": [
+        2880,
+        7360
+      ],
+      "output_sample_range": [
+        3200,
+        7680
+      ],
+      "common_samples": 4480
+    },
+    "stable": {
+      "input_nrmse_pct": 1970.1384604988689,
+      "nrmse_512_pct": 40.2008690152035,
+      "nrmse_1024_pct": 37.37755749679223,
+      "relative_reduction_pct": -7.553493881063717,
+      "source_sample_range": [
+        7680,
+        10240
+      ],
+      "output_sample_range": [
+        8000,
+        10560
+      ],
+      "common_samples": 2560
+    }
+  }
+}

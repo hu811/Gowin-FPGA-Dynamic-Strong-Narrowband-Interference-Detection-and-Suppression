@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "samples": 30400,
+  "output_mismatches_lsb": 0,
+  "banks_equal": true,
+  "trajectory_equal": true,
+  "source_archive": "backend_reuse_fixture.npz",
+  "source_archive_sha256": "7bf93d89b221146e51b789936214eecc76643b2bfdccbddf96c9edbb8add49b0",
+  "original_provenance": {
+    "original_archive": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\baseline_results\\c4_temporal_gap8ms_heldout\\conventional1024_fixed21_dtft.npz",
+    "original_archive_sha256": "8d023faf0ba186af5838eb77122f2e886ade8fb9e39acca2156073d5296ad9b6",
+    "original_decisions_sha256": "36817e023a3d9a83521d9a3bd27a8d3c7845da14b8ddbdc3fbdb0930552d40f4",
+    "copied_fields": [
+      "input",
+      "output",
+      "banks_q16",
+      "trajectory"
+    ],
+    "update_subset": "All original updates; observations/scoring labels omitted."
+  }
+}

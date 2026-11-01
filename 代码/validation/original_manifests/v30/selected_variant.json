@@ -1,0 +1,44 @@
+{
+  "status": "FINAL_POLICY_FROZEN_BEFORE_NEW_HELDOUT_RESULT",
+  "choice": "KEEP_V27",
+  "controller_sha256": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+  "no_algorithm_or_rtl_change": true,
+  "capacity": 4,
+  "reasons": [
+    "RETIRE64 and RETIRING_ONLY96FADE both improved one old case but worsened other old cases; no net/no-loss upgrade.",
+    "Predeclared temporal-gap2ms development input already shows originalV27 advantage versus same21defined1024 software reference.",
+    "Application-case benefit is not new-code improvement. Full-period1dB midpoint failures and18dB negative sensitivities remain."
+  ],
+  "rejected_candidates": [
+    {
+      "policy": "COMMITTED_SLOT_RETIRE64",
+      "policy_sha256": "9ae7c94128aad03c2a36b33dc15ad75db218bc4d8abf9c84cdd5b0a3937dfe54",
+      "result": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v30_temporal_c4_work\\software\\retire64_diagnostic\\results.json",
+      "result_sha256": "a1988c4239e74b7bf8d6d521d9ad6e60fab438c912c2d0aeecf0369acf07befb"
+    },
+    {
+      "policy": "RETIRING_ONLY96FADE",
+      "policy_sha256": "f13d1a2eec0f2fdd3a472c8462e92592178fb981e0030be5ab1c0df5f87421ba",
+      "result": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v30_temporal_c4_work\\software\\retire96_diagnostic\\results.json",
+      "result_sha256": "d44727128019f801e861b978e10c46581f54ed155c09a2c58c7b7057bca026af"
+    }
+  ],
+  "predeclared_inputs": [
+    {
+      "name": "c4_temporal_gap2ms_dev",
+      "input_sha256": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+      "metadata_sha256": "bfe5b320dbb3ed4c9f3a3394b809d02bfee99800b591120704a3844f38954c7e"
+    },
+    {
+      "name": "c4_temporal_gap8ms_heldout",
+      "input_sha256": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+      "metadata_sha256": "5200f0b0b90a40ea1b94100b98745e2d5bb970934b344821951576796856a7ea"
+    }
+  ],
+  "input_plan_sha256": "15eeba4440c098a1c4f7cc12e2ee3a3a7256a95f789cafec1c275a7808c5c611",
+  "heldout_authorization": "Root explicit message confirms frozenKEEP_V27 and one gap8ms actualV27+fixed21/18 evaluation now; keep outcome regardless of result.",
+  "no_further_search": "No further algorithm or threshold/frequency/phase/seed changes this round, including3bin diagnostic/256window/retirement duration.",
+  "metric": "At least20%relative reduction in ORIGINAL whole-primary NRMSE vs same21dB integerDTFT1024 is aspiration, not guaranteed. Retain all cases and18sensitivity.",
+  "timing": "ActualV27=completeRTL at requested50MHz,not board measured. Software1024=zero analysis/config waiting,not quality bound. Common-backendHYBRID may be separate strengthening evidence only.",
+  "physical": "No P&R run or newfs inV30. C4 prior physical failure remains outside this task."
+}

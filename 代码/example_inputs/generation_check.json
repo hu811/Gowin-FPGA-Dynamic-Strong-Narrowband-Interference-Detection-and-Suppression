@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "mode": "two_pairs",
+      "samples": 64000,
+      "mixed": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\04_PC_Software\\wav_validation_ready\\example_inputs\\two_pairs\\input.wav",
+      "control": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\04_PC_Software\\wav_validation_ready\\example_inputs\\two_pairs_no_interference\\input.wav",
+      "shared_frontend_gain": 1.0,
+      "wav_reread_bit_exact": true,
+      "source": "synthetic seeded test, not a real recording"
+    },
+    {
+      "mode": "single_pair",
+      "samples": 64000,
+      "mixed": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\04_PC_Software\\wav_validation_ready\\example_inputs\\single_pair\\input.wav",
+      "control": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\04_PC_Software\\wav_validation_ready\\example_inputs\\single_pair_no_interference\\input.wav",
+      "shared_frontend_gain": 1.0,
+      "wav_reread_bit_exact": true,
+      "source": "synthetic seeded test, not a real recording"
+    }
+  ],
+  "board_experiment_performed": false,
+  "no_output_generated": true,
+  "seed": 26102432
+}

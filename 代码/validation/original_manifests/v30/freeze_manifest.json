@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_BEFORE_COUNTERFACTUAL_PERFORMANCE",
+  "policy_sha256": "9ae7c94128aad03c2a36b33dc15ad75db218bc4d8abf9c84cdd5b0a3937dfe54",
+  "plan_sha256": "15eeba4440c098a1c4f7cc12e2ee3a3a7256a95f789cafec1c275a7808c5c611",
+  "generator_sha256": "0096455c9b8934e810a9a3c782d0cae093c195bb1f2da896f4ca6da86c843cb7",
+  "fixture_manifest_sha256": "4b99109fe0686c5bf66d6b1a2210e406306e9467c93e3c08a87e51f4ac14fb2f",
+  "cases": [
+    {
+      "name": "c4_temporal_gap2ms_dev",
+      "input_sha256": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+      "metadata_sha256": "bfe5b320dbb3ed4c9f3a3394b809d02bfee99800b591120704a3844f38954c7e"
+    },
+    {
+      "name": "c4_temporal_gap8ms_heldout",
+      "input_sha256": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+      "metadata_sha256": "5200f0b0b90a40ea1b94100b98745e2d5bb970934b344821951576796856a7ea"
+    }
+  ]
+}

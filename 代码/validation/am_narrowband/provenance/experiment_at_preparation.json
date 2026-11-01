@@ -1,0 +1,149 @@
+{
+  "schema": "paired-tone-am-narrowband-input-1",
+  "case_order": [
+    "tone_control",
+    "am_interference"
+  ],
+  "fs_hz": 32000,
+  "sample_count": 16000,
+  "common_gain": 1.0,
+  "capacity": 4,
+  "frequencies_hz": [
+    2311.3,
+    2436.3,
+    4972.7,
+    5097.7
+  ],
+  "start_samples": [
+    3200,
+    3232,
+    3456,
+    3488
+  ],
+  "stop_samples": [
+    11200,
+    11520,
+    11840,
+    12160
+  ],
+  "onset_phases_rad": [
+    -0.3,
+    0.8,
+    1.2,
+    -1.0
+  ],
+  "source_case": "20261028_timing_sweep/case_01",
+  "source_plan_sha256": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+  "target_array_sha256": "7e517754c31116075e80d7589c95f462e6a9093273b3d10f468d2639e888ebd8",
+  "noise_array_sha256": "2092c0ea965c0c04dca3a679345c430a5606eda2dc06d0de55a3fc0dd7c3d461",
+  "am": {
+    "depth": 0.3,
+    "frequency_hz": 10.0,
+    "phases_rad": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "per_source_power_match_factors": [
+      0.9443164100809699,
+      0.9869126067215148,
+      1.0098385670110601,
+      0.9623692771489342
+    ],
+    "formula": "j_i(t)=c_i*A*sin(2*pi*f_i*(t-onset_i)+phi_i)*(1+0.3*sin(2*pi*10*(t-onset_i)+theta_i)) inside the original half-open active interval",
+    "power_matching": "Each fixed c_i makes AM active-interval RMS equal to the corresponding original tone active-interval RMS. Computed once before detector/RTL runs.",
+    "scope": "Four deterministic amplitude-modulated narrowband sources; not arbitrary narrowband random noise or wideband suppression"
+  },
+  "windows": {
+    "full_common": [
+      0,
+      15680
+    ],
+    "entry": [
+      2880,
+      7360
+    ],
+    "stable": [
+      7680,
+      10240
+    ]
+  },
+  "alignment_samples": 320,
+  "clean_reference": "Frozen target only; noise and interferers excluded from the offline reference",
+  "release_root": "D:\\FPGA_Competition\\最终提交\\代码",
+  "bitstream_sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+  "host_source_hashes": {
+    "board_io.py": "b249dd08616bbcfb98ae028561d96fe3491ada442332fe14b4a4ca18290230af",
+    "wav_bundle.py": "48ba6887df1b6da271018ea01aea578766ef9da919bccbcd09247291be9bd5c9",
+    "scene.py": "866a37474c3304fa2fc53ba39d2e577f65a2f87c4c3466f8125c501966260546",
+    "scene_modes.py": "373799250cd94fbdcdcffba4965f540bdec5bba7c658e23f0dcfabc597bfcbaa",
+    "metrics.py": "6f2bea3a6061b0ba742806c04e9f7d0f1a988b27f555f6b9daf5e088a25944c7"
+  },
+  "generator_source_sha256": "50ee0fbc2f473a8c2685f5202e58dcf0ea50440380368c85ca5e96d4dd84fd59",
+  "cases": {
+    "tone_control": {
+      "bundle_path": "prepared/tone_control",
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f",
+      "files": {
+        "input.npy": "4f81355d8d14d052bafaac9cbbdc9ccddef381b11374cc23e5115ae09b543a22",
+        "input.wav": "4b2a15724394ee8584dbfbc2b86c24c738cec41a21e543579954460184b863e8",
+        "components.npz": "e3cc5b3ebfdc681217fad38349e7ecb82b4c36cb5df5d0089205ee23a6e82c2e",
+        "source_metadata.json": "e55403153d04387128eeaedec38efe82b106b1945df9fbc0dd53ce8cfc8d87cc",
+        "scene.json": "ba0666302433da8d971c1820178db3992755d928b4262e772582db6d47f88637"
+      },
+      "actual_max_abs_sample": 17800,
+      "effective_active_rms": [
+        0.0999930111046182,
+        0.09999994056857017,
+        0.10000526677306189,
+        0.09999900108026097
+      ],
+      "effective_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999913234500536
+      ],
+      "isolated_quantized_component_active_js_db": [
+        19.999387684471145,
+        20.000014426281155,
+        20.0004635087581,
+        19.99989620739777
+      ]
+    },
+    "am_interference": {
+      "bundle_path": "prepared/am_interference",
+      "input_payload_sha256": "701f2becab0b7458276490d20efa0e75afadd4f400e26e0e696fd27d4675349f",
+      "files": {
+        "input.npy": "915700dcf712386c35c1abeaa71226ec72ca29680f735462eeb19a1478936565",
+        "input.wav": "85d31cac4bbea65bc6ea3d5d124dcb5d793cc64f801943da92880abe1b676ad3",
+        "components.npz": "fe30a644e24c95191e1a221de365e9c0425e89bf2aec6e4b6ce10eb5057f7dbc",
+        "source_metadata.json": "8cad9af33b1318f241981f112e4b058d38e59b6cbd8c9d0e5bfc30ddb1fe23df",
+        "scene.json": "ba0666302433da8d971c1820178db3992755d928b4262e772582db6d47f88637"
+      },
+      "actual_max_abs_sample": 18389,
+      "effective_active_rms": [
+        0.0999930111046182,
+        0.09999994056857016,
+        0.10000526677306189,
+        0.09999900108026097
+      ],
+      "effective_active_js_db": [
+        19.999392931046266,
+        19.99999483785006,
+        20.00045745404922,
+        19.999913234500536
+      ],
+      "isolated_quantized_component_active_js_db": [
+        19.999399754022484,
+        19.99999129845216,
+        20.000448633906434,
+        19.999921386448534
+      ]
+    }
+  },
+  "board_experiment_performed": false,
+  "selection": "Parameters fixed before outputs; no result-driven phase or threshold tuning. Same input payload for each algorithm.",
+  "online_information": "Mixed samples and existing protocol controls only; clean target/components/true frequency/timing never online inputs."
+}

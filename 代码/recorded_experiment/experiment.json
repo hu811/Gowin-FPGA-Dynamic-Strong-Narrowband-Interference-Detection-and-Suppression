@@ -1,0 +1,183 @@
+{
+  "schema": "recorded-board-pair-definition-1",
+  "capacity": 4,
+  "sample_rate_hz": 32000,
+  "samples": 64000,
+  "source": "WiNRADiO DRM 6095kHz received IF, original 10-12 seconds, frozen conversion prepared 2026-10-24",
+  "reference_definition": "Unaugmented received recording; includes original noise/channel/pilots. No decoded BER/EVM claim.",
+  "bitstream_sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+  "host_source_hashes": {
+    "board_io.py": "b249dd08616bbcfb98ae028561d96fe3491ada442332fe14b4a4ca18290230af",
+    "wav_bundle.py": "48ba6887df1b6da271018ea01aea578766ef9da919bccbcd09247291be9bd5c9",
+    "metrics.py": "6f2bea3a6061b0ba742806c04e9f7d0f1a988b27f555f6b9daf5e088a25944c7",
+    "vendor_stream/stream.py": "76294cf69340655b843b24213733bbf56a11e6c39139436965cb1fde4f5ace96",
+    "vendor_stream/protocol.py": "ea7890a3f1e62978506913a7d86519de1bcc66f2bbd1eebaf74d0f7111aedfc3",
+    "vendor_stream/fixtures.py": "4b54ef33e49fe2e92aaaca914a7fd558765afa383108223afd4ec18cd2fb3b91",
+    "scene_modes.py": "373799250cd94fbdcdcffba4965f540bdec5bba7c658e23f0dcfabc597bfcbaa",
+    "app.py": "634636ee7ffb96459be875e2d0230952a2574b502a279d52091c0614c9e7e9c3"
+  },
+  "inputs": {
+    "control": {
+      "folder": "drm_recorded_two_pairs_no_interference",
+      "files": {
+        "input.wav": "d2595e6d2c7285de0b4557c250d7f2b036663d5f58047a300ba2073f2022c5e8",
+        "input.npy": "83548f5e656f94b6b5bc47c63e646ba2091c7e2ba49e67fbaf4007ac2ca9417a",
+        "source_metadata.json": "fb21106d187fc5007070640d312e01e46aadb3bf5e88554476f7a928ab4c9301",
+        "components.npz": "e746ac452b4db5f7fae28952fef0833394e0b965f51d3d5fa7b7da5ce4d549f2",
+        "scene.json": "67fee4545c08c7f18f45f7fed05fe55f0d5bf10bd1845bc3a0474443dad655ce"
+      },
+      "payload_sha256": "d9cbb8da8b0a577516e60b666463c04be5cc6c6c8335a403477ce24a7009cfe8"
+    },
+    "mixed": {
+      "folder": "drm_recorded_two_pairs",
+      "files": {
+        "input.wav": "97b66091e61ae01ea269867ddbb30024e6ce5da2df2c32015e1faf62c223becb",
+        "input.npy": "eaa8a808904347ac784bb7d5fe7e8583ddf3414b08cc84356c80d60a1601e364",
+        "source_metadata.json": "f46ac0344f6217f50d4cf5a9f783e1e93566d16823e41970368247725ef2cd3b",
+        "components.npz": "64864e0328930907889cffdcd71ffb89f2af877c44834538ef9237c870f5b5e7",
+        "scene.json": "925eab4275818991ab00baf66f50d0190144ab68e4c063e42fe43e8dbffecd72"
+      },
+      "payload_sha256": "f7273ee103dedc1a4a49282317bf0fd88425d1408b2abdc316b29c7daee03358"
+    }
+  },
+  "predefined_scoring_windows_s": {
+    "full": [
+      0,
+      1.99
+    ],
+    "stable": [
+      0.4,
+      1.2
+    ],
+    "prior_rtl_local": [
+      0.4,
+      0.49
+    ]
+  },
+  "alignment_samples": 320,
+  "gain_fitting": false,
+  "board_experiment_performed": false,
+  "common_gain": 0.11188643936088333,
+  "events": [
+    {
+      "name": "jam_1",
+      "frequency_hz": 4311.3,
+      "end_frequency_hz": 4311.3,
+      "start_s": 0.25,
+      "change_s": 0.775,
+      "end_s": 1.3,
+      "js_db": 20.0,
+      "phase_rad": -0.3,
+      "enabled": true,
+      "mode": "fixed",
+      "start_sample": 8000,
+      "change_sample": null,
+      "stop_sample_exclusive": 41600,
+      "actual_start_s": 0.25,
+      "actual_change_s": null,
+      "actual_end_s": 1.3,
+      "phase_wrapped_rad": 5.983185307179586,
+      "unit_active_rms": 0.7070998010691878,
+      "requested_active_rms": 1.5285022812881188,
+      "generation_amplitude_multiplier": 2.1616499947771293,
+      "generation_normalization": "unit active segment explicitly normalized to requested J/S RMS",
+      "used_frequency_hz": [
+        4311.3
+      ],
+      "in_detector_range": true,
+      "active_rms": 0.17101867780831492,
+      "full_scene_rms": 0.12391480453777394,
+      "actual_js_db": 20.0
+    },
+    {
+      "name": "jam_2",
+      "frequency_hz": 4436.3,
+      "end_frequency_hz": 4436.3,
+      "start_s": 0.251,
+      "change_s": 0.8254999999999999,
+      "end_s": 1.4,
+      "js_db": 20.0,
+      "phase_rad": 0.8,
+      "enabled": true,
+      "mode": "fixed",
+      "start_sample": 8032,
+      "change_sample": null,
+      "stop_sample_exclusive": 44800,
+      "actual_start_s": 0.251,
+      "actual_change_s": null,
+      "actual_end_s": 1.4,
+      "phase_wrapped_rad": 0.8,
+      "unit_active_rms": 0.707117217799565,
+      "requested_active_rms": 1.5285022812881188,
+      "generation_amplitude_multiplier": 2.1615967520131556,
+      "generation_normalization": "unit active segment explicitly normalized to requested J/S RMS",
+      "used_frequency_hz": [
+        4436.3
+      ],
+      "in_detector_range": true,
+      "active_rms": 0.17101867780831495,
+      "full_scene_rms": 0.12962493779177017,
+      "actual_js_db": 20.0
+    },
+    {
+      "name": "jam_3",
+      "frequency_hz": 5972.7,
+      "end_frequency_hz": 5972.7,
+      "start_s": 0.258,
+      "change_s": 0.904,
+      "end_s": 1.55,
+      "js_db": 20.0,
+      "phase_rad": 1.2,
+      "enabled": true,
+      "mode": "fixed",
+      "start_sample": 8256,
+      "change_sample": null,
+      "stop_sample_exclusive": 49600,
+      "actual_start_s": 0.258,
+      "actual_change_s": null,
+      "actual_end_s": 1.55,
+      "phase_wrapped_rad": 1.2,
+      "unit_active_rms": 0.7071149371415403,
+      "requested_active_rms": 1.5285022812881188,
+      "generation_amplitude_multiplier": 2.161603723811826,
+      "generation_normalization": "unit active segment explicitly normalized to requested J/S RMS",
+      "used_frequency_hz": [
+        5972.7
+      ],
+      "in_detector_range": true,
+      "active_rms": 0.17101867780831495,
+      "full_scene_rms": 0.13745476619932295,
+      "actual_js_db": 20.0
+    },
+    {
+      "name": "jam_4",
+      "frequency_hz": 6097.7,
+      "end_frequency_hz": 6097.7,
+      "start_s": 0.259,
+      "change_s": 0.9544999999999999,
+      "end_s": 1.65,
+      "js_db": 20.0,
+      "phase_rad": -1.0,
+      "enabled": true,
+      "mode": "fixed",
+      "start_sample": 8288,
+      "change_sample": null,
+      "stop_sample_exclusive": 52800,
+      "actual_start_s": 0.259,
+      "actual_change_s": null,
+      "actual_end_s": 1.65,
+      "phase_wrapped_rad": 5.283185307179586,
+      "unit_active_rms": 0.7071029044889225,
+      "requested_active_rms": 1.5285022812881188,
+      "generation_amplitude_multiplier": 2.161640507463174,
+      "generation_normalization": "unit active segment explicitly normalized to requested J/S RMS",
+      "used_frequency_hz": [
+        6097.7
+      ],
+      "in_detector_range": true,
+      "active_rms": 0.17101867780831495,
+      "full_scene_rms": 0.14262383554229668,
+      "actual_js_db": 20.0
+    }
+  ]
+}

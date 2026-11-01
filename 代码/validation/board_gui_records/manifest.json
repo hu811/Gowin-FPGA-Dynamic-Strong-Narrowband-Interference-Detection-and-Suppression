@@ -1,0 +1,171 @@
+{
+  "schema": "board-gui-records-1",
+  "records": {
+    "digital_a": {
+      "source_directory": "D:\\FPGA_Competition\\pro_v32_ready\\host_ui\\captures\\c4_20261022_180507_932474",
+      "package_directory": "validation/board_gui_records/digital_a",
+      "files": {
+        "capture.json": {
+          "bytes": 12146,
+          "sha256": "696ccdc41bc1b863decd14dd8d882587f062db2adfa2d30d4160371e819e3740"
+        },
+        "input.npy": {
+          "bytes": 128128,
+          "sha256": "b1ff7211085a224ade8c39251774ea1366aaeba88d986437ab12f1f2aa9b765c"
+        },
+        "output.npy": {
+          "bytes": 128128,
+          "sha256": "9fbcf3e7f6a4e94e6e7071476489108392ad3406771949e0db6b4a12cc926bc2"
+        },
+        "source_components.npz": {
+          "bytes": 2591384,
+          "sha256": "d64032b8fbbc9df00bc44593b28240b49e42a4a61ff8655916426f4d22ffa81b"
+        },
+        "scene.json": {
+          "bytes": 1224,
+          "sha256": "213ad49332760a05cb5460c90d68cb0dc674e4b127edfb9ecfaf6a8d671f8de8"
+        },
+        "status.csv": {
+          "bytes": 208087,
+          "sha256": "80e0fb5a9966aea96f57bdd6a65c2383a75c0ca45fc2721200af3893a836607e"
+        }
+      },
+      "sample_count": 64000,
+      "source_notes": "Archived actual UART output; no new acquisition during packaging."
+    },
+    "digital_b": {
+      "source_directory": "D:\\FPGA_Competition\\pro_v32_ready\\host_ui\\captures\\c4_20261022_180818_447131",
+      "package_directory": "validation/board_gui_records/digital_b",
+      "files": {
+        "capture.json": {
+          "bytes": 12164,
+          "sha256": "6289fa360b176f02154b845f6b7cb0c405b47bbc653f1e78b293b35847ecd35b"
+        },
+        "input.npy": {
+          "bytes": 128128,
+          "sha256": "09df46a0e09f22a29c89b1a42efd54a3ab6c1b8b60fdcbb2c53723c04c07d96a"
+        },
+        "output.npy": {
+          "bytes": 128128,
+          "sha256": "e123837775064e7081424b8d103686628e1ab6be2bd8ed3c4a14a193e5fd7d56"
+        },
+        "source_components.npz": {
+          "bytes": 2591746,
+          "sha256": "50099af18f091c45d197b9a9a0f8dcddffbdf0f19fb6e3c8737041ded71d0587"
+        },
+        "scene.json": {
+          "bytes": 1224,
+          "sha256": "b4fbd30b431900cf5684169c614d6954122b7fa7a934d4e79d92cbec45244fdb"
+        },
+        "status.csv": {
+          "bytes": 214966,
+          "sha256": "843a6cc4376ef2ffbc48f422228cfa2adcbde38457cad9e63d3854485ee9d601"
+        }
+      },
+      "sample_count": 64000,
+      "source_notes": "Archived actual UART output; no new acquisition during packaging."
+    },
+    "recorded_control": {
+      "source_directory": "D:\\FPGA_Competition\\最终提交\\代码\\host_ui\\captures\\c4_20261027_223512_015471",
+      "package_directory": "host_ui/captures/c4_20261027_223512_015471",
+      "files": {
+        "capture.json": {
+          "bytes": 16215,
+          "sha256": "8261d8e3b0d91de7b453c7bfb0057dceba4e5988136a304e4803c94e5a64ea58"
+        },
+        "input.npy": {
+          "bytes": 128128,
+          "sha256": "83548f5e656f94b6b5bc47c63e646ba2091c7e2ba49e67fbaf4007ac2ca9417a"
+        },
+        "input.wav": {
+          "bytes": 128044,
+          "sha256": "d2595e6d2c7285de0b4557c250d7f2b036663d5f58047a300ba2073f2022c5e8"
+        },
+        "output.npy": {
+          "bytes": 128128,
+          "sha256": "92ff39f0c695c540706d3d00e7b576ce515905cc7f7e3f390c46f0e87031c8dc"
+        },
+        "output.wav": {
+          "bytes": 128044,
+          "sha256": "d90a4858ffce6c360498cf0682c5abcd72d69288e3d939851bfa160814350da6"
+        },
+        "samples.csv": {
+          "bytes": 1706009,
+          "sha256": "967bf81ef5c16d97eccd70241f9bea9270be5f7123c53d82b2f1a2766449ff51"
+        },
+        "scene.json": {
+          "bytes": 1243,
+          "sha256": "d177de92c1b23e40e391560fb9e07032fb13856c1c777a8ad002bbc9519e0e05"
+        },
+        "source_components.npz": {
+          "bytes": 935179,
+          "sha256": "e746ac452b4db5f7fae28952fef0833394e0b965f51d3d5fa7b7da5ce4d549f2"
+        },
+        "status.csv": {
+          "bytes": 187473,
+          "sha256": "13a41b4eb9ec17a68da7b4f90edc40044df46136885380ecbae64c6937805199"
+        }
+      },
+      "sample_count": 64000,
+      "source_notes": "Existing manual preload-and-run capture preserved in place."
+    },
+    "recorded_mixed": {
+      "source_directory": "D:\\FPGA_Competition\\最终提交\\代码\\host_ui\\captures\\c4_20261027_223556_432532",
+      "package_directory": "host_ui/captures/c4_20261027_223556_432532",
+      "files": {
+        "capture.json": {
+          "bytes": 16420,
+          "sha256": "ccd09095df886c5bb6c78bfb07fa0ce8532cfb9df8d4af052d44bfbd1607d8a8"
+        },
+        "input.npy": {
+          "bytes": 128128,
+          "sha256": "eaa8a808904347ac784bb7d5fe7e8583ddf3414b08cc84356c80d60a1601e364"
+        },
+        "input.wav": {
+          "bytes": 128044,
+          "sha256": "97b66091e61ae01ea269867ddbb30024e6ce5da2df2c32015e1faf62c223becb"
+        },
+        "output.npy": {
+          "bytes": 128128,
+          "sha256": "4ef04dab0fa02c38052275270400a35997f8c77f9e003756b6b7e5221dc3bdef"
+        },
+        "output.wav": {
+          "bytes": 128044,
+          "sha256": "b11d182c1d0e12e5ba5e842a3d840e553e06dc0e4ecc4313a47b3a8cc0c26982"
+        },
+        "samples.csv": {
+          "bytes": 1765190,
+          "sha256": "d7426ec363dc8f4e39ea861702d3fd684ee731c7d17492c37c78db0e84066e24"
+        },
+        "scene.json": {
+          "bytes": 1239,
+          "sha256": "40e243e85cf9bf0213e4ada8a12d4efaf499d4e8deccfdfae502c0978eceb3ae"
+        },
+        "source_components.npz": {
+          "bytes": 2096846,
+          "sha256": "64864e0328930907889cffdcd71ffb89f2af877c44834538ef9237c870f5b5e7"
+        },
+        "status.csv": {
+          "bytes": 207156,
+          "sha256": "2601c765d529fa0d87d127331cabeeb3c64adb89765418a0a92de5c2c52e5f6a"
+        }
+      },
+      "sample_count": 64000,
+      "source_notes": "Existing manual preload-and-run capture preserved in place."
+    }
+  },
+  "sample_rate_hz": 32000,
+  "alignment_samples": 320,
+  "windows": {
+    "full_common": [
+      0.0,
+      1.99
+    ],
+    "stable": [
+      0.4,
+      1.2
+    ]
+  },
+  "reference": "Each run uses its saved offline target; recorded target includes received noise/channel/pilots.",
+  "scope": "Actual archived FPGA UART captures, not 1024 HYBRID board measurements. No new UART/P&R/RTL run."
+}

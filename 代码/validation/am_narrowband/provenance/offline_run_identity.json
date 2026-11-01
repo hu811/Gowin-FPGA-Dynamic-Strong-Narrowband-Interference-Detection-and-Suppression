@@ -1,0 +1,9 @@
+{
+  "experiment_sha256": "00a4930deb903d464a897b77a028ab8c030fc7aa50d4515f33d77c9bd8148f42",
+  "native_executable_sha256": "b8f57f0f1d2143a38551020eed93b51d48d1884eff4b3b1cd5778ba34a7f0550",
+  "software_engine_sha256": "13bcd91f146efc148237120c366fdad1513a4d9e7c43ffb4f2cbdc355e675b77",
+  "source_runtime_identity_sha256": "f038d587fa97ad5a46c3613f7d6c8c2265fbee2f7f7b758d4ec82f803746aee5",
+  "bitstream_file_sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+  "precheck_script_sha256": "ca665245f8ad122fecc7ed592fdfd7be022278f81918f295608cdc43f37510ad",
+  "scope": "Offline complete C4 native RTL and finite-arithmetic software1024; no new synthesis or board test; original linked runtime source identity reused."
+}

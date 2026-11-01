@@ -1,0 +1,101 @@
+"""One AM full-core RTL/software1024 precheck; never opens UART or fabricates board captures."""
+from pathlib import Path
+from hashlib import sha256
+from datetime import datetime,timezone,timedelta
+import json,csv,re,sys,types,time,subprocess,shutil
+import numpy as np
+
+H=Path(__file__).resolve().parent
+S=H.parent/'20261028_timing_sweep'
+RELEASE=Path('D:/FPGA_Competition/最终提交/代码')
+B=Path('D:/FPGA_Competition/timing_sweep_work_20261028/compiled')
+EXE=B/'native/Release/fullrtl.exe'
+ENGINE=Path('D:/FPGA_Competition/支撑材料/项目资料/04_PC_Software/20261027_input_comparison/engine/reference_1024.py')
+MODEL=RELEASE/'validation/recorded_1024_reference'
+sha=lambda p:sha256(Path(p).read_bytes()).hexdigest()
+payload=lambda a:sha256(np.asarray(a,dtype='<i2').tobytes()).hexdigest()
+
+def dump(p,value):p.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+def status(phase):dump(H/'offline_progress.json',{'phase':phase,'updated_at':datetime.now(timezone(timedelta(hours=8))).isoformat(),'board_experiment_performed':False})
+def score(x,out,ref,target,windows):
+    answer={}
+    for name,(a,b) in windows.items():
+        clean=target[a:b];den=np.linalg.norm(clean)
+        def nrmse(v,delay):return float(100*np.linalg.norm(v[a+delay:b+delay].astype(float)/32768-clean)/den)
+        ours,other=nrmse(out,320),nrmse(ref,320)
+        answer[name]={'input_nrmse_pct':nrmse(x,0),'nrmse_512_pct':ours,'nrmse_1024_pct':other,
+            'relative_reduction_pct':100*(other-ours)/other,'source_sample_range':[a,b],
+            'output_sample_range':[a+320,b+320],'common_samples':b-a}
+    return answer
+
+def main():
+    p=json.loads((H/'experiment.json').read_text(encoding='utf-8'))
+    oldplan=json.loads((S/'experiment_plan.json').read_text(encoding='utf-8'))
+    assert sha(EXE)==oldplan['native_executable_sha256']=='b8f57f0f1d2143a38551020eed93b51d48d1884eff4b3b1cd5778ba34a7f0550'
+    assert sha(ENGINE)==oldplan['engine_source_sha256']
+    with np.load(H/'prepared/am_interference/components.npz',allow_pickle=False) as c:target=c['target'].copy()
+    offline=H/'offline';offline.mkdir(exist_ok=True)
+    identity={'experiment_sha256':sha(H/'experiment.json'),'native_executable_sha256':sha(EXE),
+        'software_engine_sha256':sha(ENGINE),'source_runtime_identity_sha256':sha(S/'runtime_identity.json'),
+        'bitstream_file_sha256':sha(RELEASE/'c4/ACG525_C4_V32_512_OLED.fs'),'precheck_script_sha256':sha(__file__),
+        'scope':'Offline complete C4 native RTL and finite-arithmetic software1024; no new synthesis or board test; original linked runtime source identity reused.'}
+    if (offline/'run_identity.json').exists():assert json.loads((offline/'run_identity.json').read_text(encoding='utf-8'))==identity
+    else:dump(offline/'run_identity.json',identity)
+    result={}
+    control=offline/'tone_control';control.mkdir(exist_ok=True)
+    source=S/'cases/case_01';old=json.loads((source/'case_result.json').read_text(encoding='utf-8'))
+    x=np.load(H/'prepared/tone_control/input.npy',allow_pickle=False)
+    assert np.array_equal(x,np.load(source/'input.npy'))
+    y=np.load(source/'output_512_rtl.npy');z=np.load(source/'output_1024_software.npy')
+    for name,data in [('input_payload_sha256',x),('output_512_payload_sha256',y),('output_1024_payload_sha256',z)]:assert payload(data)==old[name]
+    for name,data in [('output_our_rtl.npy',y),('output_1024.npy',z)]:
+        if (control/name).exists():assert np.array_equal(np.load(control/name),data)
+        else:np.save(control/name,data)
+    result['tone_control']={'status':'PASS','new_rtl_run':False,'provenance':'Exact same input verified; original native RTL and software1024 outputs reused, not new board output',
+        'original_case_result':str(source/'case_result.json'),'original_case_result_sha256':sha(source/'case_result.json'),
+        'rtl_status':old['rtl_status'],'metrics':score(x,y,z,target,p['windows'])}
+    dump(control/'result.json',result['tone_control'])
+    amdir=offline/'am_interference';amdir.mkdir(exist_ok=True)
+    if (amdir/'result.json').exists():
+        current=json.loads((amdir/'result.json').read_text(encoding='utf-8'));assert current['status']=='PASS'
+        result['am_interference']=current
+        dump(offline/'results.json',{'status':'PASS','cases':result,'board_experiment_performed':False})
+        print('EXISTING AM PRECHECK PASS');return
+    status('software1024_reference')
+    engine=types.ModuleType('am_reference1024');engine.__file__=str(ENGINE);sys.modules[engine.__name__]=engine
+    exec(compile(ENGINE.read_text(encoding='utf-8'),str(ENGINE),'exec'),engine.__dict__)
+    x=np.load(H/'prepared/am_interference/input.npy',allow_pickle=False)
+    assert payload(x)==p['cases']['am_interference']['input_payload_sha256']
+    reference=engine.run_reference(x,MODEL);z=reference['output']
+    np.save(amdir/'output_1024.npy',z);dump(amdir/'software_stats.json',reference['stats']);dump(amdir/'software_decisions.json',reference['decisions'])
+    folder=amdir/'rtl_trace';folder.mkdir(exist_ok=False)
+    command=[str(EXE),'+SAMPLES=16000',f'+INPUT={(H/"prepared/am_interference/input.mem").as_posix()}',f'+FOLDER={folder.as_posix()}/']
+    print('AM NATIVE FULL CORE START; no UART or board access',flush=True);status('native_complete_c4_rtl')
+    began=time.perf_counter()
+    with (folder/'run.log').open('w',encoding='utf-8') as log:
+        process=subprocess.run(command,cwd=B,stdout=log,stderr=subprocess.STDOUT,timeout=900)
+    text=(folder/'run.log').read_text(encoding='utf-8');assert process.returncode==0 and 'PASS FULL_AUTO_QUALITY_TRACE' in text
+    rows=list(csv.DictReader((folder/'outputs.csv').open(encoding='utf-8-sig')))
+    assert [int(r['sample']) for r in rows]==list(range(16000))
+    y=np.array([int(r['output']) for r in rows],np.int16);np.save(amdir/'output_our_rtl.npy',y)
+    sent=list(csv.DictReader((folder/'samples.csv').open(encoding='utf-8-sig')))
+    assert [int(r['sample']) for r in sent]==list(range(16000))
+    assert np.array_equal(np.array([int(r['input']) for r in sent],np.int16),x)
+    final,=[line for line in text.splitlines() if line.startswith('FINAL case=')]
+    state={k:int(v,16 if k in ('active','error_code') else 10) for k,v in re.findall(r'(\w+)=([0-9a-fA-F]+)',final)}
+    assert all(state[k]==0 for k in ('dropped','sat','numeric','deadline','seqfault','errors','error_code'))
+    result['am_interference']={'status':'PASS','new_rtl_run':True,'board_experiment_performed':False,
+        'command':command,'wall_seconds_not_fpga_latency':time.perf_counter()-began,
+        'input_payload_sha256':payload(x),'output_our_payload_sha256':payload(y),'output_reference_payload_sha256':payload(z),
+        'rtl_status':state,'software_stats':reference['stats'],'metrics':score(x,y,z,target,p['windows'])}
+    dump(amdir/'result.json',result['am_interference'])
+    answer={'status':'PASS','scope':'Input/RTL preflight only; no board capture or quality acceptance automatically implied',
+        'experiment_sha256':sha(H/'experiment.json'),'cases':result,'board_experiment_performed':False}
+    dump(offline/'results.json',answer)
+    with (offline/'paired_metrics.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        table=[{'case':case,'window':window,**m} for case,r in result.items() for window,m in r['metrics'].items()]
+        writer=csv.DictWriter(f,fieldnames=list(table[0]));writer.writeheader();writer.writerows(table)
+    status('PASS')
+    print(json.dumps(answer,ensure_ascii=True),flush=True)
+
+if __name__=='__main__':main()

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Archived-array SHA and independent48-row scoring; no new RTL or board execution",
+  "frozen_files_checked": 257,
+  "unique_inputs_checked": 15,
+  "plan_conditions": 16,
+  "rows_recomputed": 48,
+  "input_generation_audit": "Original independent_plan_audit.json retained; generation not rerun here",
+  "alignment_samples": 320,
+  "gain_fitting": false,
+  "missing_output_padding": false,
+  "retained_negative_rows": 16,
+  "new_uart_executed": false,
+  "new_rtl_executed": false,
+  "new_pnr_executed": false,
+  "rtl_rebuild_status": "Source/command supplied; not compiled or rerun during packaging"
+}

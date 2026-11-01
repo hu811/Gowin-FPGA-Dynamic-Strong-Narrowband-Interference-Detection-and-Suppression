@@ -1,0 +1,7 @@
+# Preserve original bytes for source/data hash verification on every platform.
+* -text
+*.docx binary
+*.png binary
+*.npz binary
+*.npy binary
+*.wav binary

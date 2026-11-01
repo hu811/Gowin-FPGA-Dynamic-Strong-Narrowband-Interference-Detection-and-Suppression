@@ -1,0 +1,11 @@
+{
+  "status": "ACTUAL_BOARD_PAIR_COMPLETE",
+  "port": "COM9",
+  "cases": [
+    "control",
+    "mixed"
+  ],
+  "analysis": "analysis.json",
+  "quality_pass": null,
+  "note": "Transport and fixed-input experiment completed; inspect measured quality, not an automatic 20dB/1dB pass."
+}

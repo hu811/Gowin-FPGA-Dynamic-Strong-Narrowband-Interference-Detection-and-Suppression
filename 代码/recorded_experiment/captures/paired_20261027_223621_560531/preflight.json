@@ -1,0 +1,19 @@
+{
+  "status": "INPUTS_VERIFIED",
+  "board_experiment_performed": false,
+  "sample_rate_hz": 32000,
+  "samples_per_case": 64000,
+  "common_gain": 0.11188643936088333,
+  "reference": "Same received DRM recording, including original noise/channel/pilots",
+  "bitstream_local_file_verified": true,
+  "fpga_image_readback_verified": false,
+  "input_payload_sha256": {
+    "control": "d9cbb8da8b0a577516e60b666463c04be5cc6c6c8335a403477ce24a7009cfe8",
+    "mixed": "f7273ee103dedc1a4a49282317bf0fd88425d1408b2abdc316b29c7daee03358"
+  },
+  "max_abs_sample": {
+    "control": 2340,
+    "mixed": 31130
+  },
+  "source_version": "Frozen existing 2026-10-24 DRM conversion; no new input selection"
+}

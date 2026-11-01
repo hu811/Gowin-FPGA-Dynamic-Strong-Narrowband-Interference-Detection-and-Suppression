@@ -1,0 +1,1182 @@
+{
+  "guard_failures": [],
+  "requests": [
+    {
+      "sample": 8320,
+      "observation": 114,
+      "centers_hz": [
+        4320.3125
+      ],
+      "fcw": [
+        579862528
+      ],
+      "bank": 1,
+      "guard_error": null
+    },
+    {
+      "sample": 8384,
+      "observation": 115,
+      "centers_hz": [
+        4316.40625
+      ],
+      "fcw": [
+        579338240
+      ],
+      "bank": 2,
+      "guard_error": null
+    },
+    {
+      "sample": 8448,
+      "observation": 116,
+      "centers_hz": [
+        4312.5
+      ],
+      "fcw": [
+        578813952
+      ],
+      "bank": 3,
+      "guard_error": null
+    },
+    {
+      "sample": 8512,
+      "observation": 117,
+      "centers_hz": [
+        4308.59375
+      ],
+      "fcw": [
+        578289664
+      ],
+      "bank": 4,
+      "guard_error": null
+    },
+    {
+      "sample": 8576,
+      "observation": 118,
+      "centers_hz": [
+        4308.59375,
+        4433.59375
+      ],
+      "fcw": [
+        578289664,
+        595066880
+      ],
+      "bank": 5,
+      "guard_error": null
+    },
+    {
+      "sample": 8704,
+      "observation": 120,
+      "centers_hz": [
+        4308.59375,
+        4437.5
+      ],
+      "fcw": [
+        578289664,
+        595591168
+      ],
+      "bank": 6,
+      "guard_error": null
+    },
+    {
+      "sample": 8768,
+      "observation": 121,
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625
+      ],
+      "fcw": [
+        578289664,
+        595591168,
+        802160640
+      ],
+      "bank": 7,
+      "guard_error": null
+    },
+    {
+      "sample": 8832,
+      "observation": 122,
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625,
+        6085.9375
+      ],
+      "fcw": [
+        578289664,
+        595591168,
+        802160640,
+        816840704
+      ],
+      "bank": 8,
+      "guard_error": null
+    },
+    {
+      "sample": 8896,
+      "observation": 123,
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625,
+        6089.84375
+      ],
+      "fcw": [
+        578289664,
+        595591168,
+        802160640,
+        817364992
+      ],
+      "bank": 9,
+      "guard_error": null
+    },
+    {
+      "sample": 8960,
+      "observation": 124,
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5972.65625,
+        6093.75
+      ],
+      "fcw": [
+        578289664,
+        595591168,
+        801636352,
+        817889280
+      ],
+      "bank": 10,
+      "guard_error": null
+    },
+    {
+      "sample": 9024,
+      "observation": 125,
+      "centers_hz": [
+        4312.5,
+        4437.5,
+        5972.65625,
+        6093.75
+      ],
+      "fcw": [
+        578813952,
+        595591168,
+        801636352,
+        817889280
+      ],
+      "bank": 11,
+      "guard_error": null
+    },
+    {
+      "sample": 9088,
+      "observation": 126,
+      "centers_hz": [
+        4312.5,
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        578813952,
+        595591168,
+        801636352,
+        818413568
+      ],
+      "bank": 12,
+      "guard_error": null
+    },
+    {
+      "sample": 41984,
+      "observation": 640,
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        578289664,
+        595591168,
+        801636352,
+        818413568
+      ],
+      "bank": 13,
+      "guard_error": null
+    },
+    {
+      "sample": 42048,
+      "observation": 641,
+      "centers_hz": [
+        4312.5,
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        578813952,
+        595591168,
+        801636352,
+        818413568
+      ],
+      "bank": 12,
+      "guard_error": null
+    },
+    {
+      "sample": 42176,
+      "observation": 643,
+      "centers_hz": [
+        4308.59375,
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        578289664,
+        595066880,
+        801636352,
+        818413568
+      ],
+      "bank": 14,
+      "guard_error": null
+    },
+    {
+      "sample": 42240,
+      "observation": 644,
+      "centers_hz": [
+        4304.6875,
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        577765376,
+        595066880,
+        801636352,
+        818413568
+      ],
+      "bank": 15,
+      "guard_error": null
+    },
+    {
+      "sample": 42368,
+      "observation": 646,
+      "centers_hz": [
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        595066880,
+        801636352,
+        818413568
+      ],
+      "bank": 16,
+      "guard_error": null
+    },
+    {
+      "sample": 42496,
+      "observation": 648,
+      "centers_hz": [
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        595591168,
+        801636352,
+        818413568
+      ],
+      "bank": 17,
+      "guard_error": null
+    },
+    {
+      "sample": 45312,
+      "observation": 692,
+      "centers_hz": [
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        595066880,
+        801636352,
+        818413568
+      ],
+      "bank": 16,
+      "guard_error": null
+    },
+    {
+      "sample": 45568,
+      "observation": 696,
+      "centers_hz": [
+        5972.65625,
+        6097.65625
+      ],
+      "fcw": [
+        801636352,
+        818413568
+      ],
+      "bank": 18,
+      "guard_error": null
+    },
+    {
+      "sample": 50112,
+      "observation": 767,
+      "centers_hz": [
+        5976.5625,
+        6097.65625
+      ],
+      "fcw": [
+        802160640,
+        818413568
+      ],
+      "bank": 19,
+      "guard_error": null
+    },
+    {
+      "sample": 50176,
+      "observation": 768,
+      "centers_hz": [
+        5968.75,
+        6097.65625
+      ],
+      "fcw": [
+        801112064,
+        818413568
+      ],
+      "bank": 20,
+      "guard_error": null
+    },
+    {
+      "sample": 50368,
+      "observation": 771,
+      "centers_hz": [
+        6097.65625
+      ],
+      "fcw": [
+        818413568
+      ],
+      "bank": 21,
+      "guard_error": null
+    },
+    {
+      "sample": 53440,
+      "observation": 819,
+      "centers_hz": [
+        6093.75
+      ],
+      "fcw": [
+        817889280
+      ],
+      "bank": 22,
+      "guard_error": null
+    },
+    {
+      "sample": 53568,
+      "observation": 821,
+      "centers_hz": [],
+      "fcw": [],
+      "bank": 0,
+      "guard_error": null
+    }
+  ],
+  "banks": [
+    {
+      "centers_hz": []
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4320.3125
+      ],
+      "G_q15": [
+        [
+          32764
+        ]
+      ],
+      "weights_q15": [
+        32772
+      ],
+      "row_norm_q15": 4,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1073741808,
+      "maximum_response_accumulator_abs": 4294466152,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4316.40625
+      ],
+      "G_q15": [
+        [
+          32773
+        ]
+      ],
+      "weights_q15": [
+        32763
+      ],
+      "row_norm_q15": 5,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1073905664,
+      "maximum_response_accumulator_abs": 4295606406,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4312.5
+      ],
+      "G_q15": [
+        [
+          32795
+        ]
+      ],
+      "weights_q15": [
+        32741
+      ],
+      "row_norm_q15": 27,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1074626560,
+      "maximum_response_accumulator_abs": 4298486280,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375
+      ],
+      "G_q15": [
+        [
+          32798
+        ]
+      ],
+      "weights_q15": [
+        32738
+      ],
+      "row_norm_q15": 30,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1074724864,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4433.59375
+      ],
+      "G_q15": [
+        [
+          32798,
+          2103
+        ],
+        [
+          2101,
+          32741
+        ]
+      ],
+      "weights_q15": [
+        30762,
+        30821
+      ],
+      "row_norm_q15": 2133,
+      "residual_q15": [
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1143635968,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102
+        ],
+        [
+          2106,
+          32760
+        ]
+      ],
+      "weights_q15": [
+        30764,
+        30798
+      ],
+      "row_norm_q15": 2132,
+      "residual_q15": [
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1143603200,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102,
+          -147
+        ],
+        [
+          2106,
+          32760,
+          112
+        ],
+        [
+          -150,
+          116,
+          32752
+        ]
+      ],
+      "weights_q15": [
+        30919,
+        30676,
+        32817
+      ],
+      "row_norm_q15": 2279,
+      "residual_q15": [
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146159104,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625,
+        6085.9375
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102,
+          -147,
+          -120
+        ],
+        [
+          2106,
+          32760,
+          112,
+          16
+        ],
+        [
+          -150,
+          116,
+          32752,
+          652
+        ],
+        [
+          -120,
+          15,
+          660,
+          32756
+        ]
+      ],
+      "weights_q15": [
+        31036,
+        30655,
+        32176,
+        32231
+      ],
+      "row_norm_q15": 2399,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146683392,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5976.5625,
+        6089.84375
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102,
+          -147,
+          -100
+        ],
+        [
+          2106,
+          32760,
+          112,
+          -36
+        ],
+        [
+          -150,
+          116,
+          32752,
+          1205
+        ],
+        [
+          -99,
+          -32,
+          1219,
+          32766
+        ]
+      ],
+      "weights_q15": [
+        31008,
+        30709,
+        31650,
+        31716
+      ],
+      "row_norm_q15": 2379,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146159104,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5972.65625,
+        6093.75
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102,
+          -142,
+          -73
+        ],
+        [
+          2106,
+          32760,
+          144,
+          -80
+        ],
+        [
+          -143,
+          151,
+          32758,
+          1946
+        ],
+        [
+          -72,
+          -77,
+          1941,
+          32785
+        ]
+      ],
+      "weights_q15": [
+        30972,
+        30725,
+        30926,
+        31060
+      ],
+      "row_norm_q15": 2347,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1147207680,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4312.5,
+        4437.5,
+        5972.65625,
+        6093.75
+      ],
+      "G_q15": [
+        [
+          32795,
+          2083,
+          -110,
+          -95
+        ],
+        [
+          2087,
+          32760,
+          144,
+          -80
+        ],
+        [
+          -109,
+          151,
+          32758,
+          1946
+        ],
+        [
+          -98,
+          -77,
+          1941,
+          32785
+        ]
+      ],
+      "weights_q15": [
+        30982,
+        30742,
+        30893,
+        31087
+      ],
+      "row_norm_q15": 2319,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146585088,
+      "maximum_response_accumulator_abs": 4298486280,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4312.5,
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32795,
+          2083,
+          -110,
+          -77
+        ],
+        [
+          2087,
+          32760,
+          144,
+          -116
+        ],
+        [
+          -109,
+          151,
+          32758,
+          2105
+        ],
+        [
+          -75,
+          -117,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30962,
+        30778,
+        30750,
+        30953
+      ],
+      "row_norm_q15": 2375,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146585088,
+      "maximum_response_accumulator_abs": 4298486280,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32798,
+          2102,
+          -142,
+          -49
+        ],
+        [
+          2106,
+          32760,
+          144,
+          -116
+        ],
+        [
+          -143,
+          151,
+          32758,
+          2105
+        ],
+        [
+          -40,
+          -117,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30946,
+        30761,
+        30785,
+        30917
+      ],
+      "row_norm_q15": 2409,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1147207680,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4308.59375,
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32798,
+          2103,
+          -142,
+          -49
+        ],
+        [
+          2101,
+          32741,
+          112,
+          -132
+        ],
+        [
+          -143,
+          123,
+          32758,
+          2105
+        ],
+        [
+          -40,
+          -132,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30941,
+        30829,
+        30810,
+        30930
+      ],
+      "row_norm_q15": 2381,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1145372672,
+      "maximum_response_accumulator_abs": 4298879118,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4304.6875,
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32797,
+          2124,
+          -166,
+          -18
+        ],
+        [
+          2116,
+          32741,
+          112,
+          -132
+        ],
+        [
+          -158,
+          123,
+          32758,
+          2105
+        ],
+        [
+          -14,
+          -132,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30916,
+        30816,
+        30826,
+        30904
+      ],
+      "row_norm_q15": 2396,
+      "residual_q15": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1145864192,
+      "maximum_response_accumulator_abs": 4298791498,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4433.59375,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32741,
+          112,
+          -132
+        ],
+        [
+          123,
+          32758,
+          2105
+        ],
+        [
+          -132,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        32815,
+        30669,
+        30909
+      ],
+      "row_norm_q15": 2259,
+      "residual_q15": [
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1146421248,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        4437.5,
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32760,
+          144,
+          -116
+        ],
+        [
+          151,
+          32758,
+          2105
+        ],
+        [
+          -117,
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        32751,
+        30642,
+        30896
+      ],
+      "row_norm_q15": 2266,
+      "residual_q15": [
+        0,
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1147338752,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        5972.65625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32758,
+          2105
+        ],
+        [
+          2102,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30801,
+        30769
+      ],
+      "row_norm_q15": 2127,
+      "residual_q15": [
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1143439360,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        5976.5625,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32752,
+          1956
+        ],
+        [
+          1965,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30939,
+        30889
+      ],
+      "row_norm_q15": 1990,
+      "residual_q15": [
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1138950144,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        5968.75,
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32768,
+          2111
+        ],
+        [
+          2110,
+          32793
+        ]
+      ],
+      "weights_q15": [
+        30786,
+        30762
+      ],
+      "row_norm_q15": 2135,
+      "residual_q15": [
+        0,
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1143701504,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        6097.65625
+      ],
+      "G_q15": [
+        [
+          32793
+        ]
+      ],
+      "weights_q15": [
+        32743
+      ],
+      "row_norm_q15": 25,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1074561024,
+      "maximum_response_accumulator_abs": 4298296850,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    },
+    {
+      "status": "ok",
+      "centers_hz": [
+        6093.75
+      ],
+      "G_q15": [
+        [
+          32785
+        ]
+      ],
+      "weights_q15": [
+        32751
+      ],
+      "row_norm_q15": 17,
+      "residual_q15": [
+        0
+      ],
+      "maximum_dot_accumulator_abs": 1074298880,
+      "maximum_response_accumulator_abs": 4297222754,
+      "response_accumulator_note": "Q32 basis/cosine response accumulation retains existing wide precision; only rounded G/dot/weights use Q15. The 33-bit claim is for joint-weight dot accumulators, not raw response sums."
+    }
+  ]
+}

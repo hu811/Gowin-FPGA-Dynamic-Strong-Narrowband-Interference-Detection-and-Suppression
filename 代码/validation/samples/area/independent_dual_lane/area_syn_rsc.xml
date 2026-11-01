@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="area_top" Lut="48" T_Register="488(0)" T_Alu="264(0)" T_Lut="657(48)" T_MULTALU27X18="2(0)" T_Bsram="6(0)">
+ <SubModule name="fir" Register="488" Alu="264" Lut="609" MULTALU27X18="2" Bsram="6" T_Register="488(488)" T_Alu="264(264)" T_Lut="609(609)" T_MULTALU27X18="2(2)" T_Bsram="6(6)"/>
+</Module>

@@ -1,0 +1,169 @@
+{
+  "schema": "am-evidence-package-1",
+  "source_copies": [
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepared\\am_interference\\input.npy",
+      "destination": "prepared/input.npy",
+      "bytes": 32128,
+      "sha256": "915700dcf712386c35c1abeaa71226ec72ca29680f735462eeb19a1478936565"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepared\\am_interference\\input.wav",
+      "destination": "prepared/input.wav",
+      "bytes": 32044,
+      "sha256": "85d31cac4bbea65bc6ea3d5d124dcb5d793cc64f801943da92880abe1b676ad3"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepared\\am_interference\\components.npz",
+      "destination": "prepared/components.npz",
+      "bytes": 611814,
+      "sha256": "fe30a644e24c95191e1a221de365e9c0425e89bf2aec6e4b6ce10eb5057f7dbc"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepared\\am_interference\\scene.json",
+      "destination": "prepared/scene.json",
+      "bytes": 1230,
+      "sha256": "ba0666302433da8d971c1820178db3992755d928b4262e772582db6d47f88637"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepared\\am_interference\\source_metadata.json",
+      "destination": "prepared/source_metadata.json",
+      "bytes": 7828,
+      "sha256": "8cad9af33b1318f241981f112e4b058d38e59b6cbd8c9d0e5bfc30ddb1fe23df"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\capture.json",
+      "destination": "board_capture/capture.json",
+      "bytes": 13738,
+      "sha256": "f9a89c9a29c550ddf20eaa7bb0141cc3f94e1296e9fe706c2bbf86a3a662b6bc"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\input.npy",
+      "destination": "board_capture/input.npy",
+      "bytes": 32128,
+      "sha256": "915700dcf712386c35c1abeaa71226ec72ca29680f735462eeb19a1478936565"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\input.wav",
+      "destination": "board_capture/input.wav",
+      "bytes": 32044,
+      "sha256": "85d31cac4bbea65bc6ea3d5d124dcb5d793cc64f801943da92880abe1b676ad3"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\output.npy",
+      "destination": "board_capture/output.npy",
+      "bytes": 32128,
+      "sha256": "a44921709d190285ddad32cdd0f66f9ae7e134307f7d79fd1fcba57ed2cb2e98"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\output.wav",
+      "destination": "board_capture/output.wav",
+      "bytes": 32044,
+      "sha256": "70b8ccf90392755cc8bda9fef7bc79b77c4e3b3d37215bc471b534f55c4d0344"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\samples.csv",
+      "destination": "board_capture/samples.csv",
+      "bytes": 424512,
+      "sha256": "7f4735fb7f2ee7b2ee8ca60ff9f60f66af3056168b5c8983971b7abe76ed17da"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\status.csv",
+      "destination": "board_capture/status.csv",
+      "bytes": 55289,
+      "sha256": "e8e161ccdfd23fc258e4edc2683c89d0b625c07e521a90771bedc2d522c71f8d"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\scene.json",
+      "destination": "board_capture/scene.json",
+      "bytes": 1228,
+      "sha256": "be3b3881352ff8f7c4d9e736cd3c6478861047421f96305dab8f3d9ca62fba43"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\非正弦干扰实验\\captures\\manual\\c4_20261028_230439_130629\\source_components.npz",
+      "destination": "board_capture/source_components.npz",
+      "bytes": 611814,
+      "sha256": "fe30a644e24c95191e1a221de365e9c0425e89bf2aec6e4b6ce10eb5057f7dbc"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\output_1024.npy",
+      "destination": "reference/output_1024.npy",
+      "bytes": 32128,
+      "sha256": "05670448022756a535f4328aaf8246257812f314710f5c82f68a7e8db4d2282a"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\software_decisions.json",
+      "destination": "reference/software_decisions.json",
+      "bytes": 895636,
+      "sha256": "745807ca2ff8b7c7105e055b7bd962242c22d0556b5dff2077044e7a273154d1"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\software_stats.json",
+      "destination": "reference/software_stats.json",
+      "bytes": 706,
+      "sha256": "773b5babed489fe3e871baa7690950ab0491343adeafb97b1481383761719274"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\output_our_rtl.npy",
+      "destination": "rtl_evidence/output_our_rtl.npy",
+      "bytes": 32128,
+      "sha256": "a44921709d190285ddad32cdd0f66f9ae7e134307f7d79fd1fcba57ed2cb2e98"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\rtl_trace\\run.log",
+      "destination": "rtl_evidence/run.log",
+      "bytes": 9835,
+      "sha256": "002ba8b2207837542ad0a88f23162519fed52ebdafee0f471143c473beec7f58"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\experiment.json",
+      "destination": "provenance/experiment_at_preparation.json",
+      "bytes": 5276,
+      "sha256": "00a4930deb903d464a897b77a028ab8c030fc7aa50d4515f33d77c9bd8148f42"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\am_interference\\result.json",
+      "destination": "provenance/offline_result_original.json",
+      "bytes": 3196,
+      "sha256": "e26fe279beedfeb70ade30f7a8bc2218a1225ce91f60f147fecaffdec2fb189f"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\offline\\run_identity.json",
+      "destination": "provenance/offline_run_identity.json",
+      "bytes": 744,
+      "sha256": "49c03214fa01d411ba464f6cf78b6e48df963711d0b3ce51443e8522c34954a0"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\prepare_inputs.py",
+      "destination": "provenance/input_preparation_original.py.txt",
+      "bytes": 10798,
+      "sha256": "50ee0fbc2f473a8c2685f5202e58dcf0ea50440380368c85ca5e96d4dd84fd59"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_am_narrowband\\run_offline_precheck.py",
+      "destination": "provenance/offline_precheck_original.py.txt",
+      "bytes": 7593,
+      "sha256": "ca665245f8ad122fecc7ed592fdfd7be022278f81918f295608cdc43f37510ad"
+    },
+    {
+      "source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\timing_sweep\\runtime_identity.json",
+      "destination": "provenance/rtl_runtime_identity.json",
+      "bytes": 16653,
+      "sha256": "f038d587fa97ad5a46c3613f7d6c8c2265fbee2f7f7b758d4ec82f803746aee5"
+    }
+  ],
+  "actual_uart_capture": "board_capture/capture.json",
+  "input_id_shown_on_screenshot": "701f2becab0b",
+  "gui_comparison_existing_in_package": "../../comparison_results/20261028_230454_196243_701f2bec",
+  "software_engine": "../../comparison_ui/reference_1024.py",
+  "software_model_root": "../recorded_1024_reference",
+  "historical_source_note": "Original scripts and metadata retain historical absolute paths as provenance only; verification never executes them or resolves those paths. Preparation/offline records predate the real board run, so their board_experiment_performed=false is preserved unchanged.",
+  "packaging_executed": {
+    "serial": false,
+    "gui": false,
+    "rtl": false,
+    "detector": false,
+    "synthesis": false,
+    "pnr": false
+  }
+}

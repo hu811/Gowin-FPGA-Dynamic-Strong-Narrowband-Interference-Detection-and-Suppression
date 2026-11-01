@@ -1,0 +1,23 @@
+// Verified source: D:/FPGA_Competition/project1_0/constraints/acg525.cst
+IO_LOC "clk" T9;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_LOC "reset_n" C15;
+IO_PORT "reset_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "uart_tx_pin" V8;
+IO_PORT "uart_tx_pin" IO_TYPE=LVCMOS33 DRIVE=8 PULL_MODE=NONE;
+IO_LOC "uart_rx_pin" U8;
+IO_PORT "uart_rx_pin" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "led[0]" D14;
+IO_LOC "led[1]" C14;
+IO_LOC "led[2]" B9;
+IO_LOC "led[3]" A9;
+IO_PORT "led[0]" IO_TYPE=LVCMOS33 DRIVE=8;
+IO_PORT "led[1]" IO_TYPE=LVCMOS33 DRIVE=8;
+IO_PORT "led[2]" IO_TYPE=LVCMOS33 DRIVE=8;
+IO_PORT "led[3]" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// Board-verified onboard I2C pins; CPU/SSPI reused as GPIO in build.tcl.
+IO_LOC "oled_scl" R3;
+IO_PORT "oled_scl" IO_TYPE=LVCMOS33 DRIVE=4 PULL_MODE=UP;
+IO_LOC "oled_sda" T3;
+IO_PORT "oled_sda" IO_TYPE=LVCMOS33 DRIVE=4 PULL_MODE=UP;

@@ -1,0 +1,2300 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\05_Tools\\environment\\validation_report_verifier_20261027.py",
+      "packaged": "verify_report.py",
+      "sha256": "13f2d6b9a4d8ee08c076755ab788dfc6e5e7e2cdeca35d873fdf6bfa775c769f",
+      "bytes": 10571
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap2ms_dev\\fixture.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixture.json",
+      "sha256": "bfe5b320dbb3ed4c9f3a3394b809d02bfee99800b591120704a3844f38954c7e",
+      "bytes": 2037
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap2ms_dev\\input.npy",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/input.npy",
+      "sha256": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+      "bytes": 57728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap2ms_dev\\components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/components.npz",
+      "sha256": "441b4125cc0a285ed5aa6083f31a97a9d73a0070f7bf16329251dc9ca69007ab",
+      "bytes": 1359487
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\hybrid_results\\c4_temporal_gap2ms_dev_fixed21\\results.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/expected_results.json",
+      "sha256": "f0940d3d03f277df6969f1edc5579090a67e303107e312623629a40f5bdfaf7d",
+      "bytes": 761650
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\frozen_operator_and_components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/frozen_operator_and_components.npz",
+      "sha256": "5c556958e821c48c27d0a415195c255d6373c0349d9e891232621781d50393c3",
+      "bytes": 2951933
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\build_manifest.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/build_manifest.json",
+      "sha256": "08797b43ba4f96f3e9dbc7699bcf5d8428c136bff2dded28f4a799e2aa82370e",
+      "bytes": 27328
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\verification.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/verification.json",
+      "sha256": "237e1429f457306027b967e9389a4f4a126aa97c14aa00f7b1131ed6806c8c45",
+      "bytes": 2438
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\run_state.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/run_state.json",
+      "sha256": "3337a73277e9894145ce33327c018fe6b7b8ff865057d20e3fe7217ddf522f7f",
+      "bytes": 1491
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\cfg_snapshots.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/cfg_snapshots.csv",
+      "sha256": "f9f0866c2142091b34cf691063916174487704ba017b6c89c5bd64c1a0a99a6c",
+      "bytes": 1652
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\events.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/events.csv",
+      "sha256": "f7275feacf32dba25c4c254b0dad467d43fdf2e5905205156b25cfb39afcb7c0",
+      "bytes": 372
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_current\\queue_fade_analysis.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/current/queue_fade_analysis.json",
+      "sha256": "3c64455ea1ca02785e64ccb3d2c1c8ce62c8b1f2c98ca44ed3a161d8e42d9205",
+      "bytes": 31484
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\frozen_operator_and_components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/frozen_operator_and_components.npz",
+      "sha256": "2b244bab4125d6674f644360b4291307dec9cec0b11a10cbb0b5694457aa467e",
+      "bytes": 2991247
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\build_manifest.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/build_manifest.json",
+      "sha256": "366c8bda9ef75b1e8018b6b63757d890c10e6f93af8009c3b954b0d1b633fc98",
+      "bytes": 27323
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\verification.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/verification.json",
+      "sha256": "1dbc3775016988957ea20149c792a2475a33bdac9e69cf003161b764feff24cb",
+      "bytes": 2676
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\run_state.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/run_state.json",
+      "sha256": "54852e9cf464d27ec2143ec0924b10fedc1b099877fc0fb132951cb881a1acac",
+      "bytes": 1496
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\cfg_snapshots.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/cfg_snapshots.csv",
+      "sha256": "47e2614bbddf645ef923f0ee34e654bbf40119942df52b8d79bde8fe49bd0b77",
+      "bytes": 26490
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\events.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/events.csv",
+      "sha256": "80c6ad16b69bfa39d9eb6a8a67de6b8c1d8af58bed619f0a34c0733fe7e4bcb9",
+      "bytes": 5918
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap2ms_dev_fixed21\\queue_fade_analysis.json",
+      "packaged": "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/queue_fade_analysis.json",
+      "sha256": "5cbdf4fe8f03ddbf1a4109bf82cc73486b3d6affe2695ec9dd88d58ad08bddd3",
+      "bytes": 643820
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap8ms_heldout\\fixture.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixture.json",
+      "sha256": "5200f0b0b90a40ea1b94100b98745e2d5bb970934b344821951576796856a7ea",
+      "bytes": 2055
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap8ms_heldout\\input.npy",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/input.npy",
+      "sha256": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+      "bytes": 60928
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap8ms_heldout\\components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/components.npz",
+      "sha256": "cade34d8307b0e957871983cca38d8ecaaf0eb39cfd637a670ed36b6b23f1329",
+      "bytes": 1457064
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\hybrid_results\\c4_temporal_gap8ms_heldout_fixed21\\results.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/expected_results.json",
+      "sha256": "94951abdd685c34875a9c58f3ec56323c9c9c6b8e2835456f2abe6a758d19504",
+      "bytes": 704035
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\frozen_operator_and_components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/frozen_operator_and_components.npz",
+      "sha256": "32153269cb8f5ae3bd5b288e3a5b51ab0d374afcc367b33d645bcae3460235a0",
+      "bytes": 3160298
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\build_manifest.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/build_manifest.json",
+      "sha256": "72cc14499cb6348858a13fea01b0ddebd38abfa8a672eebda05a16511add4398",
+      "bytes": 27328
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\verification.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/verification.json",
+      "sha256": "06bd8f8c4061a4c818f0c4d5a4e8ccb74c140d08a9ad8e93efb3c7ed5e33214b",
+      "bytes": 2452
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\run_state.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/run_state.json",
+      "sha256": "69e5edc7eb616c68a3cac179de5f5d7d806d3e2c115d3d08fc79fe35ca0a01c1",
+      "bytes": 1506
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\cfg_snapshots.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/cfg_snapshots.csv",
+      "sha256": "e07f4cb62330b2342c0ce50aa1c08cee9b4c07322a2f4f0877b9bf8744f3612b",
+      "bytes": 1531
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\events.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/events.csv",
+      "sha256": "1e4cf7da9df00a67d61ad647af98d59a33e101500a7d98fe8c8e0249245915cf",
+      "bytes": 351
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_current\\queue_fade_analysis.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/current/queue_fade_analysis.json",
+      "sha256": "5f15e6c324b0e162587cf3dcf5c35a7c4b73df30e95289f3af107c042fde61e0",
+      "bytes": 27081
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\frozen_operator_and_components.npz",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/frozen_operator_and_components.npz",
+      "sha256": "02812b6eb6b55616c66339aef256525f06ed0a84416c831f83ec6f5a032be598",
+      "bytes": 3164223
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\build_manifest.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/build_manifest.json",
+      "sha256": "01274a3f43dbd9501a433f2e62491f76ce6b4efa97b965763fe0636e4d61a4b0",
+      "bytes": 27323
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\verification.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/verification.json",
+      "sha256": "220a6d4e16a598e3ae2afe7b26a350331f73072bf2b5c39fd479d301674154c1",
+      "bytes": 2688
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\run_state.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/run_state.json",
+      "sha256": "793dd7b0f691b021ad8d7c731ef7270125a991b406230023071cc890c68489bb",
+      "bytes": 1502
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\cfg_snapshots.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/cfg_snapshots.csv",
+      "sha256": "f1bee5c7bee86e374606fa9f7aafd35d795755e688875f793d14aa304a67ee79",
+      "bytes": 2389
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\events.csv",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/events.csv",
+      "sha256": "6272cbef26d3864d5a5ec8aca6c935180a0d24cebed647dc30e2cac6fdac9afb",
+      "bytes": 539
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\results\\c4_temporal_gap8ms_heldout_fixed21\\queue_fade_analysis.json",
+      "packaged": "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/queue_fade_analysis.json",
+      "sha256": "8ea32f17202e856aa2e9a1eb7ae7c4f426813010d7809da54c181b2fbe1c67d3",
+      "bytes": 47265
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\results.json",
+      "packaged": "samples/switching/results.json",
+      "sha256": "ced63c7acfba9ddb14362ca9194d758dceaa6653158f8063536080f03a032a11",
+      "bytes": 7323
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\coefficients.csv",
+      "packaged": "samples/switching/coefficients.csv",
+      "sha256": "ce8457e9c03a79f749aaa34dc59af376d23e964a9f93b65241221ae0938c8005",
+      "bytes": 4146
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\events.csv",
+      "packaged": "samples/switching/events.csv",
+      "sha256": "251282b078a6d6912441ad6e7b76969e71d9f2dd8ef47596c341daa68946f383",
+      "bytes": 228447
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\outputs.csv",
+      "packaged": "samples/switching/outputs.csv",
+      "sha256": "e70e6c85a5d390a8cbdad675398b9e175d79e9033ab8d3c569d832e79fbbab69",
+      "bytes": 421682
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\run.log",
+      "packaged": "samples/switching/run.log",
+      "sha256": "7df7c2a6d086d3e24603ad3a726fd6a98776c3a6bba11a5101a60936b99465da",
+      "bytes": 199
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case0_input.npy",
+      "packaged": "samples/switching/case0_input.npy",
+      "sha256": "300cba4134317d5f655a27637cffce722a05ac1857f96900ea6d4be464c1c6d7",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case0_hard_rtl.npy",
+      "packaged": "samples/switching/case0_hard_rtl.npy",
+      "sha256": "059428af1c542ca84b853b1cfa90c48a354f4c0e19c89fe95146e456170e4b5d",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case0_fade_rtl.npy",
+      "packaged": "samples/switching/case0_fade_rtl.npy",
+      "sha256": "9d34b4c4a7a0031d0727473145133050d4f51bd21890aaa4bc64bdda7fcb709d",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case1_input.npy",
+      "packaged": "samples/switching/case1_input.npy",
+      "sha256": "aba54460d5822ef5ea12db5610c382eb5b4515eed197f89656e2f23154b8ba99",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case1_hard_rtl.npy",
+      "packaged": "samples/switching/case1_hard_rtl.npy",
+      "sha256": "720f166d4363bf0a1255c4acd4aec1fcf20d130255a64b3bc851eea9126f10f2",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\quality\\component_archive\\case1_fade_rtl.npy",
+      "packaged": "samples/switching/case1_fade_rtl.npy",
+      "sha256": "c5039a859f712b0e70dc8ea47204321cb848b81c5911f66aa1b28e9e3e2225c4",
+      "bytes": 8320
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent_dual_lane\\area_syn_rsc.xml",
+      "packaged": "samples/area/independent_dual_lane/area_syn_rsc.xml",
+      "sha256": "c4871a8f1ce5eeeccf3f08041164c96b6f4e638fd375e387b18271eef48354ae",
+      "bytes": 355
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent_dual_lane\\source_hashes.json",
+      "packaged": "samples/area/independent_dual_lane/source_hashes.json",
+      "sha256": "4f0a0ceafe9bba1e170a2ab7ffe3a209357a02021e29f0ccdc3e1e2e6ad0a2da",
+      "bytes": 4343
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage_production_cache\\area_syn_rsc.xml",
+      "packaged": "samples/area/merged_storage_production_cache/area_syn_rsc.xml",
+      "sha256": "b5e1aa34d1f6e6edeaf4a42b82be5c226b1b7e34ec9de23fdafce017c8a3992a",
+      "bytes": 532
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage_production_cache\\source_hashes.json",
+      "packaged": "samples/area/merged_storage_production_cache/source_hashes.json",
+      "sha256": "bb508410e97ad0e4ca1b21c9b261ac7d86938e2f2b9b9087da47089166a68a30",
+      "bytes": 4438
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\results.json",
+      "packaged": "samples/area/expected_results.json",
+      "sha256": "f69a0353222a1019c3b81ca81e27872d7f8c5d82e08afca99690e4f03c9274ed",
+      "bytes": 34512
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\results.json",
+      "packaged": "samples/area/equal_rate_cycles.json",
+      "sha256": "57700a2adb1c22aa035646f3b57277667d781a0def39fa0b092d2dcf630deadb",
+      "bytes": 2036
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\evidence_manifest.json",
+      "packaged": "original_manifests/v30/evidence_manifest.json",
+      "sha256": "c7279ec01da99dfc64d21397ab377e6b6f74add2e10a5b83648dcafbad9e1d76",
+      "bytes": 228685
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\selected_variant.json",
+      "packaged": "original_manifests/v30/selected_variant.json",
+      "sha256": "e059129d43b417a8a28d2f73eab42ab0d77a6b82ced8eb6466e8b9ec23e8ae57",
+      "bytes": 2859
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\experiment_plan.json",
+      "packaged": "original_manifests/v30/experiment_plan.json",
+      "sha256": "15eeba4440c098a1c4f7cc12e2ee3a3a7256a95f789cafec1c275a7808c5c611",
+      "bytes": 2479
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\freeze_manifest.json",
+      "packaged": "original_manifests/v30/freeze_manifest.json",
+      "sha256": "5ce3b2f58360466c7696fcd446cd195b1d44d4f487284fd840cb6cf42b86b054",
+      "bytes": 928
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\model\\fft_reference.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/model/fft_reference.py",
+      "sha256": "99ce293a8315bb08767321ccc91baf4ce38dc3146d67bf51677ae3b0528f1cb3",
+      "bytes": 3552
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\model\\gate_reference.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/model/gate_reference.py",
+      "sha256": "95a53463359037f54c893ccbd36d52a4732a4a9cf041c57b25ca9f913215885f",
+      "bytes": 1054
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\balanced_strength.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/balanced_strength.py",
+      "sha256": "34ba19b1674687d07822f9f599cb18b089c6dd86bde811ea68fba14fc65a5e29",
+      "bytes": 3710
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\dependencies.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/dependencies.py",
+      "sha256": "21c746197dc4516046de76ce6c4e1122ee35981ff806bc44f1783941e1086c3b",
+      "bytes": 170
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\extraction_audit.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/extraction_audit.py",
+      "sha256": "904962a82b276011bcad2e14fccd977ba6968db9fb5bd1942ce7187874f8a011",
+      "bytes": 4248
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\filter_model.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/filter_model.py",
+      "sha256": "e390da924cf2fd6788a638a4c960cbfa228506e0dff36266f36e5f8d197a1ddd",
+      "bytes": 1144
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\model.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/model.py",
+      "sha256": "95cf377d90e961d49b9eaaa9ce061cea2886339355cce8a92c22b2329acfeed6",
+      "bytes": 2465
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\orthogonal_detector.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/orthogonal_detector.py",
+      "sha256": "9fcad19c7b7848d4f93844a09d379eb0f3ae4a914745dfcc04d946644a5e3952",
+      "bytes": 4963
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\prototype_search.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/prototype_search.py",
+      "sha256": "d3f861a26b4d32870924a1c6d85cc785debf986fed03bd2c05d41b700477b92f",
+      "bytes": 2755
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\raw_strength.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/raw_strength.py",
+      "sha256": "80900e5574028f13ea00a1fd7562494cd6e08e1d16abd811db06941dfbe0ce8b",
+      "bytes": 3049
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\short_detector.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/short_detector.py",
+      "sha256": "bb331f7323eeba6e8dc14d1ac892b4cc59df07b771af1572f9a296edb6532854",
+      "bytes": 7085
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\pro_v2\\reference\\strong_only_v1_4_candidate\\strong_detector.py",
+      "packaged": "reference_sources/C_project/09_RTL/pro_v2/reference/strong_only_v1_4_candidate/strong_detector.py",
+      "sha256": "379d628ed071dfb6c6fc61c14400f9318056efed395095f8b2abc948f45b83f9",
+      "bytes": 13243
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v12_work\\aux_tracker\\tracker_reference.py",
+      "packaged": "reference_sources/C_project/09_RTL/v12_work/aux_tracker/tracker_reference.py",
+      "sha256": "c0b8b119364b0487e275784766ce97790043a53fac4f8b81f2aab6908e81def2",
+      "bytes": 1716
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v23_conventional_comparison_work\\baseline.py",
+      "packaged": "reference_sources/C_project/09_RTL/v23_conventional_comparison_work/baseline.py",
+      "sha256": "4c02b872ceadd800f3104c5963984300ce0bbb947ed161633c6913d1dc7535df",
+      "bytes": 9287
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v23_conventional_comparison_work\\fir_replay.py",
+      "packaged": "reference_sources/C_project/09_RTL/v23_conventional_comparison_work/fir_replay.py",
+      "sha256": "673ca8f4e5617feea64cd9510fc3cc9e15d89886f7bdaf604ba6bc54f40bb493",
+      "bytes": 8799
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v25_coefficient_rescue_work\\rescue.py",
+      "packaged": "reference_sources/C_project/09_RTL/v25_coefficient_rescue_work/rescue.py",
+      "sha256": "ef51846414980ec838dd0477d180971f4e1cbc0c7baf81f8204459d6a754e607",
+      "bytes": 8334
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\audit_adopted_identity.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/audit_adopted_identity.py",
+      "sha256": "efad11a47e306feda0326d40bd0c96e98528029c1dbc05da408034a81cfaeac1",
+      "bytes": 6479
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\audit_service_identity.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/audit_service_identity.py",
+      "sha256": "ccf4e8d4b718f326dd23cd7f098d257668d3fcd3a8b9eae1dd31c3614f439d96",
+      "bytes": 8035
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\basis_probe.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/basis_probe.py",
+      "sha256": "0b8c037b0937b610679d9f89eac45ad9097126b1a5cfd04c904c9b2b65279d92",
+      "bytes": 3403
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\fixtures\\c4_second_pair_simultaneous\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/fixtures/c4_second_pair_simultaneous/input.mem",
+      "sha256": "570f67a221565c103c5626a1445bd12d484dff9883bffefc0d861156136d0aca",
+      "bytes": 211200
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\fixtures\\c4_two_pairs_staggered\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/fixtures/c4_two_pairs_staggered/input.mem",
+      "sha256": "3c3b4be752ea537f7f0931e9a125dfc65ccaf16f98effc074ea59e3aa3f837da",
+      "bytes": 238080
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\fixtures\\quiet_high\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/fixtures/quiet_high/input.mem",
+      "sha256": "931020a7026bde195f6d29d49b180d6696943bc3ae209e1c216f5cd00d260741",
+      "bytes": 96000
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\hardware\\fixed_builder.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/hardware/fixed_builder.py",
+      "sha256": "5f2e474ce416a501b8a90e97e11ec1c1a5c81a36159827c3aa2cb5569245e033",
+      "bytes": 2608
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\pro_v2.gprj",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/pro_v2.gprj",
+      "sha256": "b57764c9ea5abfb02d5d7c15d9842600167df4a6600055839f315bf13a2ccac0",
+      "bytes": 2991
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\aux_log2_low18.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\aux_log2_pair36.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\aux_log2_q22.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\basis_prototype.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/basis_prototype.mem",
+      "sha256": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+      "bytes": 5120
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\bypass.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\cos_grid_direct.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\cos_grid_lossless.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\cos_quarter.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\cosine_prototype_packed.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/cosine_prototype_packed.mem",
+      "sha256": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\detector_gram_half_q26.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\detector_gram_q26.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\detector_template_q24.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\fft_hann_half_q30.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\fft_hann_q30.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\fixed_bank.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\oled_screen.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rom\\prototype.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\analysis_fft.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/analysis_fft.v",
+      "sha256": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+      "bytes": 10568
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\analysis_frontend.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/analysis_frontend.v",
+      "sha256": "03a7d4c217da2a73b7138e8f608aa6c6d65dcd376caa8d8a90cf85f737bad6be",
+      "bytes": 6239
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\aux_peak_tracker.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/aux_peak_tracker.v",
+      "sha256": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+      "bytes": 12108
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\backend_dsp_arithmetic.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/backend_dsp_arithmetic.v",
+      "sha256": "9125c7a15291005991072574d7bf76dbacc611aa3bc85e12444ed772e06db44c",
+      "bytes": 2064
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\backend_work_sp.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/backend_work_sp.v",
+      "sha256": "ad5cf9e32a5e7c8cce0c286c6fd25a86ac16bda93e8811e349d2350e5acd2922",
+      "bytes": 760
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\basis_generator_service.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/basis_generator_service.v",
+      "sha256": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+      "bytes": 4919
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\coefficient_manager.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/coefficient_manager.v",
+      "sha256": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+      "bytes": 20645
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\config_scheduler.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/config_scheduler.v",
+      "sha256": "b90b3ce468ccd758a7ec23a351d669eafefc27170abd18f1f678b3ccbcad2a5a",
+      "bytes": 7698
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\digital_link.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/digital_link.v",
+      "sha256": "b9153dc9fb67dd1d6f96d4d77baa47d8d343301da9dd4ed184c3d8d6d53032c6",
+      "bytes": 18528
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\digital_link_dsp_add.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/digital_link_dsp_add.v",
+      "sha256": "92270eed41204849d0d71231d610ad6cc5a87817482d2aba21c72150bf0767fd",
+      "bytes": 4269
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\digital_link_ram.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/digital_link_ram.v",
+      "sha256": "a8f73754f67828b0ba12ce97fd51eccaa0026935377bc3af10667f87a47dfb53",
+      "bytes": 979
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\digital_link_uart_rx.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/digital_link_uart_rx.v",
+      "sha256": "5c644d79fee0a619670a624e7bebb06c32b520348d594a9fec26b0b9e8b3eab3",
+      "bytes": 1187
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\divide_coefficient_bound10.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/divide_coefficient_bound10.v",
+      "sha256": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+      "bytes": 1972
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\divide_round.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/divide_round.v",
+      "sha256": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+      "bytes": 1078
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\dynamic_executor_v14.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/dynamic_executor_v14.v",
+      "sha256": "1092bd2515709ca59d3fa907780fa2cb41b2d3d643bb0d5fe1daa16de498fea2",
+      "bytes": 5695
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\fir_mac_core.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\fitting_solver.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/fitting_solver.v",
+      "sha256": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+      "bytes": 19767
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\group_controller_v14.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/group_controller_v14.v",
+      "sha256": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+      "bytes": 20462
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\i2c_write3.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/i2c_write3.v",
+      "sha256": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+      "bytes": 4407
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\oled_dashboard.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/oled_dashboard.v",
+      "sha256": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+      "bytes": 5204
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\orthogonal_fitter.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/orthogonal_fitter.v",
+      "sha256": "ca0e7e07881b39b5484c6c935d528a4c23574c288d7f499242649c0ef8202d72",
+      "bytes": 37016
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\overlap_backend.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/overlap_backend.v",
+      "sha256": "286578130717cd7df39d01809c59832e1a2ee5ac096ab09e439139d22f9bbabd",
+      "bytes": 8027
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\overlap_backend_microstore.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/overlap_backend_microstore.v",
+      "sha256": "8f2b8f95b2cf959b774406ba2a4ef6e88d3bfe878abb57c5410e9cba06102153",
+      "bytes": 6571
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\overlap_backend_q15_mac.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/overlap_backend_q15_mac.v",
+      "sha256": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+      "bytes": 8452
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\overlap_backend_sp.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/overlap_backend_sp.v",
+      "sha256": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+      "bytes": 7279
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\overlap_backend_tight.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/overlap_backend_tight.v",
+      "sha256": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+      "bytes": 7359
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\pro_v2_auto_core.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/pro_v2_auto_core.v",
+      "sha256": "7500f797940db7e719602f8ae73b3c0bef7b287a37f5d3423e395d4c710d3bad",
+      "bytes": 11942
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\pro_v2_digital_top.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/pro_v2_digital_top.v",
+      "sha256": "51a6698c885a01603305b9aa89b1dc91670ba9531828c2aa858286242256a1f0",
+      "bytes": 4519
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\q15_dsp_mac.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/q15_dsp_mac.v",
+      "sha256": "368b747887a3eeba5d9338949c7f81099558ad710c383814cdb640fbeb2e5fab",
+      "bytes": 1746
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\reset_sync.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/reset_sync.v",
+      "sha256": "d41842839519b82e0feb78f9d89e72f858338e9a754608744e27834a0b75bda6",
+      "bytes": 732
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\sample_tick.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/sample_tick.v",
+      "sha256": "f46f5d8154127e11acaa0c159469ef1769d0cea96ab5c4d8922917a5fc17ded2",
+      "bytes": 693
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\strong_gate.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/strong_gate.v",
+      "sha256": "f74c3eb4d7c090818c17e3b00ca0ded523dbbdffc8206d16cd14f0de85e819d6",
+      "bytes": 3404
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\transition_controller.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/transition_controller.v",
+      "sha256": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+      "bytes": 1683
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\uart_rx.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/uart_rx.v",
+      "sha256": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+      "bytes": 1458
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\rtl\\uart_tx.v",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/rtl_validation/final_sources/q15_mac_c4/rtl/uart_tx.v",
+      "sha256": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+      "bytes": 951
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\software\\backend_q15_fallback\\evaluate_q15.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/software/backend_q15_fallback/evaluate_q15.py",
+      "sha256": "662161ae84450f34c01883f55795a5fac8d4150a42504a8dcb6fa1904ea31785",
+      "bytes": 12754
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\software\\basis_audit.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/software/basis_audit.py",
+      "sha256": "44c2eb6c7cb6f54aa0fadad97cec9e291035345c0d65181b1101b83b61019d4f",
+      "bytes": 12484
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\software\\rowsum_fallback\\evaluate_rowsum.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/software/rowsum_fallback/evaluate_rowsum.py",
+      "sha256": "7960312e272f8138165e9de216d2a772794de381d1ac8c7a294cfbd876f963de",
+      "bytes": 12775
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v27_dynamic_validation_work\\software\\run_benchmark.py",
+      "packaged": "reference_sources/C_project/09_RTL/v27_dynamic_validation_work/software/run_benchmark.py",
+      "sha256": "f90c85c7c7235e2f258e9b59222838f4feaaa67b1bffda29dfede5b65c1e92e1",
+      "bytes": 18584
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v28_controlled_update_work\\software\\comparison_1024\\fixed_baseline.py",
+      "packaged": "reference_sources/C_project/09_RTL/v28_controlled_update_work/software/comparison_1024/fixed_baseline.py",
+      "sha256": "9a77b7f69f893cb05edf3ed95424073f920b19ed81f8fcba2e2c1c125d0bb88b",
+      "bytes": 10486
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v28_controlled_update_work\\software\\comparison_1024\\run_comparison.py",
+      "packaged": "reference_sources/C_project/09_RTL/v28_controlled_update_work/software/comparison_1024/run_comparison.py",
+      "sha256": "594571ff04dae79e82960d28bb00587edd7d0a623bcc8403b564139eca12665b",
+      "bytes": 12847
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v28_controlled_update_work\\software\\source_policies.py",
+      "packaged": "reference_sources/C_project/09_RTL/v28_controlled_update_work/software/source_policies.py",
+      "sha256": "552bed25ff2ac81d3ba8e7be56cc081695ee62f2378ba1f179732f77c3cc1af3",
+      "bytes": 2384
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v29_c4_control_repair_work\\software\\holdout_preparation\\fixtures\\c4_both_pairs_enter_together_holdout\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v29_c4_control_repair_work/software/holdout_preparation/fixtures/c4_both_pairs_enter_together_holdout/input.mem",
+      "sha256": "5823586c16ba24fc5f2a0f853dd0c57452419e3049e4e02d46d53696f953feed",
+      "bytes": 222720
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v29_c4_control_repair_work\\software\\score_actual.py",
+      "packaged": "reference_sources/C_project/09_RTL/v29_c4_control_repair_work/software/score_actual.py",
+      "sha256": "4709c91a7df3c07397e56de0e24fd412316f20517806bebe5b92ac976ddac97e",
+      "bytes": 11219
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\diagnose_temporal_mechanism.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/diagnose_temporal_mechanism.py",
+      "sha256": "cb3a326cc953993ec72c399425e7c7c06fab9e2ca2ab83e9027f3ce284c7f3d0",
+      "bytes": 4068
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap2ms_dev\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/fixtures/c4_temporal_gap2ms_dev/input.mem",
+      "sha256": "266024ec9af33476af0ee84c401d777b7f74c52a7b87c2933ee6c556089d7655",
+      "bytes": 172800
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap8ms_heldout\\input.mem",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/fixtures/c4_temporal_gap8ms_heldout/input.mem",
+      "sha256": "44140ce530dbc55d1480b67b325a2ea9d4714bca201191665fc2af89e9d1f2ab",
+      "bytes": 182400
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\freeze_experiment.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/freeze_experiment.py",
+      "sha256": "0d1333ffdb703f83f56093c9fa3c192d8fec5a7fc8aa6f8ab0442df0aa015019",
+      "bytes": 6116
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\freeze_retire96.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/freeze_retire96.py",
+      "sha256": "bd0f6944117eba498d8fb73e0f4c01a11fdfb217dcf1728c5982aadd86e11db4",
+      "bytes": 3014
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\freeze_selected.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/freeze_selected.py",
+      "sha256": "95e9a868f5640093effb1e36b536033424af8b70dda6026706665bb12f9c19a3",
+      "bytes": 2631
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\generate_fixtures.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/generate_fixtures.py",
+      "sha256": "0096455c9b8934e810a9a3c782d0cae093c195bb1f2da896f4ca6da86c843cb7",
+      "bytes": 4434
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\prepare_1024.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/prepare_1024.py",
+      "sha256": "69edeca8ffd2ac83eb0cf69e26fc6c3b84619d7ef12018ccf2d685f92a11b068",
+      "bytes": 2947
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\reproduce_scores.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/reproduce_scores.py",
+      "sha256": "b154d7073a5a925542ca7950f332064096fdd2fbbd7ded3e3c73ee9b9e31772d",
+      "bytes": 5234
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\retire64_counterfactual.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/retire64_counterfactual.py",
+      "sha256": "2a7486649ca941e2024c86ff16ffa905367489ed8d6624ea53aed9478f48add0",
+      "bytes": 11986
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\retire64_diagnostic\\retire64_counterfactual_frozen.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/retire64_diagnostic/retire64_counterfactual_frozen.py",
+      "sha256": "2a7486649ca941e2024c86ff16ffa905367489ed8d6624ea53aed9478f48add0",
+      "bytes": 11986
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\retire96_counterfactual.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/retire96_counterfactual.py",
+      "sha256": "f88473b59de84c295f64372b8725be0ad115d928c0ad28099f0b81519732762d",
+      "bytes": 8104
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\score_hybrid_c4.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/score_hybrid_c4.py",
+      "sha256": "e01ef1b718183e8488a90683e88cb4e8bb0e2c15b14a069f50cc0ff347a3d22f",
+      "bytes": 6286
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\score_selected.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/score_selected.py",
+      "sha256": "fb73f018484d9f67ec5a3cb9d69e40da16b906565fdc6ff1439f3a78c272f314",
+      "bytes": 7679
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\segment_error.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/segment_error.py",
+      "sha256": "e8fc17b11df227155c04be33a33d0aef22eb65ffc70800678927841b98e008cc",
+      "bytes": 6440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\summarize_selected.py",
+      "packaged": "reference_sources/C_project/09_RTL/v30_temporal_c4_work/software/summarize_selected.py",
+      "sha256": "1d57821050678b76ce95b4d9ff8336fcb2ded52d7ce17b7a3f13e9559d874ccd",
+      "bytes": 12765
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\experiments\\c4_capture20\\rtl\\digital_link.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/experiments/c4_capture20/rtl/digital_link.v",
+      "sha256": "b9153dc9fb67dd1d6f96d4d77baa47d8d343301da9dd4ed184c3d8d6d53032c6",
+      "bytes": 18528
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\experiments\\c4_capture20_timing\\rtl\\dynamic_executor_v14.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/experiments/c4_capture20_timing/rtl/dynamic_executor_v14.v",
+      "sha256": "1092bd2515709ca59d3fa907780fa2cb41b2d3d643bb0d5fe1daa16de498fea2",
+      "bytes": 5695
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\experiments\\c4_capture20_timing\\rtl\\orthogonal_fitter.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/experiments/c4_capture20_timing/rtl/orthogonal_fitter.v",
+      "sha256": "ca0e7e07881b39b5484c6c935d528a4c23574c288d7f499242649c0ef8202d72",
+      "bytes": 37016
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\analysis_fft.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/analysis_fft.v",
+      "sha256": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+      "bytes": 10568
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\analysis_frontend.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/analysis_frontend.v",
+      "sha256": "03a7d4c217da2a73b7138e8f608aa6c6d65dcd376caa8d8a90cf85f737bad6be",
+      "bytes": 6239
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\aux_peak_tracker.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/aux_peak_tracker.v",
+      "sha256": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+      "bytes": 12108
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\config_scheduler.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/config_scheduler.v",
+      "sha256": "b90b3ce468ccd758a7ec23a351d669eafefc27170abd18f1f678b3ccbcad2a5a",
+      "bytes": 7698
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\digital_link_dsp_add.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/digital_link_dsp_add.v",
+      "sha256": "92270eed41204849d0d71231d610ad6cc5a87817482d2aba21c72150bf0767fd",
+      "bytes": 4269
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\digital_link_ram.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/digital_link_ram.v",
+      "sha256": "a8f73754f67828b0ba12ce97fd51eccaa0026935377bc3af10667f87a47dfb53",
+      "bytes": 979
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\digital_link_uart_rx.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/digital_link_uart_rx.v",
+      "sha256": "5c644d79fee0a619670a624e7bebb06c32b520348d594a9fec26b0b9e8b3eab3",
+      "bytes": 1187
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\divide_coefficient_bound10.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/divide_coefficient_bound10.v",
+      "sha256": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+      "bytes": 1972
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\divide_round.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/divide_round.v",
+      "sha256": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+      "bytes": 1078
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\fir_mac_core.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\fitting_solver.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/fitting_solver.v",
+      "sha256": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+      "bytes": 19767
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\group_controller_v14.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/group_controller_v14.v",
+      "sha256": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+      "bytes": 20462
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\i2c_write3.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/i2c_write3.v",
+      "sha256": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+      "bytes": 4407
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\oled_dashboard.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/oled_dashboard.v",
+      "sha256": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+      "bytes": 5204
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\pro_v2_auto_core.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/pro_v2_auto_core.v",
+      "sha256": "7500f797940db7e719602f8ae73b3c0bef7b287a37f5d3423e395d4c710d3bad",
+      "bytes": 11942
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\pro_v2_digital_top.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/pro_v2_digital_top.v",
+      "sha256": "51a6698c885a01603305b9aa89b1dc91670ba9531828c2aa858286242256a1f0",
+      "bytes": 4519
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\reset_sync.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/reset_sync.v",
+      "sha256": "d41842839519b82e0feb78f9d89e72f858338e9a754608744e27834a0b75bda6",
+      "bytes": 732
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\sample_tick.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/sample_tick.v",
+      "sha256": "f46f5d8154127e11acaa0c159469ef1769d0cea96ab5c4d8922917a5fc17ded2",
+      "bytes": 693
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\strong_gate.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/strong_gate.v",
+      "sha256": "f74c3eb4d7c090818c17e3b00ca0ded523dbbdffc8206d16cd14f0de85e819d6",
+      "bytes": 3404
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\transition_controller.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/transition_controller.v",
+      "sha256": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+      "bytes": 1683
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\uart_rx.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/uart_rx.v",
+      "sha256": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+      "bytes": 1458
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\variants\\a4\\rtl\\uart_tx.v",
+      "packaged": "reference_sources/D_original/pro_v2_digital_v19/variants/a4/rtl/uart_tx.v",
+      "sha256": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+      "bytes": 951
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_resource_v7\\model\\aux_reference.py",
+      "packaged": "reference_sources/D_original/pro_v2_resource_v7/model/aux_reference.py",
+      "sha256": "07d0f301b637060e428915a3c5765c0ad531961b7a21c164fe678f1815d7fc25",
+      "bytes": 4576
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\coefficient_manager.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/coefficient_manager.v",
+      "sha256": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+      "bytes": 20645
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\pro_v2.gprj",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/pro_v2.gprj",
+      "sha256": "053aeb93cc442b481e61605fbcb476503c08522e59e81b4bea96e1baef6181b8",
+      "bytes": 4788
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\aux_log2_low18.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\aux_log2_pair36.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\aux_log2_q22.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\basis_prototype.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/basis_prototype.mem",
+      "sha256": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+      "bytes": 5120
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\bypass.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\cos_grid_direct.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\cos_grid_lossless.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\cos_quarter.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\cosine_prototype_packed.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/cosine_prototype_packed.mem",
+      "sha256": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\detector_gram_half_q26.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\detector_gram_q26.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\detector_template_q24.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\fft_hann_half_q30.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\fft_hann_q30.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\fixed_bank.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\oled_screen.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\builds_q15_mac\\c4\\rom\\prototype.mem",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/builds_q15_mac/c4/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\backend_dsp_arithmetic.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/backend_dsp_arithmetic.v",
+      "sha256": "9125c7a15291005991072574d7bf76dbacc611aa3bc85e12444ed772e06db44c",
+      "bytes": 2064
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\backend_work_sp.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/backend_work_sp.v",
+      "sha256": "ad5cf9e32a5e7c8cce0c286c6fd25a86ac16bda93e8811e349d2350e5acd2922",
+      "bytes": 760
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\basis_generator_service.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/basis_generator_service.v",
+      "sha256": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+      "bytes": 4919
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\overlap_backend.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/overlap_backend.v",
+      "sha256": "286578130717cd7df39d01809c59832e1a2ee5ac096ab09e439139d22f9bbabd",
+      "bytes": 8027
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\overlap_backend_microstore.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/overlap_backend_microstore.v",
+      "sha256": "8f2b8f95b2cf959b774406ba2a4ef6e88d3bfe878abb57c5410e9cba06102153",
+      "bytes": 6571
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\overlap_backend_q15_mac.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/overlap_backend_q15_mac.v",
+      "sha256": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+      "bytes": 8452
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\overlap_backend_sp.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/overlap_backend_sp.v",
+      "sha256": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+      "bytes": 7279
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\overlap_backend_tight.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/overlap_backend_tight.v",
+      "sha256": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+      "bytes": 7359
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\v27_backend_experiment\\rtl\\q15_dsp_mac.v",
+      "packaged": "reference_sources/D_original/v27_backend_experiment/rtl/q15_dsp_mac.v",
+      "sha256": "368b747887a3eeba5d9338949c7f81099558ad710c383814cdb640fbeb2e5fab",
+      "bytes": 1746
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\input.hex",
+      "packaged": "rtl_testbench/switching/input.hex",
+      "sha256": "fd79f248e8401c6fd33c3ac4876e2df54dd030b1c49d73b6d829e713d794a11f",
+      "bytes": 49152
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\tb_switch.v",
+      "packaged": "rtl_testbench/switching/tb_switch.v",
+      "sha256": "7e7b6b996ef2c76499d8a9d9a2678ae514a1949590c02916603d58c0960c536c",
+      "bytes": 3816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\aux_log2_low18.mem",
+      "packaged": "rtl_testbench/switching/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\aux_log2_pair36.mem",
+      "packaged": "rtl_testbench/switching/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\aux_log2_q22.mem",
+      "packaged": "rtl_testbench/switching/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\bypass.mem",
+      "packaged": "rtl_testbench/switching/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\cos_grid_direct.mem",
+      "packaged": "rtl_testbench/switching/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\cos_grid_lossless.mem",
+      "packaged": "rtl_testbench/switching/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\cos_quarter.mem",
+      "packaged": "rtl_testbench/switching/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "rtl_testbench/switching/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\detector_gram_half_q26.mem",
+      "packaged": "rtl_testbench/switching/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\detector_gram_q26.mem",
+      "packaged": "rtl_testbench/switching/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\detector_template_q24.mem",
+      "packaged": "rtl_testbench/switching/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\fft_hann_half_q30.mem",
+      "packaged": "rtl_testbench/switching/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\fft_hann_q30.mem",
+      "packaged": "rtl_testbench/switching/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "rtl_testbench/switching/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "rtl_testbench/switching/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\fixed_bank.mem",
+      "packaged": "rtl_testbench/switching/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\oled_screen.mem",
+      "packaged": "rtl_testbench/switching/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\rom\\prototype.mem",
+      "packaged": "rtl_testbench/switching/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\sources\\coefficient_generator.v",
+      "packaged": "rtl_testbench/switching/sources/coefficient_generator.v",
+      "sha256": "ddab44020561c98f154a37ada03298edc5a75e558a8cbadac23825300e11b052",
+      "bytes": 14541
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\sources\\divide_coefficient_bound10.v",
+      "packaged": "rtl_testbench/switching/sources/divide_coefficient_bound10.v",
+      "sha256": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+      "bytes": 1972
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\sources\\fir_mac_core.v",
+      "packaged": "rtl_testbench/switching/sources/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\pro_v2_digital_v19\\sim\\evidence_v20_switch\\sources\\transition_controller.v",
+      "packaged": "rtl_testbench/switching/sources/transition_controller.v",
+      "sha256": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+      "bytes": 1683
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\analysis_fft.v",
+      "packaged": "rtl_testbench/full_auto/sources/analysis_fft.v",
+      "sha256": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+      "bytes": 10568
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\analysis_frontend.v",
+      "packaged": "rtl_testbench/full_auto/sources/analysis_frontend.v",
+      "sha256": "964e5c0e18de5ead07691f2fd872ca2a61efb121be6d606029747478b531e41d",
+      "bytes": 6357
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\aux_peak_tracker.v",
+      "packaged": "rtl_testbench/full_auto/sources/aux_peak_tracker.v",
+      "sha256": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+      "bytes": 12108
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\backend_dsp_arithmetic.v",
+      "packaged": "rtl_testbench/full_auto/sources/backend_dsp_arithmetic.v",
+      "sha256": "f86b758ef7614e854c89a2e64182f89a0bde9ecd17e64d6d351cefe24a0430e0",
+      "bytes": 2099
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\backend_work_sp.v",
+      "packaged": "rtl_testbench/full_auto/sources/backend_work_sp.v",
+      "sha256": "cdc01b259a68d8ebb86bfcd5f393e05ca0476a01cae616ab77d9e108a9a89845",
+      "bytes": 774
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\basis_generator_service.v",
+      "packaged": "rtl_testbench/full_auto/sources/basis_generator_service.v",
+      "sha256": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+      "bytes": 4919
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\coefficient_manager.v",
+      "packaged": "rtl_testbench/full_auto/sources/coefficient_manager.v",
+      "sha256": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+      "bytes": 20645
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\config_scheduler.v",
+      "packaged": "rtl_testbench/full_auto/sources/config_scheduler.v",
+      "sha256": "066364b9ba5d93386b009765db3a794eada754270b48271a3e92dade07bd8f31",
+      "bytes": 8203
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\digital_link.v",
+      "packaged": "rtl_testbench/full_auto/sources/digital_link.v",
+      "sha256": "18f8e3c738f2a254cc7cc58b7fdf5c72ad2262298b9f8500d15b9942b467bcae",
+      "bytes": 18887
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\digital_link_dsp_add.v",
+      "packaged": "rtl_testbench/full_auto/sources/digital_link_dsp_add.v",
+      "sha256": "50a3abca34f354a4d681adcbdaef15d4ed8d6727f753447f91cef426eb6f92e2",
+      "bytes": 4352
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\digital_link_ram.v",
+      "packaged": "rtl_testbench/full_auto/sources/digital_link_ram.v",
+      "sha256": "78a948fe8402692111398657b12d50944c792630e9a1a031afd39dfc1100e21a",
+      "bytes": 998
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\digital_link_uart_rx.v",
+      "packaged": "rtl_testbench/full_auto/sources/digital_link_uart_rx.v",
+      "sha256": "c76793c32adc2278a67021c4299776bff150ba164da54aa3f2f42e4407e98602",
+      "bytes": 1222
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\divide_coefficient_bound10.v",
+      "packaged": "rtl_testbench/full_auto/sources/divide_coefficient_bound10.v",
+      "sha256": "f4519befea418e5339dc00a07c1af97dd2ba07c2ac5647829094c9c3565288c4",
+      "bytes": 2008
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\divide_round.v",
+      "packaged": "rtl_testbench/full_auto/sources/divide_round.v",
+      "sha256": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+      "bytes": 1078
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\dynamic_executor_v14.v",
+      "packaged": "rtl_testbench/full_auto/sources/dynamic_executor_v14.v",
+      "sha256": "52b50c9f0606f822d57deb392c57a728e63f670c9012e7ba658e09a4b71af50f",
+      "bytes": 5770
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\equality_lut.v",
+      "packaged": "rtl_testbench/full_auto/sources/equality_lut.v",
+      "sha256": "ca19a888ff2714e262163f5bb98fe786458a02c72ecbc47190c1666e5c5a868d",
+      "bytes": 1385
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\fir_mac_core.v",
+      "packaged": "rtl_testbench/full_auto/sources/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\fitting_solver.v",
+      "packaged": "rtl_testbench/full_auto/sources/fitting_solver.v",
+      "sha256": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+      "bytes": 19767
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\group_controller_v14.v",
+      "packaged": "rtl_testbench/full_auto/sources/group_controller_v14.v",
+      "sha256": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+      "bytes": 20462
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\i2c_write3.v",
+      "packaged": "rtl_testbench/full_auto/sources/i2c_write3.v",
+      "sha256": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+      "bytes": 4407
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\oled_dashboard.v",
+      "packaged": "rtl_testbench/full_auto/sources/oled_dashboard.v",
+      "sha256": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+      "bytes": 5204
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\orthogonal_fitter.v",
+      "packaged": "rtl_testbench/full_auto/sources/orthogonal_fitter.v",
+      "sha256": "985a00834767c7fb9f2a675a7d7d80711abcd55d27bfb69d7f25c423660bd435",
+      "bytes": 37111
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\overlap_backend.v",
+      "packaged": "rtl_testbench/full_auto/sources/overlap_backend.v",
+      "sha256": "7c3a1444b0b49e5da8a27285de73003331279e92409ea7cb988b9ade393c0956",
+      "bytes": 8200
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\overlap_backend_microstore.v",
+      "packaged": "rtl_testbench/full_auto/sources/overlap_backend_microstore.v",
+      "sha256": "640e9a11e89df66cd7d40631e7556b5f40a7358c60cdddde9bf9584de27d5e64",
+      "bytes": 6718
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\overlap_backend_q15_mac.v",
+      "packaged": "rtl_testbench/full_auto/sources/overlap_backend_q15_mac.v",
+      "sha256": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+      "bytes": 8452
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\overlap_backend_sp.v",
+      "packaged": "rtl_testbench/full_auto/sources/overlap_backend_sp.v",
+      "sha256": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+      "bytes": 7279
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\overlap_backend_tight.v",
+      "packaged": "rtl_testbench/full_auto/sources/overlap_backend_tight.v",
+      "sha256": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+      "bytes": 7359
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\pro_v2_auto_core.v",
+      "packaged": "rtl_testbench/full_auto/sources/pro_v2_auto_core.v",
+      "sha256": "c168d96ef847ad60867305aee73592a8262744f30ff9afa6ed91847ff7f07704",
+      "bytes": 11946
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\pro_v2_digital_top.v",
+      "packaged": "rtl_testbench/full_auto/sources/pro_v2_digital_top.v",
+      "sha256": "fb0458f62ceae70f3c1cccceb99f745f0d34cd7a94bfb24078f140d007f75f25",
+      "bytes": 4600
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\q15_dsp_mac.v",
+      "packaged": "rtl_testbench/full_auto/sources/q15_dsp_mac.v",
+      "sha256": "29c27cbc8301032087ad15d73fa60132f91c095f33aab2b75e8bb77a2c4c0509",
+      "bytes": 1773
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\reset_sync.v",
+      "packaged": "rtl_testbench/full_auto/sources/reset_sync.v",
+      "sha256": "f38dff2319e152ff9966abb54fc5142545eeb4f4f562e435b61d7fd515d74199",
+      "bytes": 752
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\rne31_alu34.v",
+      "packaged": "rtl_testbench/full_auto/sources/rne31_alu34.v",
+      "sha256": "b44934cfc361803d726fcce7101fb3905141edbabee7dc78edfb6f80723ece85",
+      "bytes": 695
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\sample_tick.v",
+      "packaged": "rtl_testbench/full_auto/sources/sample_tick.v",
+      "sha256": "84358287163c166b643add430654f3ca9c94a01d8cc131bcb04c3e8923c4558b",
+      "bytes": 707
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\strong_gate.v",
+      "packaged": "rtl_testbench/full_auto/sources/strong_gate.v",
+      "sha256": "a871bb9cf2ce64d271eecaea523d7249f8bcfd405b6d0256ccfe97c97a6fbcf8",
+      "bytes": 3477
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\transition_controller.v",
+      "packaged": "rtl_testbench/full_auto/sources/transition_controller.v",
+      "sha256": "3ccc4886fb959e1de1b1b98adc1a982bc47ff9a06506ac71936bea7188827b96",
+      "bytes": 1719
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\uart_rx.v",
+      "packaged": "rtl_testbench/full_auto/sources/uart_rx.v",
+      "sha256": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+      "bytes": 1458
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\sources\\uart_tx.v",
+      "packaged": "rtl_testbench/full_auto/sources/uart_tx.v",
+      "sha256": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+      "bytes": 951
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\aux_log2_low18.mem",
+      "packaged": "rtl_testbench/full_auto/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\aux_log2_pair36.mem",
+      "packaged": "rtl_testbench/full_auto/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\aux_log2_q22.mem",
+      "packaged": "rtl_testbench/full_auto/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\basis_prototype.mem",
+      "packaged": "rtl_testbench/full_auto/rom/basis_prototype.mem",
+      "sha256": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+      "bytes": 5120
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\bypass.mem",
+      "packaged": "rtl_testbench/full_auto/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\cosine_prototype_packed.mem",
+      "packaged": "rtl_testbench/full_auto/rom/cosine_prototype_packed.mem",
+      "sha256": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\cos_grid_direct.mem",
+      "packaged": "rtl_testbench/full_auto/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\cos_grid_lossless.mem",
+      "packaged": "rtl_testbench/full_auto/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\cos_quarter.mem",
+      "packaged": "rtl_testbench/full_auto/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "rtl_testbench/full_auto/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\detector_gram_half_q26.mem",
+      "packaged": "rtl_testbench/full_auto/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\detector_gram_q26.mem",
+      "packaged": "rtl_testbench/full_auto/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\detector_template_q24.mem",
+      "packaged": "rtl_testbench/full_auto/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\fft_hann_half_q30.mem",
+      "packaged": "rtl_testbench/full_auto/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\fft_hann_q30.mem",
+      "packaged": "rtl_testbench/full_auto/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "rtl_testbench/full_auto/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "rtl_testbench/full_auto/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\fixed_bank.mem",
+      "packaged": "rtl_testbench/full_auto/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\oled_screen.mem",
+      "packaged": "rtl_testbench/full_auto/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\rom\\prototype.mem",
+      "packaged": "rtl_testbench/full_auto/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\dual_lane_correction_mac.v",
+      "packaged": "rtl_testbench/area_equal_rate/dual_lane_correction_mac.v",
+      "sha256": "9636d02496fb29671cab09621ee1880fdcdfb0869b28eaaab2bdc5e708d39b0a",
+      "bytes": 5357
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\fixtures\\corrections.mem",
+      "packaged": "rtl_testbench/area_equal_rate/fixtures/corrections.mem",
+      "sha256": "b1007ce845f72ac1cca3311b6eca0b695bb630e1c4815cf37c376088bf4c67b3",
+      "bytes": 17976
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\fixtures\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area_equal_rate/fixtures/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\fixtures\\input.mem",
+      "packaged": "rtl_testbench/area_equal_rate/fixtures/input.mem",
+      "sha256": "592097c2452e96cd8a316dc27997817dbab62ee9d773c98659815bf6fae29513",
+      "bytes": 9216
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\fixtures\\merged.mem",
+      "packaged": "rtl_testbench/area_equal_rate/fixtures/merged.mem",
+      "sha256": "163e24ea386a39ee75f3bb18958b3d22ac7a775e429aa7a8b6c1e9361c44f47f",
+      "bytes": 4494
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area_equal_rate\\fixtures\\tb_architecture.v",
+      "packaged": "rtl_testbench/area_equal_rate/fixtures/tb_architecture.v",
+      "sha256": "658ae4c87759ba31fb96d9de00ffb9d5c38988dfae467e697b130a076df08d59",
+      "bytes": 3019
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_equal_rate\\corrections.mem",
+      "packaged": "rtl_testbench/area_equal_rate/original_run/corrections.mem",
+      "sha256": "b1007ce845f72ac1cca3311b6eca0b695bb630e1c4815cf37c376088bf4c67b3",
+      "bytes": 17976
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_equal_rate\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area_equal_rate/original_run/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_equal_rate\\input.mem",
+      "packaged": "rtl_testbench/area_equal_rate/original_run/input.mem",
+      "sha256": "592097c2452e96cd8a316dc27997817dbab62ee9d773c98659815bf6fae29513",
+      "bytes": 9216
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_equal_rate\\merged.mem",
+      "packaged": "rtl_testbench/area_equal_rate/original_run/merged.mem",
+      "sha256": "163e24ea386a39ee75f3bb18958b3d22ac7a775e429aa7a8b6c1e9361c44f47f",
+      "bytes": 4494
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_equal_rate\\tb_architecture.v",
+      "packaged": "rtl_testbench/area_equal_rate/original_run/tb_architecture.v",
+      "sha256": "2f44c364f07de8d2740dfba8fffdb201f2c3628d05ab1986e2dd50a859fb5df7",
+      "bytes": 3239
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\area.gprj",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/area.gprj",
+      "sha256": "91463d9584a11a0651c43c6dac070be7b3b90bfaf25770e67f2b1dd5d839dfee",
+      "bytes": 597
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\area_top.v",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/area_top.v",
+      "sha256": "26eacce5b8707bc6e0827de539512774a22abcd4067932577db62b9d761d530a",
+      "bytes": 1150
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\build.tcl",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\dual_lane_correction_mac.v",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/dual_lane_correction_mac.v",
+      "sha256": "9636d02496fb29671cab09621ee1880fdcdfb0869b28eaaab2bdc5e708d39b0a",
+      "bytes": 5357
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\merged_storage_backend.v",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/merged_storage_backend.v",
+      "sha256": "6e58416d7d92fa76339b0bcae9407ef4d19447320bc2e6a1f412fb56eaa17c18",
+      "bytes": 3345
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\shared_correction_mac.v",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/shared_correction_mac.v",
+      "sha256": "67f31053785caafadd40a01a83e0c8d209ea05407da9447a1efec5b3b6fbb744",
+      "bytes": 4350
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\timing.sdc",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\aux_log2_low18.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\aux_log2_pair36.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\aux_log2_q22.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\bypass.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\cos_grid_direct.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\cos_grid_lossless.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\cos_quarter.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\detector_gram_half_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\detector_gram_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\detector_template_q24.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\fft_hann_half_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\fft_hann_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\fixed_bank.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\oled_screen.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\independent_dual_lane\\rom\\prototype.mem",
+      "packaged": "rtl_testbench/area_synthesis/independent_dual_lane/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\area.gprj",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/area.gprj",
+      "sha256": "b14ac00ce0265ff425032bf8ab18287685a274cc5b7a156662e5cdc29eb778f7",
+      "bytes": 518
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\area_top.v",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/area_top.v",
+      "sha256": "fd93d4fd8a933ab813674e49f92f10fe9ededda230a6aa8791113b4b837674cc",
+      "bytes": 1315
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\build.tcl",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\merged_storage_backend.v",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/merged_storage_backend.v",
+      "sha256": "6e58416d7d92fa76339b0bcae9407ef4d19447320bc2e6a1f412fb56eaa17c18",
+      "bytes": 3345
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\shared_correction_mac.v",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/shared_correction_mac.v",
+      "sha256": "67f31053785caafadd40a01a83e0c8d209ea05407da9447a1efec5b3b6fbb744",
+      "bytes": 4350
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\timing.sdc",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\aux_log2_low18.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/aux_log2_low18.mem",
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\aux_log2_pair36.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/aux_log2_pair36.mem",
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\aux_log2_q22.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/aux_log2_q22.mem",
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\bypass.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\cos_grid_direct.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\cos_grid_lossless.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/cos_grid_lossless.mem",
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\cos_quarter.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/cos_quarter.mem",
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\detector_gram_compact_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/detector_gram_compact_q26.mem",
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\detector_gram_half_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/detector_gram_half_q26.mem",
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\detector_gram_q26.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/detector_gram_q26.mem",
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\detector_template_q24.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/detector_template_q24.mem",
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\fft_hann_half_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/fft_hann_half_q30.mem",
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\fft_hann_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/fft_hann_q30.mem",
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\fft_twiddle_im_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/fft_twiddle_im_q30.mem",
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\fft_twiddle_re_q30.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/fft_twiddle_re_q30.mem",
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\fixed_bank.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/fixed_bank.mem",
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\oled_screen.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/oled_screen.mem",
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v21_area\\merged_storage_production_cache\\rom\\prototype.mem",
+      "packaged": "rtl_testbench/area_synthesis/merged_storage_production_cache/rom/prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\merged_storage_backend.v",
+      "packaged": "rtl_testbench/area/merged_storage_backend.v",
+      "sha256": "6e58416d7d92fa76339b0bcae9407ef4d19447320bc2e6a1f412fb56eaa17c18",
+      "bytes": 3345
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\shared_correction_mac.v",
+      "packaged": "rtl_testbench/area/shared_correction_mac.v",
+      "sha256": "67f31053785caafadd40a01a83e0c8d209ea05407da9447a1efec5b3b6fbb744",
+      "bytes": 4350
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reference\\bypass.mem",
+      "packaged": "rtl_testbench/area/reference/bypass.mem",
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reference\\fir_mac_core.v",
+      "packaged": "rtl_testbench/area/reference/fir_mac_core.v",
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reference\\shared_correction_mac.v",
+      "packaged": "rtl_testbench/area/reference/shared_correction_mac.v",
+      "sha256": "e41d522eb84d110fcbc2fac4035b7016e3bf7e5d72f47fd993332b5e8e8617a4",
+      "bytes": 3910
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent\\build.tcl",
+      "packaged": "rtl_testbench/area/reports/independent/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent\\timing.sdc",
+      "packaged": "rtl_testbench/area/reports/independent/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent_dual_lane\\build.tcl",
+      "packaged": "rtl_testbench/area/reports/independent_dual_lane/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\independent_dual_lane\\timing.sdc",
+      "packaged": "rtl_testbench/area/reports/independent_dual_lane/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_core\\build.tcl",
+      "packaged": "rtl_testbench/area/reports/merged_core/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_core\\timing.sdc",
+      "packaged": "rtl_testbench/area/reports/merged_core/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage\\build.tcl",
+      "packaged": "rtl_testbench/area/reports/merged_storage/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage\\timing.sdc",
+      "packaged": "rtl_testbench/area/reports/merged_storage/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage_production_cache\\build.tcl",
+      "packaged": "rtl_testbench/area/reports/merged_storage_production_cache/build.tcl",
+      "sha256": "a96fd1f0c92e2eda775493e1cbdef1a66b8746ea8ebda83b856c371dee765b8d",
+      "bytes": 405
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v21_quality_area_work\\area\\reports\\merged_storage_production_cache\\timing.sdc",
+      "packaged": "rtl_testbench/area/reports/merged_storage_production_cache/timing.sdc",
+      "sha256": "0be618681274d1e9cd3bd25bac2758a4309148455f653caa347976168f80dbc5",
+      "bytes": 166
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\backend_simulation_sources\\hybrid_backend.v",
+      "packaged": "rtl_testbench/hybrid_backend/hybrid_backend.v",
+      "sha256": "b5fe2af2cf9839a877a6c1d579b0eafff97938974e80e9e9bdd1738b0fad850b",
+      "bytes": 2012
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\backend_simulation_sources\\tb_full_quality.v",
+      "packaged": "rtl_testbench/hybrid_backend/tb_full_quality.v",
+      "sha256": "cb87d3faf41d06c60e8932e71efaf3ad4805adad3375776a1ec696bbf2576f66",
+      "bytes": 7290
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\capture_simulation_sources\\tb_full_quality.v",
+      "packaged": "rtl_testbench/hybrid_capture/tb_full_quality.v",
+      "sha256": "f34b4472d6c8ca55dfdc5c3cba5e7c80b8903453216db36d825001f2014ecf49",
+      "bytes": 15553
+    },
+    {
+      "source": "D:\\FPGA_Competition\\支撑材料\\原始验证\\D盘原记录\\evidence_v31_physical\\validation_c4_queue_status\\r05_alu_round31\\tb_full_quality.v",
+      "packaged": "rtl_testbench/full_auto/tb_full_quality.v",
+      "sha256": "f34b4472d6c8ca55dfdc5c3cba5e7c80b8903453216db36d825001f2014ecf49",
+      "bytes": 15553
+    }
+  ],
+  "source_copy_bytes": 25220640,
+  "new_algorithm": false,
+  "new_rtl_or_pnr": false,
+  "plots_packaged": false
+}

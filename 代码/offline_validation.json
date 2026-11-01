@@ -1,0 +1,73 @@
+{
+  "status": "OFFLINE_PACKAGE_CHECK_PASS",
+  "project_file_references": 39,
+  "rom_references": [
+    "rom/aux_log2_pair36.mem",
+    "rom/bypass.mem",
+    "rom/cos_grid_lossless.mem",
+    "rom/cosine_prototype_packed.mem",
+    "rom/detector_gram_compact_q26.mem",
+    "rom/detector_template_q24.mem",
+    "rom/fft_hann_half_q30.mem",
+    "rom/fft_twiddle_im_q30.mem",
+    "rom/fft_twiddle_re_q30.mem",
+    "rom/oled_screen.mem"
+  ],
+  "source_files_hashed": 59,
+  "bitstream_sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+  "python_files_parsed": 62,
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "serial": "3.5",
+    "tkinter": "8.6"
+  },
+  "examples": [
+    {
+      "name": "single_pair",
+      "samples": 64000,
+      "has_reference": true
+    },
+    {
+      "name": "single_pair_no_interference",
+      "samples": 64000,
+      "has_reference": true
+    },
+    {
+      "name": "two_pairs",
+      "samples": 64000,
+      "has_reference": true
+    },
+    {
+      "name": "two_pairs_no_interference",
+      "samples": 64000,
+      "has_reference": true
+    }
+  ],
+  "recorded_pair": {
+    "status": "INPUTS_VERIFIED",
+    "board_experiment_performed": false,
+    "sample_rate_hz": 32000,
+    "samples_per_case": 64000,
+    "common_gain": 0.11188643936088333,
+    "reference": "Same received DRM recording, including original noise/channel/pilots",
+    "bitstream_local_file_verified": true,
+    "fpga_image_readback_verified": false,
+    "input_payload_sha256": {
+      "control": "d9cbb8da8b0a577516e60b666463c04be5cc6c6c8335a403477ce24a7009cfe8",
+      "mixed": "f7273ee103dedc1a4a49282317bf0fd88425d1408b2abdc316b29c7daee03358"
+    },
+    "max_abs_sample": {
+      "control": 2340,
+      "mixed": 31130
+    },
+    "source_version": "Frozen existing 2026-10-24 DRM conversion; no new input selection"
+  },
+  "unit_checks": 22,
+  "hardware_or_fpga_validation": "NOT EXECUTED",
+  "serial_opened": false,
+  "gui_opened": false,
+  "pnr_executed": false,
+  "scope": "Structure, original bytes, frozen inputs and host numeric/source checks; no new FPGA performance result"
+}

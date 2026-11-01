@@ -1,0 +1,260 @@
+{
+  "scope": "Offline re-score of frozen paired simulation components; not a new board experiment.",
+  "sample_rate_hz": 32000,
+  "delay_samples": 320,
+  "window_samples": 256,
+  "hop_samples": 64,
+  "index_convention": "Zero-based half-open [start,stop); output is delayed by 320 samples.",
+  "report_grid": "source start=64*m; output end exclusive=576+64*m; retain only fully overlapping four-interferer windows.",
+  "diagnostic_grid": "source start=latest interferer onset+64*m; same overlap and thresholds; not a replacement for the report grid.",
+  "coordinate_diagnostic": "unshifted_output_coordinate_diagnostic deliberately omits the +320 output offset to reproduce the reviewer counts; its first windows precede full source overlap, so it is NOT valid four-way-overlap evidence.",
+  "joint_condition": "Every interferer attenuation >=20dB and every probe absolute energy-ratio change <=1dB in the same window; comparisons use unrounded values.",
+  "primary_definition": "10log10(sum(delayed component input^2)/sum(component output^2)) over fixture primary_output_sample_range.",
+  "probe_definition": "10log10(sum(probe output^2)/sum(delayed probe input^2)); absolute value <=1dB.",
+  "rows": [
+    {
+      "case": "c4_temporal_gap2ms_dev",
+      "arm": "current",
+      "primary_output_sample_range": [
+        5213,
+        25133
+      ],
+      "primary_attenuation_db": [
+        22.58827144446116,
+        21.434772828215962,
+        20.0020634534209,
+        21.065224776621378
+      ],
+      "primary_at_least_20db_count": 4,
+      "overlap_source_sample_range": [
+        5309,
+        20317
+      ],
+      "grids": {
+        "report_global": {
+          "source_start_grid_origin": 0,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 5312,
+          "last_source_end_sample_exclusive": 20288,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 224,
+          "longest_joint_streak": 224,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6272
+        },
+        "overlap_anchored_diagnostic": {
+          "source_start_grid_origin": 5309,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 5309,
+          "last_source_end_sample_exclusive": 20285,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 224,
+          "longest_joint_streak": 224,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6269
+        },
+        "unshifted_output_coordinate_diagnostic": {
+          "source_start_grid_origin": 4989,
+          "valid_four_way_overlap_scoring": false,
+          "first_source_start_sample": 4989,
+          "last_source_end_sample_exclusive": 19965,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 222,
+          "longest_joint_streak": 222,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6269
+        }
+      },
+      "frozen_files_sha256": {
+        "samples/hybrid/c4_temporal_gap2ms_dev/fixture.json": "bfe5b320dbb3ed4c9f3a3394b809d02bfee99800b591120704a3844f38954c7e",
+        "samples/hybrid/c4_temporal_gap2ms_dev/expected_results.json": "f0940d3d03f277df6969f1edc5579090a67e303107e312623629a40f5bdfaf7d",
+        "samples/hybrid/c4_temporal_gap2ms_dev/input.npy": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+        "samples/hybrid/c4_temporal_gap2ms_dev/current/frozen_operator_and_components.npz": "5c556958e821c48c27d0a415195c255d6373c0349d9e891232621781d50393c3",
+        "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/frozen_operator_and_components.npz": "2b244bab4125d6674f644360b4291307dec9cec0b11a10cbb0b5694457aa467e"
+      }
+    },
+    {
+      "case": "c4_temporal_gap2ms_dev",
+      "arm": "fixed21",
+      "primary_output_sample_range": [
+        5213,
+        25133
+      ],
+      "primary_attenuation_db": [
+        21.05790039974217,
+        18.944107000175162,
+        17.57352733412612,
+        18.01881684599413
+      ],
+      "primary_at_least_20db_count": 1,
+      "overlap_source_sample_range": [
+        5309,
+        20317
+      ],
+      "grids": {
+        "report_global": {
+          "source_start_grid_origin": 0,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 5312,
+          "last_source_end_sample_exclusive": 20288,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 224,
+          "longest_joint_streak": 224,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6272
+        },
+        "overlap_anchored_diagnostic": {
+          "source_start_grid_origin": 5309,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 5309,
+          "last_source_end_sample_exclusive": 20285,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 224,
+          "longest_joint_streak": 224,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6269
+        },
+        "unshifted_output_coordinate_diagnostic": {
+          "source_start_grid_origin": 4989,
+          "valid_four_way_overlap_scoring": false,
+          "first_source_start_sample": 4989,
+          "last_source_end_sample_exclusive": 19965,
+          "evaluable_windows": 231,
+          "joint_pass_windows": 222,
+          "longest_joint_streak": 222,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 6269
+        }
+      },
+      "frozen_files_sha256": {
+        "samples/hybrid/c4_temporal_gap2ms_dev/fixture.json": "bfe5b320dbb3ed4c9f3a3394b809d02bfee99800b591120704a3844f38954c7e",
+        "samples/hybrid/c4_temporal_gap2ms_dev/expected_results.json": "f0940d3d03f277df6969f1edc5579090a67e303107e312623629a40f5bdfaf7d",
+        "samples/hybrid/c4_temporal_gap2ms_dev/input.npy": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+        "samples/hybrid/c4_temporal_gap2ms_dev/current/frozen_operator_and_components.npz": "5c556958e821c48c27d0a415195c255d6373c0349d9e891232621781d50393c3",
+        "samples/hybrid/c4_temporal_gap2ms_dev/fixed21/frozen_operator_and_components.npz": "2b244bab4125d6674f644360b4291307dec9cec0b11a10cbb0b5694457aa467e"
+      }
+    },
+    {
+      "case": "c4_temporal_gap8ms_heldout",
+      "arm": "current",
+      "primary_output_sample_range": [
+        6179,
+        28019
+      ],
+      "primary_attenuation_db": [
+        19.684428782608443,
+        22.705642466163305,
+        19.25500195244954,
+        20.701561794650132
+      ],
+      "primary_at_least_20db_count": 2,
+      "overlap_source_sample_range": [
+        6467,
+        22613
+      ],
+      "grids": {
+        "report_global": {
+          "source_start_grid_origin": 0,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 6528,
+          "last_source_end_sample_exclusive": 22592,
+          "evaluable_windows": 248,
+          "joint_pass_windows": 242,
+          "longest_joint_streak": 242,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7424
+        },
+        "overlap_anchored_diagnostic": {
+          "source_start_grid_origin": 6467,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 6467,
+          "last_source_end_sample_exclusive": 22595,
+          "evaluable_windows": 249,
+          "joint_pass_windows": 242,
+          "longest_joint_streak": 242,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7427
+        },
+        "unshifted_output_coordinate_diagnostic": {
+          "source_start_grid_origin": 6147,
+          "valid_four_way_overlap_scoring": false,
+          "first_source_start_sample": 6147,
+          "last_source_end_sample_exclusive": 22275,
+          "evaluable_windows": 249,
+          "joint_pass_windows": 240,
+          "longest_joint_streak": 240,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7427
+        }
+      },
+      "frozen_files_sha256": {
+        "samples/hybrid/c4_temporal_gap8ms_heldout/fixture.json": "5200f0b0b90a40ea1b94100b98745e2d5bb970934b344821951576796856a7ea",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/expected_results.json": "94951abdd685c34875a9c58f3ec56323c9c9c6b8e2835456f2abe6a758d19504",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/input.npy": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/current/frozen_operator_and_components.npz": "32153269cb8f5ae3bd5b288e3a5b51ab0d374afcc367b33d645bcae3460235a0",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/frozen_operator_and_components.npz": "02812b6eb6b55616c66339aef256525f06ed0a84416c831f83ec6f5a032be598"
+      }
+    },
+    {
+      "case": "c4_temporal_gap8ms_heldout",
+      "arm": "fixed21",
+      "primary_output_sample_range": [
+        6179,
+        28019
+      ],
+      "primary_attenuation_db": [
+        17.634776002651506,
+        17.02112737809747,
+        18.026082551087754,
+        18.467963726230387
+      ],
+      "primary_at_least_20db_count": 0,
+      "overlap_source_sample_range": [
+        6467,
+        22613
+      ],
+      "grids": {
+        "report_global": {
+          "source_start_grid_origin": 0,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 6528,
+          "last_source_end_sample_exclusive": 22592,
+          "evaluable_windows": 248,
+          "joint_pass_windows": 242,
+          "longest_joint_streak": 242,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7424
+        },
+        "overlap_anchored_diagnostic": {
+          "source_start_grid_origin": 6467,
+          "valid_four_way_overlap_scoring": true,
+          "first_source_start_sample": 6467,
+          "last_source_end_sample_exclusive": 22595,
+          "evaluable_windows": 249,
+          "joint_pass_windows": 242,
+          "longest_joint_streak": 242,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7427
+        },
+        "unshifted_output_coordinate_diagnostic": {
+          "source_start_grid_origin": 6147,
+          "valid_four_way_overlap_scoring": false,
+          "first_source_start_sample": 6147,
+          "last_source_end_sample_exclusive": 22275,
+          "evaluable_windows": 249,
+          "joint_pass_windows": 240,
+          "longest_joint_streak": 240,
+          "three_window_joint_pass": true,
+          "first_three_output_end_sample_exclusive": 7427
+        }
+      },
+      "frozen_files_sha256": {
+        "samples/hybrid/c4_temporal_gap8ms_heldout/fixture.json": "5200f0b0b90a40ea1b94100b98745e2d5bb970934b344821951576796856a7ea",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/expected_results.json": "94951abdd685c34875a9c58f3ec56323c9c9c6b8e2835456f2abe6a758d19504",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/input.npy": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/current/frozen_operator_and_components.npz": "32153269cb8f5ae3bd5b288e3a5b51ab0d374afcc367b33d645bcae3460235a0",
+        "samples/hybrid/c4_temporal_gap8ms_heldout/fixed21/frozen_operator_and_components.npz": "02812b6eb6b55616c66339aef256525f06ed0a84416c831f83ec6f5a032be598"
+      }
+    }
+  ]
+}

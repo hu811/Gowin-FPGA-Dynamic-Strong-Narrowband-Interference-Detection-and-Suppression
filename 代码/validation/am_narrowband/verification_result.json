@@ -1,0 +1,46 @@
+{
+  "status": "AM_FROZEN_UART_AND_METRICS_RECHECK_PASS",
+  "input_id": "701f2becab0b",
+  "samples": 16000,
+  "status_rows": 265,
+  "sample_frames": 250,
+  "non_sample_status_frames": 15,
+  "observations": 243,
+  "commits": 17,
+  "board_vs_archived_rtl_mismatches": 0,
+  "metrics": {
+    "full_common": {
+      "source_sample_range": [
+        0,
+        15680
+      ],
+      "board_nrmse_pct": 206.57200519191352,
+      "software_1024_nrmse_pct": 266.90743883816003,
+      "relative_reduction_pct": 22.605377320648994
+    },
+    "entry": {
+      "source_sample_range": [
+        2880,
+        7360
+      ],
+      "board_nrmse_pct": 338.56214410742064,
+      "software_1024_nrmse_pct": 449.7768023481363,
+      "relative_reduction_pct": 24.72663277876952
+    },
+    "stable": {
+      "source_sample_range": [
+        7680,
+        10240
+      ],
+      "board_nrmse_pct": 40.2008690152035,
+      "software_1024_nrmse_pct": 37.37755749679223,
+      "relative_reduction_pct": -7.553493881063717
+    }
+  },
+  "no_independent_midpoint_probe": true,
+  "new_serial_run": false,
+  "new_detector_or_reference_run": false,
+  "new_rtl_run": false,
+  "new_pnr_run": false,
+  "scope": "Recomputed existing actual UART capture and frozen software arrays; no new pipeline execution or universal quality acceptance."
+}

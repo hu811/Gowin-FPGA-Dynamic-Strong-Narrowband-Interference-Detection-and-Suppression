@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "kind": "HYBRID",
+  "command": [
+    "D:\\FPGA_Competition\\evidence_v30_rtl_scratch\\v27_c4_backend\\native\\Release\\fullrtl.exe",
+    "+SAMPLES=30400",
+    "+INPUT=D:/FPGA_Competition/evidence_v30_rtl_scratch/c4_temporal_gap8ms_heldout_fixed21_backend/input.mem",
+    "+FOLDER=D:/FPGA_Competition/evidence_v30_rtl_scratch/c4_temporal_gap8ms_heldout_fixed21_backend/",
+    "+PRE=C:/Users/User/Desktop/agent/FPGA_Competition/09_RTL/v30_temporal_c4_work/rtl_validation/hybrid_backend/c4_temporal_gap8ms_heldout_fixed21_inputs/pre_service.csv"
+  ],
+  "engine": "native",
+  "input_sha256": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+  "pre_service_sha256": "18cb26f97c084a5e30cbda194c0fc9582765ad1af9f286f586607cb915d30d20",
+  "executable_sha256": "929cb887b3e1d4eca2be76334c2bb6ffc1196d72e7c0db1461c3a72098b129cb",
+  "samples": 30400,
+  "production_changed": false,
+  "start_unix": 1792553978.2098086,
+  "returncode": 0,
+  "wall_seconds": 317.24647307395935,
+  "final_lines": [
+    "QUEUE_CLOCK waiting_clocks=650424 running_and_waiting_clocks=9011 longest_running_and_waiting=4505 matrix_merge_and_waiting_clocks=595102 new_descriptor_accepts=32",
+    "PASS HYBRID_BACKEND_TRACE",
+    "- tb_full_quality.v:54: Verilog $finish",
+    "- S i m u l a t i o n   R e p o r t: Verilator 5.49",
+    "- Verilator: $finish at 953ms; walltime 317.159 s; speed 0.000 s/s",
+    "- Verilator: cpu 0.000 s on 1 threads; allocated 5 MB"
+  ]
+}

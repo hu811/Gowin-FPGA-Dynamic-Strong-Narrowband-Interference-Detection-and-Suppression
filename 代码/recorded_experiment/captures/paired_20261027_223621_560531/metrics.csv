@@ -1,0 +1,37 @@
+﻿run,window,samples,metric,value,unit,detail
+control,full_common,63680,input_nrmse_pct,0.05164906093989196,%,fixed alignment; no gain fitting
+control,full_common,63680,output_nrmse_pct,0.05164906093989196,%,fixed alignment; no gain fitting
+control,full_common,63680,error_reduction_db,0.0,dB,fixed alignment; no gain fitting
+control,stable,25600,input_nrmse_pct,0.051310344749752164,%,fixed alignment; no gain fitting
+control,stable,25600,output_nrmse_pct,0.051310344749752164,%,fixed alignment; no gain fitting
+control,stable,25600,error_reduction_db,0.0,dB,fixed alignment; no gain fitting
+control,legacy_local,2880,input_nrmse_pct,0.05116987970927554,%,fixed alignment; no gain fitting
+control,legacy_local,2880,output_nrmse_pct,0.05116987970927554,%,fixed alignment; no gain fitting
+control,legacy_local,2880,error_reduction_db,0.0,dB,fixed alignment; no gain fitting
+mixed,full_common,63680,input_nrmse_pct,1567.397953419608,%,fixed alignment; no gain fitting
+mixed,full_common,63680,output_nrmse_pct,105.06012422706989,%,fixed alignment; no gain fitting
+mixed,full_common,63680,error_reduction_db,23.474827307446567,dB,fixed alignment; no gain fitting
+mixed,full_common,63680,interferers:1,,dB,该路未覆盖整个公共观察窗
+mixed,full_common,63680,interferers:2,,dB,该路未覆盖整个公共观察窗
+mixed,full_common,63680,interferers:3,,dB,该路未覆盖整个公共观察窗
+mixed,full_common,63680,interferers:4,,dB,该路未覆盖整个公共观察窗
+mixed,full_common,63680,"midpoints:[1, 2]",,dB,该对未覆盖整个公共观察窗
+mixed,full_common,63680,"midpoints:[3, 4]",,dB,该对未覆盖整个公共观察窗
+mixed,stable,25600,input_nrmse_pct,1994.3292295239667,%,fixed alignment; no gain fitting
+mixed,stable,25600,output_nrmse_pct,16.73872335229456,%,fixed alignment; no gain fitting
+mixed,stable,25600,error_reduction_db,41.52149045592634,dB,fixed alignment; no gain fitting
+mixed,stable,25600,interferers:1,71.18389158696945,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,stable,25600,interferers:2,52.64174481877543,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,stable,25600,interferers:3,77.43300438815803,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,stable,25600,interferers:4,49.94462240462105,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,stable,25600,"midpoints:[1, 2]",0.2858770003083625,dB,仅谱变化估计，不作 1 dB 验收
+mixed,stable,25600,"midpoints:[3, 4]",-0.08952867482140374,dB,仅谱变化估计，不作 1 dB 验收
+mixed,legacy_local,2880,input_nrmse_pct,1972.7065705552043,%,fixed alignment; no gain fitting
+mixed,legacy_local,2880,output_nrmse_pct,14.729061997369488,%,fixed alignment; no gain fitting
+mixed,legacy_local,2880,error_reduction_db,42.53774801795237,dB,fixed alignment; no gain fitting
+mixed,legacy_local,2880,interferers:1,64.12677111712584,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,legacy_local,2880,interferers:2,51.80484534953166,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,legacy_local,2880,interferers:3,77.02839955695751,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,legacy_local,2880,interferers:4,50.49214442034928,dB,总混合频带抑制估计，不作独立每路 20 dB 验收
+mixed,legacy_local,2880,"midpoints:[1, 2]",-0.20768622538986115,dB,仅谱变化估计，不作 1 dB 验收
+mixed,legacy_local,2880,"midpoints:[3, 4]",-1.2543989800563566,dB,仅谱变化估计，不作 1 dB 验收

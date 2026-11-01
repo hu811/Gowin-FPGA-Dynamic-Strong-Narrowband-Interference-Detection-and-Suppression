@@ -1,0 +1,1181 @@
+{
+  "status": "PASS",
+  "scope": "Actual read-only receiving-edge queue/worker logs and sample-boundary fades. No simulation or waveform is generated here.",
+  "raw": "D:\\FPGA_Competition\\evidence_v30_rtl_scratch\\c4_temporal_gap2ms_dev_current_backend",
+  "counters": {
+    "waiting_clocks": 564472,
+    "running_and_waiting_clocks": 22509,
+    "longest_running_and_waiting": 8997,
+    "matrix_merge_and_waiting_clocks": 534753,
+    "new_descriptor_accepts": 18
+  },
+  "maximum_waiting": 2,
+  "intervals": {
+    "waiting": [
+      {
+        "start_clock": 8657762,
+        "end_clock_exclusive": 8657774,
+        "clocks": 12,
+        "max_waiting": 1,
+        "job_masks": [
+          0
+        ],
+        "queued_masks": [
+          1
+        ],
+        "first_snapshot": {
+          "clock": "8657762",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "0",
+          "job_mask": "0",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "1",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "001",
+          "sent": "5540"
+        }
+      },
+      {
+        "start_clock": 8662282,
+        "end_clock_exclusive": 8671906,
+        "clocks": 9624,
+        "max_waiting": 1,
+        "job_masks": [
+          1
+        ],
+        "queued_masks": [
+          1
+        ],
+        "first_snapshot": {
+          "clock": "8662282",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "11",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "0",
+          "job_mask": "1",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "1",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "001",
+          "sent": "5543"
+        }
+      },
+      {
+        "start_clock": 8780608,
+        "end_clock_exclusive": 8780620,
+        "clocks": 12,
+        "max_waiting": 1,
+        "job_masks": [
+          1
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8780608",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "1",
+          "job_mask": "1",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "003",
+          "sent": "5619"
+        }
+      },
+      {
+        "start_clock": 8789624,
+        "end_clock_exclusive": 8807844,
+        "clocks": 18220,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8789624",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "11",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "1",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "003",
+          "sent": "5625"
+        }
+      },
+      {
+        "start_clock": 8881315,
+        "end_clock_exclusive": 8881327,
+        "clocks": 12,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "8881315",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "3",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5684"
+        }
+      },
+      {
+        "start_clock": 8881331,
+        "end_clock_exclusive": 8943779,
+        "clocks": 62448,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8881331",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "2",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "3",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5684"
+        }
+      },
+      {
+        "start_clock": 8948291,
+        "end_clock_exclusive": 8979668,
+        "clocks": 31377,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8948291",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5726"
+        }
+      },
+      {
+        "start_clock": 9001172,
+        "end_clock_exclusive": 9001176,
+        "clocks": 4,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "9001172",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "15",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5760"
+        }
+      },
+      {
+        "start_clock": 9001188,
+        "end_clock_exclusive": 9170370,
+        "clocks": 169182,
+        "max_waiting": 2,
+        "job_masks": [
+          3,
+          12
+        ],
+        "queued_masks": [
+          3,
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9001188",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "1",
+          "matrix_merge_busy": "0",
+          "manager_state": "2",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5760"
+        }
+      },
+      {
+        "start_clock": 9180295,
+        "end_clock_exclusive": 9180303,
+        "clocks": 8,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9180295",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5875"
+        }
+      },
+      {
+        "start_clock": 9184815,
+        "end_clock_exclusive": 9239091,
+        "clocks": 54276,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9184815",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5878"
+        }
+      },
+      {
+        "start_clock": 9380244,
+        "end_clock_exclusive": 9439092,
+        "clocks": 58848,
+        "max_waiting": 2,
+        "job_masks": [
+          3,
+          12
+        ],
+        "queued_masks": [
+          3,
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9380244",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6003"
+        }
+      },
+      {
+        "start_clock": 9443604,
+        "end_clock_exclusive": 9550029,
+        "clocks": 106425,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9443604",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6043"
+        }
+      },
+      {
+        "start_clock": 9780558,
+        "end_clock_exclusive": 9780566,
+        "clocks": 8,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9780558",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "6259"
+        }
+      },
+      {
+        "start_clock": 9785078,
+        "end_clock_exclusive": 9839094,
+        "clocks": 54016,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9785078",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "14",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "6262"
+        }
+      }
+    ],
+    "running_and_waiting": [
+      {
+        "start_clock": 8881331,
+        "end_clock_exclusive": 8890328,
+        "clocks": 8997,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8881331",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "2",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "3",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5684"
+        }
+      },
+      {
+        "start_clock": 9001188,
+        "end_clock_exclusive": 9005681,
+        "clocks": 4493,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9001188",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "1",
+          "matrix_merge_busy": "0",
+          "manager_state": "2",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5760"
+        }
+      },
+      {
+        "start_clock": 9059404,
+        "end_clock_exclusive": 9063909,
+        "clocks": 4505,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "9059404",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "0",
+          "new_request_accept": "0",
+          "worker_start": "1",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "3",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5798"
+        }
+      },
+      {
+        "start_clock": 9170342,
+        "end_clock_exclusive": 9170351,
+        "clocks": 9,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9170342",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "0",
+          "new_request_accept": "0",
+          "worker_start": "1",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5869"
+        }
+      },
+      {
+        "start_clock": 9380256,
+        "end_clock_exclusive": 9384761,
+        "clocks": 4505,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9380256",
+          "waiting": "1",
+          "running": "1",
+          "generator_busy": "0",
+          "matrix_merge_busy": "0",
+          "manager_state": "0",
+          "new_request_accept": "0",
+          "worker_start": "1",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6003"
+        }
+      }
+    ],
+    "matrix_merge_and_waiting": [
+      {
+        "start_clock": 8662296,
+        "end_clock_exclusive": 8671802,
+        "clocks": 9506,
+        "max_waiting": 1,
+        "job_masks": [
+          1
+        ],
+        "queued_masks": [
+          1
+        ],
+        "first_snapshot": {
+          "clock": "8662296",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "0",
+          "job_mask": "1",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "1",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "001",
+          "sent": "5543"
+        }
+      },
+      {
+        "start_clock": 8789638,
+        "end_clock_exclusive": 8807814,
+        "clocks": 18176,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8789638",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "1",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "003",
+          "sent": "5625"
+        }
+      },
+      {
+        "start_clock": 8890345,
+        "end_clock_exclusive": 8943201,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8890345",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "3",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5689"
+        }
+      },
+      {
+        "start_clock": 8948301,
+        "end_clock_exclusive": 8979668,
+        "clocks": 31367,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3
+        ],
+        "first_snapshot": {
+          "clock": "8948301",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "3",
+          "q1_mask": "0",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5726"
+        }
+      },
+      {
+        "start_clock": 9005698,
+        "end_clock_exclusive": 9058554,
+        "clocks": 52856,
+        "max_waiting": 2,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          3,
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9005698",
+          "waiting": "2",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "1",
+          "q0_mask": "12",
+          "q1_mask": "3",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5763"
+        }
+      },
+      {
+        "start_clock": 9063926,
+        "end_clock_exclusive": 9116782,
+        "clocks": 52856,
+        "max_waiting": 2,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3,
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9063926",
+          "waiting": "2",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "1",
+          "q0_mask": "3",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5800"
+        }
+      },
+      {
+        "start_clock": 9116801,
+        "end_clock_exclusive": 9169657,
+        "clocks": 52856,
+        "max_waiting": 2,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          3,
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9116801",
+          "waiting": "2",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "1",
+          "q0_mask": "3",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5834"
+        }
+      },
+      {
+        "start_clock": 9184825,
+        "end_clock_exclusive": 9237681,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9184825",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "5878"
+        }
+      },
+      {
+        "start_clock": 9384778,
+        "end_clock_exclusive": 9437634,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          3
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9384778",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "3",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6006"
+        }
+      },
+      {
+        "start_clock": 9443614,
+        "end_clock_exclusive": 9496470,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9443614",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6043"
+        }
+      },
+      {
+        "start_clock": 9496489,
+        "end_clock_exclusive": 9549345,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9496489",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "03c",
+          "sent": "6077"
+        }
+      },
+      {
+        "start_clock": 9785088,
+        "end_clock_exclusive": 9837944,
+        "clocks": 52856,
+        "max_waiting": 1,
+        "job_masks": [
+          12
+        ],
+        "queued_masks": [
+          12
+        ],
+        "first_snapshot": {
+          "clock": "9785088",
+          "waiting": "1",
+          "running": "0",
+          "generator_busy": "0",
+          "matrix_merge_busy": "1",
+          "manager_state": "17",
+          "new_request_accept": "0",
+          "worker_start": "0",
+          "worker_done": "0",
+          "proposal_accept": "0",
+          "active_mask": "15",
+          "job_mask": "12",
+          "q0_valid": "1",
+          "q1_valid": "0",
+          "q0_mask": "12",
+          "q1_mask": "12",
+          "locked": "0",
+          "groups_hex": "0c3",
+          "sent": "6262"
+        }
+      }
+    ]
+  },
+  "fade_count": 13,
+  "every_fade_alpha_exact_1_to_32": true,
+  "adjacent_complete_fade_transactions": 0,
+  "fade_samples": 32,
+  "nominal_fade_duration_ms": 1,
+  "fades": [
+    {
+      "start_sample": 5549,
+      "end_sample_inclusive": 5580,
+      "start_clock": 8671884,
+      "last_input_clock": 8720322
+    },
+    {
+      "start_sample": 5636,
+      "end_sample_inclusive": 5667,
+      "start_clock": 8807822,
+      "last_input_clock": 8856259
+    },
+    {
+      "start_sample": 5723,
+      "end_sample_inclusive": 5754,
+      "start_clock": 8943759,
+      "last_input_clock": 8992197
+    },
+    {
+      "start_sample": 5797,
+      "end_sample_inclusive": 5828,
+      "start_clock": 9059384,
+      "last_input_clock": 9107822
+    },
+    {
+      "start_sample": 5868,
+      "end_sample_inclusive": 5899,
+      "start_clock": 9170322,
+      "last_input_clock": 9218759
+    },
+    {
+      "start_sample": 5912,
+      "end_sample_inclusive": 5943,
+      "start_clock": 9239072,
+      "last_input_clock": 9287509
+    },
+    {
+      "start_sample": 6040,
+      "end_sample_inclusive": 6071,
+      "start_clock": 9439072,
+      "last_input_clock": 9487509
+    },
+    {
+      "start_sample": 6111,
+      "end_sample_inclusive": 6142,
+      "start_clock": 9550009,
+      "last_input_clock": 9598447
+    },
+    {
+      "start_sample": 6296,
+      "end_sample_inclusive": 6327,
+      "start_clock": 9839072,
+      "last_input_clock": 9887509
+    },
+    {
+      "start_sample": 20670,
+      "end_sample_inclusive": 20701,
+      "start_clock": 32298447,
+      "last_input_clock": 32346884
+    },
+    {
+      "start_sample": 23783,
+      "end_sample_inclusive": 23814,
+      "start_clock": 37162509,
+      "last_input_clock": 37210947
+    },
+    {
+      "start_sample": 23859,
+      "end_sample_inclusive": 23890,
+      "start_clock": 37281259,
+      "last_input_clock": 37329697
+    },
+    {
+      "start_sample": 23893,
+      "end_sample_inclusive": 23924,
+      "start_clock": 37334384,
+      "last_input_clock": 37382822
+    }
+  ],
+  "notes": [
+    "waiting counts valid queued descriptors and excludes running.",
+    "running is scheduler group preparation; matrix_merge_busy is actual manager state17, a distinct background calculation.",
+    "Waiting masks are counted only under their corresponding q0/q1 valid bit. Stale unselected payloads are not tasks.",
+    "Queue occupancy proves mechanism/actual overlap; it does not by itself prove better filter quality than another method."
+  ],
+  "source_sha256": {
+    "queue_clock_events.csv": "a7bb0868fa3ca4332cf2ad342f96aa32a4cac8e4b6405bbc9acd96fded671e05",
+    "samples.csv": "fa82d18b3bcd3292d587cc2529ff496692be9aeb4eac545268478e5a88afccb7",
+    "cfg_snapshots.csv": "f9f0866c2142091b34cf691063916174487704ba017b6c89c5bd64c1a0a99a6c",
+    "run.log": "cc12acf6a21ec41d3fab2660a126dd6871cddf3deed3f4b0bdcae5fc3d8aeb73"
+  }
+}

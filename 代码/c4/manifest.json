@@ -1,0 +1,256 @@
+{
+  "status": "INHERITED_BITSTREAM_UNCHANGED_NOT_REBUILT_HERE",
+  "capacity": 4,
+  "top": "pro_v2_digital_top_4",
+  "bitstream": {
+    "filename": "ACG525_C4_V32_512_OLED.fs",
+    "path": "ACG525_C4_V32_512_OLED.fs",
+    "sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+    "bytes": 7464160
+  },
+  "GPR": {
+    "path": "pro_v2.gprj",
+    "sha256": "eb331245a604e98e834248b7945f1994f8a26510c831b084893b3aed37bdc7f6",
+    "bytes": 3119
+  },
+  "sources": {
+    "rtl/analysis_fft.v": {
+      "sha256": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+      "bytes": 10568
+    },
+    "rtl/analysis_frontend.v": {
+      "sha256": "03a7d4c217da2a73b7138e8f608aa6c6d65dcd376caa8d8a90cf85f737bad6be",
+      "bytes": 6239
+    },
+    "rtl/aux_peak_tracker.v": {
+      "sha256": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+      "bytes": 12108
+    },
+    "rtl/backend_dsp_arithmetic.v": {
+      "sha256": "9125c7a15291005991072574d7bf76dbacc611aa3bc85e12444ed772e06db44c",
+      "bytes": 2064
+    },
+    "rtl/backend_work_sp.v": {
+      "sha256": "ad5cf9e32a5e7c8cce0c286c6fd25a86ac16bda93e8811e349d2350e5acd2922",
+      "bytes": 760
+    },
+    "rtl/basis_generator_service.v": {
+      "sha256": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+      "bytes": 4919
+    },
+    "rtl/coefficient_manager.v": {
+      "sha256": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+      "bytes": 20645
+    },
+    "rtl/config_scheduler.v": {
+      "sha256": "066364b9ba5d93386b009765db3a794eada754270b48271a3e92dade07bd8f31",
+      "bytes": 8203
+    },
+    "rtl/digital_link.v": {
+      "sha256": "b9153dc9fb67dd1d6f96d4d77baa47d8d343301da9dd4ed184c3d8d6d53032c6",
+      "bytes": 18528
+    },
+    "rtl/digital_link_dsp_add.v": {
+      "sha256": "92270eed41204849d0d71231d610ad6cc5a87817482d2aba21c72150bf0767fd",
+      "bytes": 4269
+    },
+    "rtl/digital_link_ram.v": {
+      "sha256": "a8f73754f67828b0ba12ce97fd51eccaa0026935377bc3af10667f87a47dfb53",
+      "bytes": 979
+    },
+    "rtl/digital_link_uart_rx.v": {
+      "sha256": "5c644d79fee0a619670a624e7bebb06c32b520348d594a9fec26b0b9e8b3eab3",
+      "bytes": 1187
+    },
+    "rtl/divide_coefficient_bound10.v": {
+      "sha256": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+      "bytes": 1972
+    },
+    "rtl/divide_round.v": {
+      "sha256": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+      "bytes": 1078
+    },
+    "rtl/dynamic_executor_v14.v": {
+      "sha256": "52b50c9f0606f822d57deb392c57a728e63f670c9012e7ba658e09a4b71af50f",
+      "bytes": 5770
+    },
+    "rtl/equality_lut.v": {
+      "sha256": "ca19a888ff2714e262163f5bb98fe786458a02c72ecbc47190c1666e5c5a868d",
+      "bytes": 1385
+    },
+    "rtl/fir_mac_core.v": {
+      "sha256": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+      "bytes": 6193
+    },
+    "rtl/fitting_solver.v": {
+      "sha256": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+      "bytes": 19767
+    },
+    "rtl/group_controller_v14.v": {
+      "sha256": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+      "bytes": 20462
+    },
+    "rtl/i2c_write3.v": {
+      "sha256": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+      "bytes": 4407
+    },
+    "rtl/oled_dashboard.v": {
+      "sha256": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+      "bytes": 5204
+    },
+    "rtl/orthogonal_fitter.v": {
+      "sha256": "985a00834767c7fb9f2a675a7d7d80711abcd55d27bfb69d7f25c423660bd435",
+      "bytes": 37111
+    },
+    "rtl/overlap_backend.v": {
+      "sha256": "286578130717cd7df39d01809c59832e1a2ee5ac096ab09e439139d22f9bbabd",
+      "bytes": 8027
+    },
+    "rtl/overlap_backend_microstore.v": {
+      "sha256": "8f2b8f95b2cf959b774406ba2a4ef6e88d3bfe878abb57c5410e9cba06102153",
+      "bytes": 6571
+    },
+    "rtl/overlap_backend_q15_mac.v": {
+      "sha256": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+      "bytes": 8452
+    },
+    "rtl/overlap_backend_sp.v": {
+      "sha256": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+      "bytes": 7279
+    },
+    "rtl/overlap_backend_tight.v": {
+      "sha256": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+      "bytes": 7359
+    },
+    "rtl/pro_v2_auto_core.v": {
+      "sha256": "7500f797940db7e719602f8ae73b3c0bef7b287a37f5d3423e395d4c710d3bad",
+      "bytes": 11942
+    },
+    "rtl/pro_v2_digital_top.v": {
+      "sha256": "8953c58e7046908debd37266209f067f5027a1d96f511ace7017d8d8559122e3",
+      "bytes": 4525
+    },
+    "rtl/q15_dsp_mac.v": {
+      "sha256": "368b747887a3eeba5d9338949c7f81099558ad710c383814cdb640fbeb2e5fab",
+      "bytes": 1746
+    },
+    "rtl/reset_sync.v": {
+      "sha256": "d41842839519b82e0feb78f9d89e72f858338e9a754608744e27834a0b75bda6",
+      "bytes": 732
+    },
+    "rtl/rne31_alu34.v": {
+      "sha256": "b44934cfc361803d726fcce7101fb3905141edbabee7dc78edfb6f80723ece85",
+      "bytes": 695
+    },
+    "rtl/sample_tick.v": {
+      "sha256": "f46f5d8154127e11acaa0c159469ef1769d0cea96ab5c4d8922917a5fc17ded2",
+      "bytes": 693
+    },
+    "rtl/strong_gate.v": {
+      "sha256": "f74c3eb4d7c090818c17e3b00ca0ded523dbbdffc8206d16cd14f0de85e819d6",
+      "bytes": 3404
+    },
+    "rtl/transition_controller.v": {
+      "sha256": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+      "bytes": 1683
+    },
+    "rtl/uart_rx.v": {
+      "sha256": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+      "bytes": 1458
+    },
+    "rtl/uart_tx.v": {
+      "sha256": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+      "bytes": 951
+    },
+    "rom/aux_log2_low18.mem": {
+      "sha256": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "bytes": 10240
+    },
+    "rom/aux_log2_pair36.mem": {
+      "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "bytes": 9728
+    },
+    "rom/aux_log2_q22.mem": {
+      "sha256": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "bytes": 13312
+    },
+    "rom/basis_prototype.mem": {
+      "sha256": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+      "bytes": 5120
+    },
+    "rom/bypass.mem": {
+      "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "bytes": 10240
+    },
+    "rom/cosine_prototype_packed.mem": {
+      "sha256": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+      "bytes": 18432
+    },
+    "rom/cos_grid_direct.mem": {
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "bytes": 36864
+    },
+    "rom/cos_grid_lossless.mem": {
+      "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "bytes": 18432
+    },
+    "rom/cos_quarter.mem": {
+      "sha256": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "bytes": 77824
+    },
+    "rom/detector_gram_compact_q26.mem": {
+      "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "bytes": 59058
+    },
+    "rom/detector_gram_half_q26.mem": {
+      "sha256": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "bytes": 104992
+    },
+    "rom/detector_gram_q26.mem": {
+      "sha256": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "bytes": 209440
+    },
+    "rom/detector_template_q24.mem": {
+      "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "bytes": 5824
+    },
+    "rom/fft_hann_half_q30.mem": {
+      "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "bytes": 17408
+    },
+    "rom/fft_hann_q30.mem": {
+      "sha256": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "bytes": 34816
+    },
+    "rom/fft_twiddle_im_q30.mem": {
+      "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "bytes": 17408
+    },
+    "rom/fft_twiddle_re_q30.mem": {
+      "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "bytes": 17408
+    },
+    "rom/fixed_bank.mem": {
+      "sha256": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "bytes": 10240
+    },
+    "rom/oled_screen.mem": {
+      "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "bytes": 8192
+    },
+    "rom/prototype.mem": {
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+      "bytes": 10240
+    },
+    "constraints/pro_v1.cst": {
+      "sha256": "9f7b53929791a3be2956515406d9bbb6c5c8519b94feca2a51ae7b4065d2ceda",
+      "bytes": 887
+    },
+    "constraints/pro_v1.sdc": {
+      "sha256": "875d0953a19896679384d9a06322b88204740f05eb45111c2f2e67015a0cda8b",
+      "bytes": 598
+    }
+  },
+  "original_manifest_sha256": "48debedefe2d18502b55b46aaa45f88e66b7883c782635f1fed1ebf5ede72dce",
+  "notes": "No P&R or hardware operation in this packaging task. GUI flow/result cache reset; tool options retained with relative include path."
+}

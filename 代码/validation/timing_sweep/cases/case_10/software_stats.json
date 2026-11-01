@@ -1,0 +1,22 @@
+{
+  "observations": 235,
+  "updates": 16,
+  "strong_overflow_observations": 0,
+  "maximum_active_centers": 4,
+  "sample_count": 16000,
+  "sample_rate_hz": 32000,
+  "window_samples": 1024,
+  "hop_samples": 64,
+  "threshold_db": 21,
+  "max_centers": 4,
+  "filter_taps": 641,
+  "coefficient_fraction_bits": 16,
+  "fade_samples": 32,
+  "alignment_samples": 320,
+  "coefficient_guard_failures": 0,
+  "output_saturations": 0,
+  "frontend_compute_waiting_samples": 0,
+  "coefficient_prepare_waiting_samples": 0,
+  "layer": "Finite-arithmetic software reference; not FPGA timing or board output",
+  "input_information": "Mixed samples only; no reference, labels, or actual output supplied"
+}

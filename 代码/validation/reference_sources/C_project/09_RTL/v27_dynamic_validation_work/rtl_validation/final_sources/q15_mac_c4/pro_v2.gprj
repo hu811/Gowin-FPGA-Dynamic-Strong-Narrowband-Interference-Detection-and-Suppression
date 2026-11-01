@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+  <FileList>
+    <File path="rtl/divide_coefficient_bound10.v" type="file.verilog" enable="1" />
+    <File path="rtl/analysis_fft.v" type="file.verilog" enable="1" />
+    <File path="rtl/analysis_frontend.v" type="file.verilog" enable="1" />
+    <File path="rtl/aux_peak_tracker.v" type="file.verilog" enable="1" />
+    <File path="rtl/basis_generator_service.v" type="file.verilog" enable="1" />
+    <File path="rtl/coefficient_manager.v" type="file.verilog" enable="1" />
+    <File path="rtl/config_scheduler.v" type="file.verilog" enable="1" />
+    <File path="rtl/divide_round.v" type="file.verilog" enable="1" />
+    <File path="rtl/dynamic_executor_v14.v" type="file.verilog" enable="1" />
+    <File path="rtl/fir_mac_core.v" type="file.verilog" enable="1" />
+    <File path="rtl/fitting_solver.v" type="file.verilog" enable="1" />
+    <File path="rtl/group_controller_v14.v" type="file.verilog" enable="1" />
+    <File path="rtl/orthogonal_fitter.v" type="file.verilog" enable="1" />
+    <File path="rtl/pro_v2_auto_core.v" type="file.verilog" enable="1" />
+    <File path="rtl/reset_sync.v" type="file.verilog" enable="1" />
+    <File path="rtl/sample_tick.v" type="file.verilog" enable="1" />
+    <File path="rtl/strong_gate.v" type="file.verilog" enable="1" />
+    <File path="rtl/transition_controller.v" type="file.verilog" enable="1" />
+    <File path="rtl/uart_rx.v" type="file.verilog" enable="1" />
+    <File path="rtl/uart_tx.v" type="file.verilog" enable="1" />
+    <File path="constraints/pro_v1.cst" type="file.cst" enable="1" />
+    <File path="constraints/pro_v1.sdc" type="file.sdc" enable="1" />
+    <File path="rtl/oled_dashboard.v" type="file.verilog" enable="1" />
+    <File path="rtl/i2c_write3.v" type="file.verilog" enable="1" />
+    <File path="rtl/pro_v2_digital_top.v" type="file.verilog" enable="1" />
+    <File path="rtl/digital_link.v" type="file.verilog" enable="1" />
+    <File path="rtl/digital_link_uart_rx.v" type="file.verilog" enable="1" />
+    <File path="rtl/digital_link_ram.v" type="file.verilog" enable="1" />
+    <File path="rtl/digital_link_dsp_add.v" type="file.verilog" enable="1" />
+    <File path="rtl/overlap_backend.v" type="file.verilog" enable="1" />
+    <File path="rtl/overlap_backend_microstore.v" type="file.verilog" enable="1" />
+    <File path="rtl/overlap_backend_tight.v" type="file.verilog" enable="1" />
+    <File path="rtl/overlap_backend_sp.v" type="file.verilog" enable="1" />
+    <File path="rtl/backend_work_sp.v" type="file.verilog" enable="1" />
+    <File path="rtl/overlap_backend_q15_mac.v" type="file.verilog" enable="1" />
+    <File path="rtl/backend_dsp_arithmetic.v" type="file.verilog" enable="1" />
+    <File path="rtl/q15_dsp_mac.v" type="file.verilog" enable="1" />
+  </FileList>
+</Project>

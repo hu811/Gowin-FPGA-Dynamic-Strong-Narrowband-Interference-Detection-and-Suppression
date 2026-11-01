@@ -1,0 +1,5 @@
+﻿window,start_s,stop_s,method,common_samples,input_nrmse_pct,output_nrmse_pct,error_reduction_db,layer
+full_common,0.0,1.99,actual_512_board,63680,1567.3979534196067,105.06012422706989,23.474827307446553,Actual FPGA UART output
+full_common,0.0,1.99,software_1024_21db,63680,1567.3979534196067,127.50239042038413,21.793218966955017,"Finite-arithmetic software, zero compute/preparation waiting"
+stable,0.4,1.2000000000000002,actual_512_board,25600,1994.3292295239671,16.73872335229456,41.52149045592634,Actual FPGA UART output
+stable,0.4,1.2000000000000002,software_1024_21db,25600,1994.3292295239671,16.263575192727423,41.77161665048136,"Finite-arithmetic software, zero compute/preparation waiting"

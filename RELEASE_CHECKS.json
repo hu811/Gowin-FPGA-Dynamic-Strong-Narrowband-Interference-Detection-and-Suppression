@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-01",
+  "offline_delivery": "PASS; project, ROM, original bitstream, dependencies and 22 unit checks",
+  "report_metrics": "PASS; paired NRMSE, component attenuation/window counts, switching and original resource XML",
+  "timing_sweep": "PASS; all archived fixed-input score records",
+  "am_narrowband": "PASS; frozen UART/RTL consistency and same-input software comparison",
+  "new_synthesis_pnr_board_test": false,
+  "report_edit": "Body Normal 12pt SimSun/Times New Roman; all 14 tables 10pt; heading definitions match display; TOC explicit 10.5pt and page numbers refreshed; obsolete comparison launcher name removed.",
+  "canonical_code_file_count": 916,
+  "canonical_code_changes": "Launcher/test/documentation consolidation only; no FPGA/GUI/transport/numerical algorithm change.",
+  "contains_runtime_virtual_environment": false,
+  "published_to_github": false,
+  "privacy_check": "Personal usernames in 32 archived path records anonymized as User; dependent metadata hashes updated. Python/RTL/ROM/bitstream/sample bytes unchanged. Published Git history and Release assets checked separately.",
+  "third_party_data": "Includes derived recording samples for local/private reproduction; public redistribution permission is not confirmed.",
+  "launcher_cleanup_checks": {
+    "entry_routing_tests": 5,
+    "entry_routing_status": "PASS; UART forbidden or mocked",
+    "offline_delivery_tests": 22,
+    "offline_delivery_status": "PASS",
+    "gui_entry": "RUN_C4_GUI.bat",
+    "removed_entries": [
+      "RUN_C4_COMPARISON.bat",
+      "recorded_experiment/RUN_PAIRED_TEST.bat"
+    ],
+    "automatic_pair_entry": "RUN_RECORDED_PAIRED_TEST.bat directly invokes run_paired.py",
+    "hardware_or_serial_operation_performed": false
+  },
+  "report_typography_check": {
+    "pages": 44,
+    "tables": 14,
+    "captions": 40,
+    "toc_bookmark_page_numbers_match": true,
+    "pdf_contains_dengxian": false,
+    "technical_text_and_equations_unchanged": true
+  },
+  "report_pagination_check": {
+    "pages": 44,
+    "table_2a_complete_on_page": 23,
+    "content_fonts_unchanged": true,
+    "pdf_synced": true,
+    "toc_page_numbers_updated": true
+  },
+  "privacy_cleanup_checks": {
+    "personal_path_files": 32,
+    "code_payload_files": 916,
+    "source_and_sample_bytes_unchanged": true,
+    "offline_delivery_unit_checks": 22,
+    "report_component_rescore": "PASS",
+    "timing_sweep_48_rows": "PASS",
+    "am_metrics": "PASS",
+    "new_synthesis_pnr_or_board_run": false
+  }
+}

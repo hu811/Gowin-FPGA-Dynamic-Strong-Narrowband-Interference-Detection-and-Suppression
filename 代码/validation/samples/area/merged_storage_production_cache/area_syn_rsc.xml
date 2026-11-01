@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="area_top" Lut="48" T_Register="523(0)" T_Alu="260(0)" T_Lut="726(48)" T_MULTALU27X18="1(0)" T_Bsram="7(0)">
+ <SubModule name="backend" Register="50" Alu="21" Lut="91" Bsram="4" T_Register="523(50)" T_Alu="260(21)" T_Lut="678(91)" T_MULTALU27X18="1(0)" T_Bsram="7(4)">
+  <SubModule name="fir" Register="473" Alu="239" Lut="587" MULTALU27X18="1" Bsram="3" T_Register="473(473)" T_Alu="239(239)" T_Lut="587(587)" T_MULTALU27X18="1(1)" T_Bsram="3(3)"/>
+ </SubModule>
+</Module>

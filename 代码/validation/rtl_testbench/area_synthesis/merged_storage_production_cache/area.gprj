@@ -1,0 +1,12 @@
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+  <FileList>
+    <File path="area_top.v" type="file.verilog" enable="1" />
+    <File path="fir_mac_core.v" type="file.verilog" enable="1" />
+    <File path="shared_correction_mac.v" type="file.verilog" enable="1" />
+    <File path="merged_storage_backend.v" type="file.verilog" enable="1" />
+    <File path="timing.sdc" type="file.sdc" enable="1" />
+  </FileList>
+</Project>

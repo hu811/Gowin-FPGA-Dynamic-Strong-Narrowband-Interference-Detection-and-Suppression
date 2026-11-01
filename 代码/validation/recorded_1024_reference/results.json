@@ -1,0 +1,553 @@
+{
+  "status": "OFFLINE_RECORDED_1024_REFERENCE_COMPLETE",
+  "input": {
+    "file": "D:\\FPGA_Competition\\最终提交\\代码\\real_recorded_inputs\\prepared\\drm_recorded_two_pairs\\input.npy",
+    "payload_sha256": "f7273ee103dedc1a4a49282317bf0fd88425d1408b2abdc316b29c7daee03358",
+    "samples": 64000,
+    "sample_rate_hz": 32000
+  },
+  "actual_512_board_capture": "D:\\FPGA_Competition\\最终提交\\代码\\host_ui\\captures\\c4_20261027_223556_432532",
+  "actual_output_payload_sha256": "99b0f1e6efaf072326a52f844f88c27144177f8fba8017f9fe0f2d9ea40700b6",
+  "software_output_payload_sha256": "99587791cbe21ebea6e68104f80945494a250eccab0de976b09536289930f0eb",
+  "config": {
+    "window": 1024,
+    "hop": 64,
+    "fs": 32000,
+    "threshold_db": 21,
+    "estimator": "dtft_grid_q30",
+    "minimum_grid": 256,
+    "maximum_grid": 1792,
+    "max_centers": 4,
+    "match_grid": 24,
+    "minimum_separation_grid": 12,
+    "missing_exit_observations": 2,
+    "fade_samples": 32
+  },
+  "sources": {
+    "fixed_baseline.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\fixed_baseline.py",
+      "sha256": "9a77b7f69f893cb05edf3ed95424073f920b19ed81f8fcba2e2c1c125d0bb88b"
+    },
+    "run_comparison.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\run_comparison.py",
+      "sha256": "594571ff04dae79e82960d28bb00587edd7d0a623bcc8403b564139eca12665b"
+    },
+    "evaluate_q15.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\evaluate_q15.py",
+      "sha256": "662161ae84450f34c01883f55795a5fac8d4150a42504a8dcb6fa1904ea31785"
+    },
+    "basis_probe.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\basis_probe.py",
+      "sha256": "0b8c037b0937b610679d9f89eac45ad9097126b1a5cfd04c904c9b2b65279d92"
+    },
+    "fixed_builder.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\fixed_builder.py",
+      "sha256": "5f2e474ce416a501b8a90e97e11ec1c1a5c81a36159827c3aa2cb5569245e033"
+    },
+    "fir_replay.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\fir_replay.py",
+      "sha256": "673ca8f4e5617feea64cd9510fc3cc9e15d89886f7bdaf604ba6bc54f40bb493"
+    },
+    "fft_reference.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\fft_reference.py",
+      "sha256": "99ce293a8315bb08767321ccc91baf4ce38dc3146d67bf51677ae3b0528f1cb3"
+    },
+    "gate_reference.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\gate_reference.py",
+      "sha256": "95a53463359037f54c893ccbd36d52a4732a4a9cf041c57b25ca9f913215885f"
+    },
+    "aux_reference.py": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\aux_reference.py",
+      "sha256": "07d0f301b637060e428915a3c5765c0ad531961b7a21c164fe678f1815d7fc25"
+    },
+    "rom/prototype.mem": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\rom\\prototype.mem",
+      "sha256": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a"
+    },
+    "rom/cos_grid_direct.mem": {
+      "package_source": "D:\\FPGA_Competition\\最终提交\\代码\\validation\\recorded_1024_reference\\frozen_source\\rom\\cos_grid_direct.mem",
+      "sha256": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c"
+    }
+  },
+  "driver_sha256": "a597ebfeb29e7270993c412bc97cc257f26864759d818ee258d90e0a044a9039",
+  "backend_reuse_check": {
+    "status": "PASS",
+    "samples": 30400,
+    "output_mismatches_lsb": 0,
+    "banks_equal": true,
+    "trajectory_equal": true,
+    "source_archive": "backend_reuse_fixture.npz",
+    "source_archive_sha256": "7bf93d89b221146e51b789936214eecc76643b2bfdccbddf96c9edbb8add49b0",
+    "original_provenance": {
+      "original_archive": "D:\\FPGA_Competition\\支撑材料\\项目资料\\09_RTL\\v30_temporal_c4_work\\software\\baseline_results\\c4_temporal_gap8ms_heldout\\conventional1024_fixed21_dtft.npz",
+      "original_archive_sha256": "8d023faf0ba186af5838eb77122f2e886ade8fb9e39acca2156073d5296ad9b6",
+      "original_decisions_sha256": "36817e023a3d9a83521d9a3bd27a8d3c7845da14b8ddbdc3fbdb0930552d40f4",
+      "copied_fields": [
+        "input",
+        "output",
+        "banks_q16",
+        "trajectory"
+      ],
+      "update_subset": "All original updates; observations/scoring labels omitted."
+    }
+  },
+  "function_reuse": {
+    "evaluate_q15.py": [
+      "response_q15",
+      "build_q15"
+    ],
+    "run_comparison.py": [
+      "replay"
+    ],
+    "mechanism": "Original unchanged function ASTs executed with explicit frozen numeric dependencies; unrelated scoring imports omitted."
+  },
+  "detector_statistics": {
+    "observations": 985,
+    "updates": 25,
+    "strong_overflow_observations": 0,
+    "maximum_active_centers": 4
+  },
+  "coefficient_guard_failures": 0,
+  "output_saturations": 0,
+  "windows": {
+    "full_common": {
+      "actual_512_board": {
+        "sample_rate_hz": 32000,
+        "aligned": true,
+        "alignment_samples": 320,
+        "first_sample": 0,
+        "stop_sample_exclusive": 63680,
+        "common_samples": 63680,
+        "common_ms": 1990.0,
+        "measurement_scope": "actual_common",
+        "input_nrmse_pct": 1567.3979534196067,
+        "output_nrmse_pct": 105.06012422706989,
+        "nrmse_percent": {
+          "input": 1567.3979534196067,
+          "output": 105.06012422706989
+        },
+        "nrmse_unavailable_reason": null,
+        "error_reduction_db": 23.474827307446553,
+        "error_reduction_unavailable_reason": null,
+        "midpoints": [
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "pair_label": "1–2",
+            "available": false,
+            "frequency_hz": 4373.8,
+            "spectral_change_db": null,
+            "change_db": null,
+            "acceptance_pass": null,
+            "reason": "该对未覆盖整个公共观察窗"
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "pair_label": "3–4",
+            "available": false,
+            "frequency_hz": 6035.2,
+            "spectral_change_db": null,
+            "change_db": null,
+            "acceptance_pass": null,
+            "reason": "该对未覆盖整个公共观察窗"
+          }
+        ],
+        "interferers": [
+          {
+            "event_index": 1,
+            "event_label": "干扰 1",
+            "frequency_hz": 4311.3,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 2,
+            "event_label": "干扰 2",
+            "frequency_hz": 4436.3,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 3,
+            "event_label": "干扰 3",
+            "frequency_hz": 5972.7,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 4,
+            "event_label": "干扰 4",
+            "frequency_hz": 6097.7,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          }
+        ],
+        "definitions": {
+          "nrmse": "100*norm(signal-clean)/norm(clean); fixed 320-sample alignment; no gain fitting",
+          "error_reduction_db": "20log10(norm(input-clean)/norm(output-clean)); common aligned interval; no gain fitting; zero errors return null with a reason",
+          "interferer_attenuation": "Offline configured fixed source frequency +/- one FFT bin; same-window Hann mixed input/output band power ratio, signed dB; >=80ms, no source edges/changes and >4 bins from other active tones",
+          "interferer_limit": "Total mixed-band attenuation includes target and noise. It is not isolated per-source interference attenuation and cannot certify a 20dB requirement. Source labels are used only for offline display.",
+          "midpoint": "Offline configured-frequency connected groups with <=750Hz neighbor gaps and exactly two enabled members; not FPGA grouping. Hann output/reference power ratio in midpoint +/- one FFT bin; signed dB",
+          "midpoint_limit": "Mixed output includes residual interferers and noise. This is not isolated target loss, not online grouping, and cannot certify the <=1 dB protection requirement."
+        }
+      },
+      "software_1024_21db": {
+        "sample_rate_hz": 32000,
+        "aligned": true,
+        "alignment_samples": 320,
+        "first_sample": 0,
+        "stop_sample_exclusive": 63680,
+        "common_samples": 63680,
+        "common_ms": 1990.0,
+        "measurement_scope": "actual_common",
+        "input_nrmse_pct": 1567.3979534196067,
+        "output_nrmse_pct": 127.50239042038413,
+        "nrmse_percent": {
+          "input": 1567.3979534196067,
+          "output": 127.50239042038413
+        },
+        "nrmse_unavailable_reason": null,
+        "error_reduction_db": 21.793218966955017,
+        "error_reduction_unavailable_reason": null,
+        "midpoints": [
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "pair_label": "1–2",
+            "available": false,
+            "frequency_hz": 4373.8,
+            "spectral_change_db": null,
+            "change_db": null,
+            "acceptance_pass": null,
+            "reason": "该对未覆盖整个公共观察窗"
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "pair_label": "3–4",
+            "available": false,
+            "frequency_hz": 6035.2,
+            "spectral_change_db": null,
+            "change_db": null,
+            "acceptance_pass": null,
+            "reason": "该对未覆盖整个公共观察窗"
+          }
+        ],
+        "interferers": [
+          {
+            "event_index": 1,
+            "event_label": "干扰 1",
+            "frequency_hz": 4311.3,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 2,
+            "event_label": "干扰 2",
+            "frequency_hz": 4436.3,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 3,
+            "event_label": "干扰 3",
+            "frequency_hz": 5972.7,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          },
+          {
+            "event_index": 4,
+            "event_label": "干扰 4",
+            "frequency_hz": 6097.7,
+            "available": false,
+            "attenuation_db": null,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "该路未覆盖整个公共观察窗"
+          }
+        ],
+        "definitions": {
+          "nrmse": "100*norm(signal-clean)/norm(clean); fixed 320-sample alignment; no gain fitting",
+          "error_reduction_db": "20log10(norm(input-clean)/norm(output-clean)); common aligned interval; no gain fitting; zero errors return null with a reason",
+          "interferer_attenuation": "Offline configured fixed source frequency +/- one FFT bin; same-window Hann mixed input/output band power ratio, signed dB; >=80ms, no source edges/changes and >4 bins from other active tones",
+          "interferer_limit": "Total mixed-band attenuation includes target and noise. It is not isolated per-source interference attenuation and cannot certify a 20dB requirement. Source labels are used only for offline display.",
+          "midpoint": "Offline configured-frequency connected groups with <=750Hz neighbor gaps and exactly two enabled members; not FPGA grouping. Hann output/reference power ratio in midpoint +/- one FFT bin; signed dB",
+          "midpoint_limit": "Mixed output includes residual interferers and noise. This is not isolated target loss, not online grouping, and cannot certify the <=1 dB protection requirement."
+        }
+      },
+      "actual_512_relative_error_reduction_vs_software_1024_pct": 17.60144740762941
+    },
+    "stable": {
+      "actual_512_board": {
+        "sample_rate_hz": 32000,
+        "aligned": true,
+        "alignment_samples": 320,
+        "first_sample": 12800,
+        "stop_sample_exclusive": 38400,
+        "common_samples": 25600,
+        "common_ms": 800.0,
+        "measurement_scope": "actual_common",
+        "input_nrmse_pct": 1994.3292295239671,
+        "output_nrmse_pct": 16.73872335229456,
+        "nrmse_percent": {
+          "input": 1994.3292295239671,
+          "output": 16.73872335229456
+        },
+        "nrmse_unavailable_reason": null,
+        "error_reduction_db": 41.52149045592634,
+        "error_reduction_unavailable_reason": null,
+        "midpoints": [
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "pair_label": "1–2",
+            "available": true,
+            "frequency_hz": 4373.8,
+            "spectral_change_db": 0.2858770003083625,
+            "change_db": 0.2858770003083625,
+            "acceptance_pass": null,
+            "reason": "仅谱变化估计，不作 1 dB 验收",
+            "band_low_hz": 4373.75,
+            "band_high_hz": 4375.0,
+            "bin_hz": 1.25
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "pair_label": "3–4",
+            "available": true,
+            "frequency_hz": 6035.2,
+            "spectral_change_db": -0.08952867482140374,
+            "change_db": -0.08952867482140374,
+            "acceptance_pass": null,
+            "reason": "仅谱变化估计，不作 1 dB 验收",
+            "band_low_hz": 6035.0,
+            "band_high_hz": 6036.25,
+            "bin_hz": 1.25
+          }
+        ],
+        "interferers": [
+          {
+            "event_index": 1,
+            "event_label": "干扰 1",
+            "frequency_hz": 4311.3,
+            "available": true,
+            "attenuation_db": 71.18389158696945,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 4311.25,
+            "band_high_hz": 4312.5,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 2,
+            "event_label": "干扰 2",
+            "frequency_hz": 4436.3,
+            "available": true,
+            "attenuation_db": 52.64174481877543,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 4436.25,
+            "band_high_hz": 4437.5,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 3,
+            "event_label": "干扰 3",
+            "frequency_hz": 5972.7,
+            "available": true,
+            "attenuation_db": 77.43300438815803,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 5972.5,
+            "band_high_hz": 5973.75,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 4,
+            "event_label": "干扰 4",
+            "frequency_hz": 6097.7,
+            "available": true,
+            "attenuation_db": 49.94462240462105,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 6097.5,
+            "band_high_hz": 6098.75,
+            "bin_hz": 1.25
+          }
+        ],
+        "definitions": {
+          "nrmse": "100*norm(signal-clean)/norm(clean); fixed 320-sample alignment; no gain fitting",
+          "error_reduction_db": "20log10(norm(input-clean)/norm(output-clean)); common aligned interval; no gain fitting; zero errors return null with a reason",
+          "interferer_attenuation": "Offline configured fixed source frequency +/- one FFT bin; same-window Hann mixed input/output band power ratio, signed dB; >=80ms, no source edges/changes and >4 bins from other active tones",
+          "interferer_limit": "Total mixed-band attenuation includes target and noise. It is not isolated per-source interference attenuation and cannot certify a 20dB requirement. Source labels are used only for offline display.",
+          "midpoint": "Offline configured-frequency connected groups with <=750Hz neighbor gaps and exactly two enabled members; not FPGA grouping. Hann output/reference power ratio in midpoint +/- one FFT bin; signed dB",
+          "midpoint_limit": "Mixed output includes residual interferers and noise. This is not isolated target loss, not online grouping, and cannot certify the <=1 dB protection requirement."
+        }
+      },
+      "software_1024_21db": {
+        "sample_rate_hz": 32000,
+        "aligned": true,
+        "alignment_samples": 320,
+        "first_sample": 12800,
+        "stop_sample_exclusive": 38400,
+        "common_samples": 25600,
+        "common_ms": 800.0,
+        "measurement_scope": "actual_common",
+        "input_nrmse_pct": 1994.3292295239671,
+        "output_nrmse_pct": 16.263575192727423,
+        "nrmse_percent": {
+          "input": 1994.3292295239671,
+          "output": 16.263575192727423
+        },
+        "nrmse_unavailable_reason": null,
+        "error_reduction_db": 41.77161665048136,
+        "error_reduction_unavailable_reason": null,
+        "midpoints": [
+          {
+            "pair": [
+              1,
+              2
+            ],
+            "pair_label": "1–2",
+            "available": true,
+            "frequency_hz": 4373.8,
+            "spectral_change_db": 0.29009933760782886,
+            "change_db": 0.29009933760782886,
+            "acceptance_pass": null,
+            "reason": "仅谱变化估计，不作 1 dB 验收",
+            "band_low_hz": 4373.75,
+            "band_high_hz": 4375.0,
+            "bin_hz": 1.25
+          },
+          {
+            "pair": [
+              3,
+              4
+            ],
+            "pair_label": "3–4",
+            "available": true,
+            "frequency_hz": 6035.2,
+            "spectral_change_db": 0.31912204012689305,
+            "change_db": 0.31912204012689305,
+            "acceptance_pass": null,
+            "reason": "仅谱变化估计，不作 1 dB 验收",
+            "band_low_hz": 6035.0,
+            "band_high_hz": 6036.25,
+            "bin_hz": 1.25
+          }
+        ],
+        "interferers": [
+          {
+            "event_index": 1,
+            "event_label": "干扰 1",
+            "frequency_hz": 4311.3,
+            "available": true,
+            "attenuation_db": 75.04594574777528,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 4311.25,
+            "band_high_hz": 4312.5,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 2,
+            "event_label": "干扰 2",
+            "frequency_hz": 4436.3,
+            "available": true,
+            "attenuation_db": 53.13846227950624,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 4436.25,
+            "band_high_hz": 4437.5,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 3,
+            "event_label": "干扰 3",
+            "frequency_hz": 5972.7,
+            "available": true,
+            "attenuation_db": 85.85563182235938,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 5972.5,
+            "band_high_hz": 5973.75,
+            "bin_hz": 1.25
+          },
+          {
+            "event_index": 4,
+            "event_label": "干扰 4",
+            "frequency_hz": 6097.7,
+            "available": true,
+            "attenuation_db": 78.1665392619876,
+            "acceptance_pass": null,
+            "measurement": "总混合频带抑制估计",
+            "reason": "总混合频带抑制估计，不作独立每路 20 dB 验收",
+            "band_low_hz": 6097.5,
+            "band_high_hz": 6098.75,
+            "bin_hz": 1.25
+          }
+        ],
+        "definitions": {
+          "nrmse": "100*norm(signal-clean)/norm(clean); fixed 320-sample alignment; no gain fitting",
+          "error_reduction_db": "20log10(norm(input-clean)/norm(output-clean)); common aligned interval; no gain fitting; zero errors return null with a reason",
+          "interferer_attenuation": "Offline configured fixed source frequency +/- one FFT bin; same-window Hann mixed input/output band power ratio, signed dB; >=80ms, no source edges/changes and >4 bins from other active tones",
+          "interferer_limit": "Total mixed-band attenuation includes target and noise. It is not isolated per-source interference attenuation and cannot certify a 20dB requirement. Source labels are used only for offline display.",
+          "midpoint": "Offline configured-frequency connected groups with <=750Hz neighbor gaps and exactly two enabled members; not FPGA grouping. Hann output/reference power ratio in midpoint +/- one FFT bin; signed dB",
+          "midpoint_limit": "Mixed output includes residual interferers and noise. This is not isolated target loss, not online grouping, and cannot certify the <=1 dB protection requirement."
+        }
+      },
+      "actual_512_relative_error_reduction_vs_software_1024_pct": -2.9215480233375057
+    }
+  },
+  "offline_wall_seconds_not_fpga_latency": 17.176803300000756,
+  "limitations": [
+    "512 output is actual FPGA board capture; 1024 output is software finite arithmetic. This is not two-board or complete online RTL comparison.",
+    "1024 software observation is available at completed window sample; FFT/DTFT computation and coefficient preparation waiting are zero. Not an FPGA latency measurement or quality bound.",
+    "Software latest-deferred-bank scheduling and existing actual FPGA authorization/queue/commit scheduling may differ. 32-sample fades and continuous input history are retained.",
+    "Same numeric 21 dB gate and physical 187.5..750 Hz reference interval do not prove equal false-alarm probability; 1024 uses 19 samples per side.",
+    "Received recording retains noise/channel/pilots; no clean transmitter truth or BER measurement. Full interval includes transitions; stable interval is separately reported.",
+    "No new UART/RTL/synthesis/P&R or threshold tuning performed."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "timing-sweep-run-source-1",
+  "source_hashes": {
+    "run_sweep.py": "c9e314afd6664679811dfddcd48ca57b88579a2ad978a9b7d8d282426a6c820c",
+    "verify_runtime.py": "6f3c216db2b80d574b3203dd79b58f59b3b451f248b9a82d05c4e82e9009fb6d",
+    "experiment_plan.json": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+    "runtime_identity.json": "f038d587fa97ad5a46c3613f7d6c8c2265fbee2f7f7b758d4ec82f803746aee5",
+    "golden_calibration.json": "67df3f4e04b9a48be90730f22344e5ea4de03badbbce2d946dbad7d70d687aec"
+  },
+  "new_pnr_or_uart_executed": false,
+  "production_modified": false,
+  "description": "Source identity recorded during the ongoing frozen run; README may be refined without changing numerical code."
+}

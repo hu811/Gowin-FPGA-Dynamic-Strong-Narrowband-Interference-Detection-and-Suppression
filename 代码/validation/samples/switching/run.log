@@ -1,0 +1,4 @@
+CASE 0 PASS outputs=4096 fade_cycles=1296 hard_cycles=645
+CASE 1 PASS outputs=4096 fade_cycles=1296 hard_cycles=645
+PASS controlled switching
+tb_switch.v:77: $finish called at 256411120000 (1ps)

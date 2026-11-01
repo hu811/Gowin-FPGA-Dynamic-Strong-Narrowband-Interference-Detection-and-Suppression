@@ -1,0 +1,100 @@
+{
+  "name": "c4_temporal_gap8ms_heldout",
+  "capacity": 4,
+  "seed": 26102131,
+  "seconds": 0.95,
+  "frequencies_hz": [
+    1639.7,
+    1764.7,
+    5831.3,
+    5956.3
+  ],
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "segments": [
+    [
+      0,
+      0.19309375,
+      0.70665625
+    ],
+    [
+      1,
+      0.19409375,
+      0.70765625
+    ],
+    [
+      2,
+      0.20109375,
+      0.82459375
+    ],
+    [
+      3,
+      0.20209375,
+      0.82559375
+    ]
+  ],
+  "role": "heldout_no_policy_tuning",
+  "pair_start_gap_samples": 256,
+  "member_stagger_samples": 32,
+  "fs": 32000,
+  "samples": 30400,
+  "events": [
+    {
+      "center": 0,
+      "frequency_hz": 1639.7,
+      "start_sample": 6179,
+      "end_sample": 22613
+    },
+    {
+      "center": 1,
+      "frequency_hz": 1764.7,
+      "start_sample": 6211,
+      "end_sample": 22645
+    },
+    {
+      "center": 2,
+      "frequency_hz": 5831.3,
+      "start_sample": 6435,
+      "end_sample": 26387
+    },
+    {
+      "center": 3,
+      "frequency_hz": 5956.3,
+      "start_sample": 6467,
+      "end_sample": 26419
+    }
+  ],
+  "probe_frequencies_hz": [
+    1702.2,
+    5893.8
+  ],
+  "primary_output_sample_range": [
+    6179,
+    28019
+  ],
+  "front_end_gain": 1.0,
+  "actual_target_rms": 0.01,
+  "pre_gain_clean_power": 0.00010193532433217782,
+  "actual_jammer_peak_amplitude": 0.14278327936574214,
+  "phases_rad": [
+    2.3427995879192407,
+    -1.87557681106206,
+    -1.6013428956778144,
+    -1.548065509606716
+  ],
+  "maximum_simultaneous_interferers": 4,
+  "max_input_abs_counts": 16656,
+  "input_sha256": "1d92e40a969d32e51c579472b7c80090e753f50cb2707083c2a39a36487f8f1e",
+  "plan_sha256": "15eeba4440c098a1c4f7cc12e2ee3a3a7256a95f789cafec1c275a7808c5c611",
+  "generator_sha256": "0096455c9b8934e810a9a3c782d0cae093c195bb1f2da896f4ca6da86c843cb7",
+  "input_encoding": "signed int16, RNE normalized*32768; labels offline only",
+  "online_truth_access": false
+}

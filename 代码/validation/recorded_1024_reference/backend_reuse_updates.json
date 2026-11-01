@@ -1,0 +1,151 @@
+{
+  "updates": [
+    {
+      "sample": 6720,
+      "frequencies_hz": [
+        1648.4375
+      ],
+      "observation": 89
+    },
+    {
+      "sample": 6784,
+      "frequencies_hz": [
+        1644.53125,
+        1753.90625
+      ],
+      "observation": 90
+    },
+    {
+      "sample": 6848,
+      "frequencies_hz": [
+        1644.53125,
+        1757.8125
+      ],
+      "observation": 91
+    },
+    {
+      "sample": 6912,
+      "frequencies_hz": [
+        1640.625,
+        1761.71875
+      ],
+      "observation": 92
+    },
+    {
+      "sample": 6976,
+      "frequencies_hz": [
+        1640.625,
+        1761.71875,
+        5828.125,
+        5972.65625
+      ],
+      "observation": 93
+    },
+    {
+      "sample": 7040,
+      "frequencies_hz": [
+        1640.625,
+        1761.71875,
+        5832.03125,
+        5964.84375
+      ],
+      "observation": 94
+    },
+    {
+      "sample": 7104,
+      "frequencies_hz": [
+        1640.625,
+        1765.625,
+        5832.03125,
+        5960.9375
+      ],
+      "observation": 95
+    },
+    {
+      "sample": 7168,
+      "frequencies_hz": [
+        1640.625,
+        1765.625,
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 96
+    },
+    {
+      "sample": 22784,
+      "frequencies_hz": [
+        1640.625,
+        1761.71875,
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 340
+    },
+    {
+      "sample": 22912,
+      "frequencies_hz": [
+        1636.71875,
+        1761.71875,
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 342
+    },
+    {
+      "sample": 23040,
+      "frequencies_hz": [
+        1632.8125,
+        1761.71875,
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 344
+    },
+    {
+      "sample": 23104,
+      "frequencies_hz": [
+        1628.90625,
+        1761.71875,
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 345
+    },
+    {
+      "sample": 23232,
+      "frequencies_hz": [
+        5832.03125,
+        5957.03125
+      ],
+      "observation": 347
+    },
+    {
+      "sample": 26752,
+      "frequencies_hz": [
+        5828.125,
+        5960.9375
+      ],
+      "observation": 402
+    },
+    {
+      "sample": 26816,
+      "frequencies_hz": [
+        5832.03125,
+        5960.9375
+      ],
+      "observation": 403
+    },
+    {
+      "sample": 27136,
+      "frequencies_hz": [
+        5898.4375
+      ],
+      "observation": 408
+    },
+    {
+      "sample": 27264,
+      "frequencies_hz": [],
+      "observation": 410
+    }
+  ]
+}

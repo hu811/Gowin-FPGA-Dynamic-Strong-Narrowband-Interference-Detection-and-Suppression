@@ -1,0 +1,442 @@
+{
+  "status": "INDEPENDENT_SAVED_SAMPLE_METRICS_PASS",
+  "plan_sha256": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+  "cases_checked": 15,
+  "rows_recomputed": 48,
+  "actual512_npy_matches_native_trace": true,
+  "records": [
+    {
+      "axis": "internal_delta",
+      "delay_ms": 0.0,
+      "window": "full_common",
+      "case_id": "case_00",
+      "nrmse_512_recomputed_pct": 174.41462777999027,
+      "nrmse_1024_recomputed_pct": 230.1555136551685,
+      "relative_reduction_recomputed_pct": 24.218792324346513
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 0.0,
+      "window": "entry",
+      "case_id": "case_00",
+      "nrmse_512_recomputed_pct": 271.5756878390296,
+      "nrmse_1024_recomputed_pct": 377.45967280505243,
+      "relative_reduction_recomputed_pct": 28.05173442215878
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 0.0,
+      "window": "stable",
+      "case_id": "case_00",
+      "nrmse_512_recomputed_pct": 26.2497203590956,
+      "nrmse_1024_recomputed_pct": 22.757430229855576,
+      "relative_reduction_recomputed_pct": -15.345713878794953
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 1.0,
+      "window": "full_common",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 201.7333445276874,
+      "nrmse_1024_recomputed_pct": 267.1081488220151,
+      "relative_reduction_recomputed_pct": 24.47503177369911
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 1.0,
+      "window": "entry",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 330.6493559805461,
+      "nrmse_1024_recomputed_pct": 450.4485588310759,
+      "relative_reduction_recomputed_pct": 26.59553471797344
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 1.0,
+      "window": "stable",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 25.87540917100332,
+      "nrmse_1024_recomputed_pct": 22.761437786903887,
+      "relative_reduction_recomputed_pct": -13.680908092243186
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 2.0,
+      "window": "full_common",
+      "case_id": "case_02",
+      "nrmse_512_recomputed_pct": 188.69681714765105,
+      "nrmse_1024_recomputed_pct": 238.0171385359603,
+      "relative_reduction_recomputed_pct": 20.721331956042235
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 2.0,
+      "window": "entry",
+      "case_id": "case_02",
+      "nrmse_512_recomputed_pct": 304.0615692844229,
+      "nrmse_1024_recomputed_pct": 390.3045131957731,
+      "relative_reduction_recomputed_pct": 22.09632248553876
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 2.0,
+      "window": "stable",
+      "case_id": "case_02",
+      "nrmse_512_recomputed_pct": 26.592114238942564,
+      "nrmse_1024_recomputed_pct": 22.761222679630453,
+      "relative_reduction_recomputed_pct": -16.83078107548442
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 4.0,
+      "window": "full_common",
+      "case_id": "case_03",
+      "nrmse_512_recomputed_pct": 201.69000226635066,
+      "nrmse_1024_recomputed_pct": 235.44284069569332,
+      "relative_reduction_recomputed_pct": 14.3358950009305
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 4.0,
+      "window": "entry",
+      "case_id": "case_03",
+      "nrmse_512_recomputed_pct": 329.58254369334264,
+      "nrmse_1024_recomputed_pct": 382.18189852412576,
+      "relative_reduction_recomputed_pct": 13.762911072948869
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 4.0,
+      "window": "stable",
+      "case_id": "case_03",
+      "nrmse_512_recomputed_pct": 25.86824363128265,
+      "nrmse_1024_recomputed_pct": 22.752953802466116,
+      "relative_reduction_recomputed_pct": -13.691803955928028
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 8.0,
+      "window": "full_common",
+      "case_id": "case_04",
+      "nrmse_512_recomputed_pct": 187.19549923346102,
+      "nrmse_1024_recomputed_pct": 222.78206629305097,
+      "relative_reduction_recomputed_pct": 15.973712629444254
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 8.0,
+      "window": "entry",
+      "case_id": "case_04",
+      "nrmse_512_recomputed_pct": 297.23865882290187,
+      "nrmse_1024_recomputed_pct": 358.03049767343686,
+      "relative_reduction_recomputed_pct": 16.97951410440566
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 8.0,
+      "window": "stable",
+      "case_id": "case_04",
+      "nrmse_512_recomputed_pct": 25.86542478494259,
+      "nrmse_1024_recomputed_pct": 22.74639789527226,
+      "relative_reduction_recomputed_pct": -13.712179414212244
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 16.0,
+      "window": "full_common",
+      "case_id": "case_05",
+      "nrmse_512_recomputed_pct": 197.11216984089418,
+      "nrmse_1024_recomputed_pct": 221.9415931098469,
+      "relative_reduction_recomputed_pct": 11.187368226497206
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 16.0,
+      "window": "entry",
+      "case_id": "case_05",
+      "nrmse_512_recomputed_pct": 298.96412556880745,
+      "nrmse_1024_recomputed_pct": 353.1834796231745,
+      "relative_reduction_recomputed_pct": 15.351611041438245
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 16.0,
+      "window": "stable",
+      "case_id": "case_05",
+      "nrmse_512_recomputed_pct": 25.859576503505806,
+      "nrmse_1024_recomputed_pct": 22.74271471172048,
+      "relative_reduction_recomputed_pct": -13.704880139832417
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 32.0,
+      "window": "full_common",
+      "case_id": "case_06",
+      "nrmse_512_recomputed_pct": 187.7391180147891,
+      "nrmse_1024_recomputed_pct": 222.36923440230854,
+      "relative_reduction_recomputed_pct": 15.573249816054547
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 32.0,
+      "window": "entry",
+      "case_id": "case_06",
+      "nrmse_512_recomputed_pct": 298.5750075940331,
+      "nrmse_1024_recomputed_pct": 359.8365862713664,
+      "relative_reduction_recomputed_pct": 17.024833220025503
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 32.0,
+      "window": "stable",
+      "case_id": "case_06",
+      "nrmse_512_recomputed_pct": 25.87763383178442,
+      "nrmse_1024_recomputed_pct": 22.75948240740455,
+      "relative_reduction_recomputed_pct": -13.700449634853783
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 64.0,
+      "window": "full_common",
+      "case_id": "case_07",
+      "nrmse_512_recomputed_pct": 186.4066956724222,
+      "nrmse_1024_recomputed_pct": 230.57585096021293,
+      "relative_reduction_recomputed_pct": 19.156019636857966
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 64.0,
+      "window": "entry",
+      "case_id": "case_07",
+      "nrmse_512_recomputed_pct": 299.18737197500434,
+      "nrmse_1024_recomputed_pct": 374.5760544700604,
+      "relative_reduction_recomputed_pct": 20.126401993772355
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 64.0,
+      "window": "stable",
+      "case_id": "case_07",
+      "nrmse_512_recomputed_pct": 26.593806948965174,
+      "nrmse_1024_recomputed_pct": 22.757403338423888,
+      "relative_reduction_recomputed_pct": -16.85782667508403
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 0.0,
+      "window": "full_common",
+      "case_id": "case_08",
+      "nrmse_512_recomputed_pct": 199.91384994937746,
+      "nrmse_1024_recomputed_pct": 273.58713660716904,
+      "relative_reduction_recomputed_pct": 26.928636913063496
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 0.0,
+      "window": "entry",
+      "case_id": "case_08",
+      "nrmse_512_recomputed_pct": 327.4888111399739,
+      "nrmse_1024_recomputed_pct": 463.30365947070004,
+      "relative_reduction_recomputed_pct": 29.31443461635667
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 0.0,
+      "window": "stable",
+      "case_id": "case_08",
+      "nrmse_512_recomputed_pct": 23.304203042787627,
+      "nrmse_1024_recomputed_pct": 22.737640834744195,
+      "relative_reduction_recomputed_pct": -2.491736993125947
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 1.0,
+      "window": "full_common",
+      "case_id": "case_09",
+      "nrmse_512_recomputed_pct": 216.77694627706634,
+      "nrmse_1024_recomputed_pct": 276.43173363894033,
+      "relative_reduction_recomputed_pct": 21.580296363438407
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 1.0,
+      "window": "entry",
+      "case_id": "case_09",
+      "nrmse_512_recomputed_pct": 362.339655759752,
+      "nrmse_1024_recomputed_pct": 466.9821115104568,
+      "relative_reduction_recomputed_pct": 22.40823645519055
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 1.0,
+      "window": "stable",
+      "case_id": "case_09",
+      "nrmse_512_recomputed_pct": 24.711275583232236,
+      "nrmse_1024_recomputed_pct": 22.73080536565326,
+      "relative_reduction_recomputed_pct": -8.7127146870542
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 2.0,
+      "window": "full_common",
+      "case_id": "case_10",
+      "nrmse_512_recomputed_pct": 197.13675155545727,
+      "nrmse_1024_recomputed_pct": 262.5295319259868,
+      "relative_reduction_recomputed_pct": 24.90873308263289
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 2.0,
+      "window": "entry",
+      "case_id": "case_10",
+      "nrmse_512_recomputed_pct": 317.9303871349811,
+      "nrmse_1024_recomputed_pct": 437.6122992939288,
+      "relative_reduction_recomputed_pct": 27.348845622495073
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 2.0,
+      "window": "stable",
+      "case_id": "case_10",
+      "nrmse_512_recomputed_pct": 22.939546464583643,
+      "nrmse_1024_recomputed_pct": 22.731451879445373,
+      "relative_reduction_recomputed_pct": -0.9154478395919633
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 4.0,
+      "window": "full_common",
+      "case_id": "case_11",
+      "nrmse_512_recomputed_pct": 204.6237138828035,
+      "nrmse_1024_recomputed_pct": 270.08541575802633,
+      "relative_reduction_recomputed_pct": 24.237407151917818
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 4.0,
+      "window": "entry",
+      "case_id": "case_11",
+      "nrmse_512_recomputed_pct": 319.35990101355424,
+      "nrmse_1024_recomputed_pct": 451.4967723756387,
+      "relative_reduction_recomputed_pct": 29.26640442340716
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 4.0,
+      "window": "stable",
+      "case_id": "case_11",
+      "nrmse_512_recomputed_pct": 23.04830636189624,
+      "nrmse_1024_recomputed_pct": 22.731905713127112,
+      "relative_reduction_recomputed_pct": -1.3918791181084977
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 8.0,
+      "window": "full_common",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 201.7333445276874,
+      "nrmse_1024_recomputed_pct": 267.1081488220151,
+      "relative_reduction_recomputed_pct": 24.47503177369911
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 8.0,
+      "window": "entry",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 330.6493559805461,
+      "nrmse_1024_recomputed_pct": 450.4485588310759,
+      "relative_reduction_recomputed_pct": 26.59553471797344
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 8.0,
+      "window": "stable",
+      "case_id": "case_01",
+      "nrmse_512_recomputed_pct": 25.87540917100332,
+      "nrmse_1024_recomputed_pct": 22.761437786903887,
+      "relative_reduction_recomputed_pct": -13.680908092243186
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 16.0,
+      "window": "full_common",
+      "case_id": "case_12",
+      "nrmse_512_recomputed_pct": 196.5310736840626,
+      "nrmse_1024_recomputed_pct": 259.160995071745,
+      "relative_reduction_recomputed_pct": 24.166414923026593
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 16.0,
+      "window": "entry",
+      "case_id": "case_12",
+      "nrmse_512_recomputed_pct": 319.030627257666,
+      "nrmse_1024_recomputed_pct": 434.81650595684016,
+      "relative_reduction_recomputed_pct": 26.628676030681095
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 16.0,
+      "window": "stable",
+      "case_id": "case_12",
+      "nrmse_512_recomputed_pct": 25.960554562799,
+      "nrmse_1024_recomputed_pct": 22.752205390031467,
+      "relative_reduction_recomputed_pct": -14.101266746533604
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 32.0,
+      "window": "full_common",
+      "case_id": "case_13",
+      "nrmse_512_recomputed_pct": 203.83514541763012,
+      "nrmse_1024_recomputed_pct": 266.7883645175293,
+      "relative_reduction_recomputed_pct": 23.596688413959246
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 32.0,
+      "window": "entry",
+      "case_id": "case_13",
+      "nrmse_512_recomputed_pct": 330.82574434640884,
+      "nrmse_1024_recomputed_pct": 449.70973729506807,
+      "relative_reduction_recomputed_pct": 26.43571688345629
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 32.0,
+      "window": "stable",
+      "case_id": "case_13",
+      "nrmse_512_recomputed_pct": 25.971898075288916,
+      "nrmse_1024_recomputed_pct": 22.721434796489064,
+      "relative_reduction_recomputed_pct": -14.305713120291669
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 64.0,
+      "window": "full_common",
+      "case_id": "case_14",
+      "nrmse_512_recomputed_pct": 203.83085798240944,
+      "nrmse_1024_recomputed_pct": 267.0537888588786,
+      "relative_reduction_recomputed_pct": 23.674231002908016
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 64.0,
+      "window": "entry",
+      "case_id": "case_14",
+      "nrmse_512_recomputed_pct": 330.54351966556806,
+      "nrmse_1024_recomputed_pct": 449.62426533466504,
+      "relative_reduction_recomputed_pct": 26.484501582774367
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 64.0,
+      "window": "stable",
+      "case_id": "case_14",
+      "nrmse_512_recomputed_pct": 25.960640196639158,
+      "nrmse_1024_recomputed_pct": 22.715684483062212,
+      "relative_reduction_recomputed_pct": -14.285088860062851
+    }
+  ],
+  "scope": "Fresh arithmetic from saved input/output/target arrays; no detector, RTL or board rerun"
+}

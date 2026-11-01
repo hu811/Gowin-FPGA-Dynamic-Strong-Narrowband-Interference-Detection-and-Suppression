@@ -1,0 +1,123 @@
+{
+  "status": "PASS: actual RTL bit-exact to independent integer convolution and blend model",
+  "evidence_level": "component RTL simulation; controlled known configuration schedule; not actual board, not detector end-to-end",
+  "production_modified": false,
+  "samples_per_case_per_dut": 4096,
+  "cases": [
+    {
+      "id": "stationary_input_controlled_update",
+      "case": 0,
+      "evidence_level": "actual component RTL with independent integer convolution check; not whole detector or board",
+      "input_max_abs": 18432,
+      "interference_onset_sample": null,
+      "config_commit_sample": 2304,
+      "metrics": {
+        "hard": {
+          "rtl_model_bit_mismatches": 0,
+          "output_latency_clocks_min": 646,
+          "output_latency_clocks_max": 646,
+          "switch_highband_energy_count2": 3952020.578086513,
+          "switch_highband_rms_counts": 117.14219425088255,
+          "first_32_samples_clean_reference_rmse_counts": 486.9776317231875,
+          "first_32_samples_deviation_from_immediate_new_bank_rmse_counts": 0.0,
+          "max_adjacent_output_jump_counts_diagnostic_only": 5021,
+          "samples_to_exact_new_bank_trajectory_guarantee": 0,
+          "output_samples": 4096
+        },
+        "fade": {
+          "rtl_model_bit_mismatches": 0,
+          "output_latency_clocks_min": 646,
+          "output_latency_clocks_max": 1297,
+          "switch_highband_energy_count2": 1047.4573630633515,
+          "switch_highband_rms_counts": 1.9070932680020816,
+          "first_32_samples_clean_reference_rmse_counts": 2671.904107778491,
+          "first_32_samples_deviation_from_immediate_new_bank_rmse_counts": 3079.1049480733845,
+          "max_adjacent_output_jump_counts_diagnostic_only": 5021,
+          "samples_to_exact_new_bank_trajectory_guarantee": 31,
+          "output_samples": 4096
+        },
+        "fade_minus_hard_highband_energy_db": -35.76682843318887,
+        "fade_exact_new_trajectory_extra_ms": 0.96875,
+        "first_32_clean_rmse_fade_minus_hard_counts": 2184.9264760553033
+      }
+    },
+    {
+      "id": "second_interference_step_before_update",
+      "case": 1,
+      "evidence_level": "actual component RTL with independent integer convolution check; not whole detector or board",
+      "input_max_abs": 18432,
+      "interference_onset_sample": 1664,
+      "config_commit_sample": 2304,
+      "metrics": {
+        "hard": {
+          "rtl_model_bit_mismatches": 0,
+          "output_latency_clocks_min": 646,
+          "output_latency_clocks_max": 646,
+          "switch_highband_energy_count2": 3952020.578086513,
+          "switch_highband_rms_counts": 117.14219425088255,
+          "first_32_samples_clean_reference_rmse_counts": 486.9776317231875,
+          "first_32_samples_deviation_from_immediate_new_bank_rmse_counts": 0.0,
+          "max_adjacent_output_jump_counts_diagnostic_only": 5030,
+          "samples_to_exact_new_bank_trajectory_guarantee": 0,
+          "output_samples": 4096
+        },
+        "fade": {
+          "rtl_model_bit_mismatches": 0,
+          "output_latency_clocks_min": 646,
+          "output_latency_clocks_max": 1297,
+          "switch_highband_energy_count2": 1047.4573630633515,
+          "switch_highband_rms_counts": 1.9070932680020816,
+          "first_32_samples_clean_reference_rmse_counts": 2671.904107778491,
+          "first_32_samples_deviation_from_immediate_new_bank_rmse_counts": 3079.1049480733845,
+          "max_adjacent_output_jump_counts_diagnostic_only": 5030,
+          "samples_to_exact_new_bank_trajectory_guarantee": 31,
+          "output_samples": 4096
+        },
+        "fade_minus_hard_highband_energy_db": -35.76682843318887,
+        "fade_exact_new_trajectory_extra_ms": 0.96875,
+        "first_32_clean_rmse_fade_minus_hard_counts": 2184.9264760553033
+      }
+    }
+  ],
+  "source_hashes": {
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\variants\\a4\\rtl\\transition_controller.v": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\variants\\a4\\rtl\\fir_mac_core.v": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\variants\\a4\\rtl\\coefficient_generator.v": "ddab44020561c98f154a37ada03298edc5a75e558a8cbadac23825300e11b052",
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\variants\\a4\\rtl\\divide_coefficient_bound10.v": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+    "D:\\Gowin\\Gowin_V1.9.11.03_Education_x64\\IDE\\simlib\\gw5a\\prim_sim.v": "202f65ccf77126d04e47db36c95e237e48522f3a105a3e64d9fcbf4e3b782f27",
+    "D:\\FPGA_Competition\\validation_evidence_v20\\switching\\tb_switch.v": "7e7b6b996ef2c76499d8a9d9a2678ae514a1949590c02916603d58c0960c536c",
+    "D:\\FPGA_Competition\\validation_evidence_v20\\switching\\run_switch.py": "8ed04ec464aa83959bff89cd6dc3b983c5ec97ecf7c9577e4df5b4d99354cb86",
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\builds\\c4_capture20_timing\\rom\\bypass.mem": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+    "D:\\FPGA_Competition\\pro_v2_digital_v19\\builds\\c4_capture20_timing\\rom\\cos_grid_direct.mem": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c"
+  },
+  "model_only_phase_sweep": {
+    "count": 16,
+    "all_phases_fade_lower_highband_energy": true,
+    "fade_minus_hard_db_min": -35.5223330975765,
+    "fade_minus_hard_db_max": -17.50623333380461,
+    "scope": "integer model sweep; not additional actual RTL or hardware runs"
+  },
+  "metrics": {
+    "total_rtl_output_samples_compared": 16384,
+    "bit_mismatches": 0,
+    "cadence_clocks": [
+      1562,
+      1563
+    ],
+    "fade_samples": 32,
+    "fade_max_cycles": 1296,
+    "hard_max_cycles": 645
+  },
+  "definitions": {
+    "highband_transient": "Apply 129-tap linear-phase offline diagnostic high-pass (10 kHz cutoff, 32 kHz Fs) to actual RTL output minus SAME-input original-bank steady convolution. Sum squared response on [commit-128,commit+160). Input deterministic tones all below 6 kHz; no input event near controlled-case commit. This offline instrument does not run in FPGA.",
+    "clean_reference": "Known generated target delayed exactly 320 samples. Compare actual mixed-signal RTL output; this includes desired signal loss AND residual interference, not an isolated target-only measure.",
+    "tradeoff": "Direct switch reaches the exact new-bank trajectory on the commit sample. Original fade reaches it at alpha=32, 31 samples (0.96875 ms) later. Reduced high-band transient does not imply smaller total clean-reference error or faster attenuation.",
+    "max_output_jump": "Diagnostic only; not the quality criterion because ordinary target/interference slope also contributes."
+  },
+  "limitations": [
+    "Only two fixed controlled switch schedules; not an end-to-end detection benchmark.",
+    "Both complete banks are prebuilt from actual V19 coefficient generator; no coefficient queue or deadline attribution.",
+    "No claim that fade always wins, no 20 dB/1 dB/30 ms pass inferred.",
+    "Actual board waveform must later be captured for hard and fade firmware under paired input; no hardware production changes here."
+  ]
+}

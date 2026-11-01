@@ -1,0 +1,56 @@
+{
+  "capacity": 4,
+  "seconds": 2.0,
+  "seed": 26102432,
+  "target_low_hz": 600.0,
+  "target_high_hz": 7400.0,
+  "target_rms": 0.01,
+  "noise_rms": 0.001,
+  "events": [
+    {
+      "frequency_hz": 2311.3,
+      "end_frequency_hz": 2311.3,
+      "start_s": 0.25,
+      "change_s": 0.775,
+      "end_s": 1.3,
+      "js_db": 20.0,
+      "phase_rad": -0.3,
+      "enabled": true,
+      "mode": "fixed"
+    },
+    {
+      "frequency_hz": 2436.3,
+      "end_frequency_hz": 2436.3,
+      "start_s": 0.251,
+      "change_s": 0.8254999999999999,
+      "end_s": 1.4,
+      "js_db": 20.0,
+      "phase_rad": 0.8,
+      "enabled": true,
+      "mode": "fixed"
+    },
+    {
+      "frequency_hz": 4972.7,
+      "end_frequency_hz": 4972.7,
+      "start_s": 0.258,
+      "change_s": 0.904,
+      "end_s": 1.55,
+      "js_db": 20.0,
+      "phase_rad": 1.2,
+      "enabled": true,
+      "mode": "fixed"
+    },
+    {
+      "frequency_hz": 5097.7,
+      "end_frequency_hz": 5097.7,
+      "start_s": 0.259,
+      "change_s": 0.9544999999999999,
+      "end_s": 1.65,
+      "js_db": 20.0,
+      "phase_rad": -1.0,
+      "enabled": true,
+      "mode": "fixed"
+    }
+  ],
+  "use_probes": false
+}

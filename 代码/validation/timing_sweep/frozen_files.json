@@ -1,0 +1,1293 @@
+{
+  "schema": "timing-sweep-exact-copy-1",
+  "files": {
+    "experiment_plan.json": {
+      "sha256": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+      "bytes": 19327,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\experiment_plan.json"
+    },
+    "base_reference.npz": {
+      "sha256": "7168e29a35df8ddae623582c70370768f55453f8a2ff4d05e6d3c10817f29800",
+      "bytes": 245742,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\base_reference.npz"
+    },
+    "results.json": {
+      "sha256": "25d8e2cd813827942282b307bbe727daf8a468f227c878cf220964f3dbd4d662",
+      "bytes": 50041,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\results.json"
+    },
+    "sweep_metrics.csv": {
+      "sha256": "7c8833f766a5724e6d46c1587fbbe6f3ac6fac19819ff4133da096e956ce6b95",
+      "bytes": 9407,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\sweep_metrics.csv"
+    },
+    "golden_calibration.json": {
+      "sha256": "67df3f4e04b9a48be90730f22344e5ea4de03badbbce2d946dbad7d70d687aec",
+      "bytes": 834,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\golden_calibration.json"
+    },
+    "runtime_identity.json": {
+      "sha256": "f038d587fa97ad5a46c3613f7d6c8c2265fbee2f7f7b758d4ec82f803746aee5",
+      "bytes": 16653,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\runtime_identity.json"
+    },
+    "run_source_identity.json": {
+      "sha256": "ce7c3d02339084ae2b7f90c57e8e72f24f74bf129eec2bc48422b82e87710327",
+      "bytes": 742,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\run_source_identity.json"
+    },
+    "independent_plan_audit.json": {
+      "sha256": "92e3987b8001be64292848fe9f0935f02a4b70b3d4aa8bd6ed6cc8713e22e7cb",
+      "bytes": 4727,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\independent_plan_audit.json"
+    },
+    "independent_csv_audit.json": {
+      "sha256": "a84d7c40c5ba198b11ef79badd103d1b85d57c2335f76572b1c0636fb61021d5",
+      "bytes": 1685,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\independent_csv_audit.json"
+    },
+    "independent_sample_metrics_audit.json": {
+      "sha256": "bf103d5a43ef16f6d53328220c08a6908305e977c844c24ffe6cba722df9dc3d",
+      "bytes": 14303,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\independent_sample_metrics_audit.json"
+    },
+    "internal_axis_independent_audit.json": {
+      "sha256": "1ee841ca84ea65f2f5a6fb143ff50450921fa9500a0384ce81dedfa941b8a95f",
+      "bytes": 7432,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\internal_axis_independent_audit.json"
+    },
+    "provenance/run_sweep.py": {
+      "sha256": "c9e314afd6664679811dfddcd48ca57b88579a2ad978a9b7d8d282426a6c820c",
+      "bytes": 14092,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\run_sweep.py"
+    },
+    "provenance/verify_runtime.py": {
+      "sha256": "6f3c216db2b80d574b3203dd79b58f59b3b451f248b9a82d05c4e82e9009fb6d",
+      "bytes": 5258,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\verify_runtime.py"
+    },
+    "provenance/README.md": {
+      "sha256": "0a7f1d02c55fe3eb711d39a1613ca57016742bac1a1e7271467f4f1d05eb2b55",
+      "bytes": 3676,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\README.md"
+    },
+    "cases/case_00/input.npy": {
+      "sha256": "b189de9f0513e42caa5611e51cc807a2bb465cffec07c20dcd929c88f5764f43",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\input.npy"
+    },
+    "cases/case_00/output_512_rtl.npy": {
+      "sha256": "c5ab936be463fcaadf5d2382d69c5fc4e9076899f076f0238fb47f5dbd765079",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\output_512_rtl.npy"
+    },
+    "cases/case_00/output_1024_software.npy": {
+      "sha256": "2d64e845e1f3bbf9990a3e67e84273d6e22e1fa4ab5f67b9a1dbd62db5a2b656",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\output_1024_software.npy"
+    },
+    "cases/case_00/case_result.json": {
+      "sha256": "504457b3421d077f3cbd809ec2bca419ac81d8fd611395d530e8821f2f361fb5",
+      "bytes": 2932,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\case_result.json"
+    },
+    "cases/case_00/software_stats.json": {
+      "sha256": "6844c7ae21721040e7540e5e0a9591173a802e9e325605ce6fa4e4ab7f8289f7",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\software_stats.json"
+    },
+    "cases/case_00/software_decisions.json": {
+      "sha256": "965fb866a7672f71270cb672de9f0d072f261142f724f565e323ae372525ea2b",
+      "bytes": 904963,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\software_decisions.json"
+    },
+    "cases/case_00/rtl_trace/authorizations.csv": {
+      "sha256": "f156fca7fcff1d93c36198b70858ccfb2aac918a8bc51327c8e6be0d5d60d48b",
+      "bytes": 30878,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_00/rtl_trace/aux_history_audit.csv": {
+      "sha256": "7105b2392d40471269edd066a9a453cf9ff17cca7d6dbb4cfe623001034dd028",
+      "bytes": 236828,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_00/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "936c23d5e43cd4d124993415abe634a72bd722f2793753ba3ea0907839a080f6",
+      "bytes": 1649,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_00/rtl_trace/coefficient_writes.csv": {
+      "sha256": "41dd7af16e0b7bba3e04ea152b717b0f753165db4562df4bcbb306435dcad9b8",
+      "bytes": 79622,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_00/rtl_trace/events.csv": {
+      "sha256": "67b786ed7a2c8dc604d511086fa9777815f1b72897de66eb6eaaa3a19e27e885",
+      "bytes": 371,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\events.csv"
+    },
+    "cases/case_00/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_00/rtl_trace/observations.csv": {
+      "sha256": "09b1711b8c0f2a6784d6324467d3474e87c21579408597067b60f874460fab73",
+      "bytes": 12966,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\observations.csv"
+    },
+    "cases/case_00/rtl_trace/pre_service.csv": {
+      "sha256": "89ee64b4cbd1d56858a3a14e08996c09121f97bb5bf9a71dd6895fe97c01ccdd",
+      "bytes": 189701,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_00/rtl_trace/queue_clock_events.csv": {
+      "sha256": "6cedf67b39bee81e79ff93ad84f9bd5f36b0f6f50f4985ebcaf1647e8226a0e3",
+      "bytes": 33549,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_00/rtl_trace/run.log": {
+      "sha256": "35cf75604015029ac533e6b8fcc1767e326f5a528d0870260a95d573181f4dc5",
+      "bytes": 9782,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\rtl_trace\\run.log"
+    },
+    "cases/case_01/input.npy": {
+      "sha256": "4f81355d8d14d052bafaac9cbbdc9ccddef381b11374cc23e5115ae09b543a22",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\input.npy"
+    },
+    "cases/case_01/output_512_rtl.npy": {
+      "sha256": "6d58f325ccfe0d9156492775faa4a7b80729bfbe30785c39758689d314f9b697",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\output_512_rtl.npy"
+    },
+    "cases/case_01/output_1024_software.npy": {
+      "sha256": "3f7bd99d78d11c887ab719cbb8dc30647e3889cd5d429a293b7d4b3c360d67c9",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\output_1024_software.npy"
+    },
+    "cases/case_01/case_result.json": {
+      "sha256": "0df00f7497eaafac85636e16e1e84983f39d7fc2aee26c8222d15ddeb7f74d76",
+      "bytes": 2933,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\case_result.json"
+    },
+    "cases/case_01/software_stats.json": {
+      "sha256": "6844c7ae21721040e7540e5e0a9591173a802e9e325605ce6fa4e4ab7f8289f7",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\software_stats.json"
+    },
+    "cases/case_01/software_decisions.json": {
+      "sha256": "67e53c463b6dd5f50a29a7892aaee7c18819079d4ceb87f92b2d85e98729217a",
+      "bytes": 897227,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\software_decisions.json"
+    },
+    "cases/case_01/rtl_trace/authorizations.csv": {
+      "sha256": "e37c335758622c7694526e10fa21cf7ec3ed03797e3d11b7ccc61d3feae8ba78",
+      "bytes": 30874,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_01/rtl_trace/aux_history_audit.csv": {
+      "sha256": "7405428bcd49e1ca7f63eb154c122fe9b9fcbc86ee001fcd47870051f58719c1",
+      "bytes": 235572,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_01/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "a7949d751945a3cfdcb4ef20ae37160e362b2dbd5c21b4806586bef6938a4b33",
+      "bytes": 1890,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_01/rtl_trace/coefficient_writes.csv": {
+      "sha256": "ee83d10187c2248d8f071e7507b6ddb8b4d8600cc269d6cc505b2168b0e2810e",
+      "bytes": 91568,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_01/rtl_trace/events.csv": {
+      "sha256": "de9045a538efb1da628f1f2ee7b1f427258ae797f8b57a13ccb3b44c2745c526",
+      "bytes": 422,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\events.csv"
+    },
+    "cases/case_01/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_01/rtl_trace/observations.csv": {
+      "sha256": "6f0b5073212880ca407abfb7afc59678b082941c16567d21200ca8c20fc369e8",
+      "bytes": 12961,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\observations.csv"
+    },
+    "cases/case_01/rtl_trace/pre_service.csv": {
+      "sha256": "323a887fe28de6ec0088062fe3c56356d8b018850f2501f2a699fe95e8d95982",
+      "bytes": 189255,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_01/rtl_trace/queue_clock_events.csv": {
+      "sha256": "2739aaab11cb13fdace77476824f84393fb396935f1f002b7ca150bda2c0dd0e",
+      "bytes": 35587,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_01/rtl_trace/run.log": {
+      "sha256": "5200849cf61e8855e4dd62b09f82c0910c9b6b7c7311994a7f2fe3452281b7f8",
+      "bytes": 9784,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\rtl_trace\\run.log"
+    },
+    "cases/case_02/input.npy": {
+      "sha256": "4ac036396f84a509bf7e36329ccb9b47c65ead7f21dc92f176ceed06e6256a75",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\input.npy"
+    },
+    "cases/case_02/output_512_rtl.npy": {
+      "sha256": "3e1caa29e606d88112cf378c5387291b49f075d49a188c55e1cdefaf0a7b428e",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\output_512_rtl.npy"
+    },
+    "cases/case_02/output_1024_software.npy": {
+      "sha256": "95520546d28fe12bb8d93ecb42d6265be3ae543f39fa0e11c6c32c4bf304c0e9",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\output_1024_software.npy"
+    },
+    "cases/case_02/case_result.json": {
+      "sha256": "46fc473c45c2396e1507aa6e4b0c174f6511db71544e104b1ba0fce06f32550e",
+      "bytes": 2932,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\case_result.json"
+    },
+    "cases/case_02/software_stats.json": {
+      "sha256": "f34eae3f69df20a80b6306674c992eabd5c03f12f1df523776325a26fe0975d4",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\software_stats.json"
+    },
+    "cases/case_02/software_decisions.json": {
+      "sha256": "e929de26f6f25effc39f97cb09be6c9b970a3273e0935f7f881a300b960d4e4b",
+      "bytes": 898670,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\software_decisions.json"
+    },
+    "cases/case_02/rtl_trace/authorizations.csv": {
+      "sha256": "1c063dca35cbc649a799cedce21d62b9ac7fbea7c4d2d43032e1542124c96dc6",
+      "bytes": 30876,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_02/rtl_trace/aux_history_audit.csv": {
+      "sha256": "096154b0cd25cc14b7b852b22e95f2a1ea195cb8aa55a893182563df4fb426d6",
+      "bytes": 236675,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_02/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "ca57dccd7db77578a673506c9394f48b82b10f47afa3e16d33202db3632f699f",
+      "bytes": 1894,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_02/rtl_trace/coefficient_writes.csv": {
+      "sha256": "c2274c8f265660f4406247b64eaa83c7e92918297c8bbaa6571aca0ff8176571",
+      "bytes": 97688,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_02/rtl_trace/events.csv": {
+      "sha256": "d7bc656de2ffdc73a6a8a6e059d07b7cfa77f7149ac0ed16a681666e10b65d15",
+      "bytes": 424,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\events.csv"
+    },
+    "cases/case_02/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_02/rtl_trace/observations.csv": {
+      "sha256": "7af4478ced46ffe75b94392ee5a5909357653152f8e632335b1f051371088515",
+      "bytes": 12963,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\observations.csv"
+    },
+    "cases/case_02/rtl_trace/pre_service.csv": {
+      "sha256": "f6bc5674d6676b4b15b1e5311eb246721f3524278377184306bef38f510ddcf2",
+      "bytes": 189389,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_02/rtl_trace/queue_clock_events.csv": {
+      "sha256": "e097ecd3cf3539090701d0628474a7543e1a8e1bc74c87a0afc4a2975a129297",
+      "bytes": 37596,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_02/rtl_trace/run.log": {
+      "sha256": "84ef4042de9670268eb895027863792802788bbb87de28745849a5a3e1f8147d",
+      "bytes": 9791,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\rtl_trace\\run.log"
+    },
+    "cases/case_03/input.npy": {
+      "sha256": "646f6bf9f063f9467f598599289defca9886066b056eddf8a02bf78825372952",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\input.npy"
+    },
+    "cases/case_03/output_512_rtl.npy": {
+      "sha256": "5f45f711c9697d04adfaea7c51bbc0a16d9fdb3e3c28599226efd3f3c3660ad3",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\output_512_rtl.npy"
+    },
+    "cases/case_03/output_1024_software.npy": {
+      "sha256": "feb84bda19d838ca2c51fb1eebc14f6a926c17db8c84ebe16f31efb891488617",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\output_1024_software.npy"
+    },
+    "cases/case_03/case_result.json": {
+      "sha256": "76512e3ef8e56b726bd5ef55fa448c755771183af5191fa6dd5a678f9adbb7db",
+      "bytes": 2933,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\case_result.json"
+    },
+    "cases/case_03/software_stats.json": {
+      "sha256": "87cd9193d960ad1485db893782c6ef15128b712665d7c7a5ad01f4d4c8a906ef",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\software_stats.json"
+    },
+    "cases/case_03/software_decisions.json": {
+      "sha256": "5fa81e21defdf45081b6b6f73623896f11df74e6f5e3ea1a86a536e28635cec6",
+      "bytes": 898438,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\software_decisions.json"
+    },
+    "cases/case_03/rtl_trace/authorizations.csv": {
+      "sha256": "7ee9bbd7e50169abefd646f916bb637c698e78fc2886575c4621f24e6591d070",
+      "bytes": 30872,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_03/rtl_trace/aux_history_audit.csv": {
+      "sha256": "b9f35ceb9e4965bbda1fc9c009193db0516ed8397035acf38a9567a972bd5a2b",
+      "bytes": 235429,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_03/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "7e0e716462a81d8737de26bcc4e66ed6c3e676af56de543013d473dcd2d3c842",
+      "bytes": 2011,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_03/rtl_trace/coefficient_writes.csv": {
+      "sha256": "6c2f82beb88adf99e3c88f3fe3b26c372a0960baee37f17893125a34d0ee610d",
+      "bytes": 109693,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_03/rtl_trace/events.csv": {
+      "sha256": "646e76514ec2d17ad9cd238e53c2c375b5b5c92b46e87065cd6dbc9dbfa3b370",
+      "bytes": 449,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\events.csv"
+    },
+    "cases/case_03/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_03/rtl_trace/observations.csv": {
+      "sha256": "280c787ebf895dd1db13cdd9017525f9534b0b549bce24e66667a07313d80fe6",
+      "bytes": 13067,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\observations.csv"
+    },
+    "cases/case_03/rtl_trace/pre_service.csv": {
+      "sha256": "7f8709ce2b5cea362492a92a7dde96726218ecee4a2f8938059e914b97770aac",
+      "bytes": 189156,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_03/rtl_trace/queue_clock_events.csv": {
+      "sha256": "3c504647ebbead4d700ad625279b7f32f803e759c2c32fe2864370799948f0b4",
+      "bytes": 38252,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_03/rtl_trace/run.log": {
+      "sha256": "4ecb9734b034ac6fcfaecac60b09143f231840c8f2ee4c043cb036d647837ee5",
+      "bytes": 9835,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\rtl_trace\\run.log"
+    },
+    "cases/case_04/input.npy": {
+      "sha256": "26ce135e78c1bb6ab40613e6bfa775336d8cce2524ec333af1d3147846a79eb8",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\input.npy"
+    },
+    "cases/case_04/output_512_rtl.npy": {
+      "sha256": "8cc09e499f53efc6ffa532ad977bfdac695adc15bdadb5b581378ba979a1e12c",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\output_512_rtl.npy"
+    },
+    "cases/case_04/output_1024_software.npy": {
+      "sha256": "9a28c10d32a6e87c6f4a518d9034ab166b17add0f96c3fe8ad109f4dafb8a4ad",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\output_1024_software.npy"
+    },
+    "cases/case_04/case_result.json": {
+      "sha256": "091b95adf783a88e6118ecf3773dd80081527a99a118adcd443b0bbdde379e21",
+      "bytes": 2938,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\case_result.json"
+    },
+    "cases/case_04/software_stats.json": {
+      "sha256": "87cd9193d960ad1485db893782c6ef15128b712665d7c7a5ad01f4d4c8a906ef",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\software_stats.json"
+    },
+    "cases/case_04/software_decisions.json": {
+      "sha256": "87e8660692f8aba8e183aa3562d990898c325ae5cf0f8b8447795d14c30ed638",
+      "bytes": 893802,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\software_decisions.json"
+    },
+    "cases/case_04/rtl_trace/authorizations.csv": {
+      "sha256": "7e0ba3aa754a21887020a76f8f9b060609285a0dbbde3383180d9fe64b58af26",
+      "bytes": 30868,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_04/rtl_trace/aux_history_audit.csv": {
+      "sha256": "5fb86fb971cd8ea1b759de83e68e856b7f4acdb404bb3c101297f4cba2994bcd",
+      "bytes": 233917,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_04/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "9ea35f48d1b07998dac9a7282df8b71694eb490b4b90c9da01a8bdaae4dbce72",
+      "bytes": 1761,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_04/rtl_trace/coefficient_writes.csv": {
+      "sha256": "f878bd33422afb76706544b3387388fb9441e23e8f86b82c39f169bfdfc09260",
+      "bytes": 85924,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_04/rtl_trace/events.csv": {
+      "sha256": "5c39cd996ef1476fe1c9602256cab6a7d31dde2459ad2b64ab8897c4699db38b",
+      "bytes": 394,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\events.csv"
+    },
+    "cases/case_04/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_04/rtl_trace/observations.csv": {
+      "sha256": "6b94425d7308e8b75ce3977ec4a13121524b7ef354e8886d3a7859f224a4a935",
+      "bytes": 12370,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\observations.csv"
+    },
+    "cases/case_04/rtl_trace/pre_service.csv": {
+      "sha256": "3fa7c398c9896ae7c48109a6082b9d4f8e9657d51a410b6b7667c45d889c19e2",
+      "bytes": 188400,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_04/rtl_trace/queue_clock_events.csv": {
+      "sha256": "39795ff84ae5250b4efa622ed77798e35a8591a7298a77c6a3284893b9652823",
+      "bytes": 35209,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_04/rtl_trace/run.log": {
+      "sha256": "6d6436cf326c5a0ce477b0124e72d5ffc9122f4bd36f4cda9d592303922acbb4",
+      "bytes": 9782,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\rtl_trace\\run.log"
+    },
+    "cases/case_05/input.npy": {
+      "sha256": "6e787aec8b22546890cc02c039e87eff95883f059c13da4816cc8022249114dc",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\input.npy"
+    },
+    "cases/case_05/output_512_rtl.npy": {
+      "sha256": "3e5e6577cfaef671f2c20ea3ef9e28f56eab12c4f53647e582ce19839e67d827",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\output_512_rtl.npy"
+    },
+    "cases/case_05/output_1024_software.npy": {
+      "sha256": "14878ae7076fe49c89568b67350a831143f03c240878f703b07cdd6e282db52e",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\output_1024_software.npy"
+    },
+    "cases/case_05/case_result.json": {
+      "sha256": "a0c750d10f6a8e647bf6624d356649bd1bf5dcc14bc31344094c9367f792bf7c",
+      "bytes": 2937,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\case_result.json"
+    },
+    "cases/case_05/software_stats.json": {
+      "sha256": "4894d0799f5d2775e33ee729b55c34a0a2f7bce7046601437b2c919ab45e6f4b",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\software_stats.json"
+    },
+    "cases/case_05/software_decisions.json": {
+      "sha256": "6e8151bd0e541b0ed74d06845a29824f1d504d4cdfa2ab14814c00f077950962",
+      "bytes": 892671,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\software_decisions.json"
+    },
+    "cases/case_05/rtl_trace/authorizations.csv": {
+      "sha256": "e6f64d5aecf8b07a429e3e95531a919ab2420e1b8930e16ccda07d4030f0e5ee",
+      "bytes": 30858,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_05/rtl_trace/aux_history_audit.csv": {
+      "sha256": "eb3aedb9e43d23bd580f130c2cd0ebc0df568bbaa9f990dc76432b75765c16b5",
+      "bytes": 232244,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_05/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "818b6c234d8be6cc5823bc12359b1ba6cef3d8656efaa9dd7f7740995f8d02a2",
+      "bytes": 2361,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_05/rtl_trace/coefficient_writes.csv": {
+      "sha256": "e28c021e70d1dd919d25121e2e2b589bc0a5a72c2ce9a837a7eb80a5714cf7f5",
+      "bytes": 116370,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_05/rtl_trace/events.csv": {
+      "sha256": "422f6a200b985dd8ec52a9b39a6a7c1011f4cb4ea57eb0a4878e6d0075b06eb3",
+      "bytes": 523,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\events.csv"
+    },
+    "cases/case_05/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_05/rtl_trace/observations.csv": {
+      "sha256": "ffa40d2fa0bec1954a43c04bb3507f822d6e34b2cf489b76afa3375537f1bfc8",
+      "bytes": 12922,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\observations.csv"
+    },
+    "cases/case_05/rtl_trace/pre_service.csv": {
+      "sha256": "0df50ee6113c9e8e514ce747c982688e01154e2e860a6a748d0a173f11ebb16d",
+      "bytes": 188290,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_05/rtl_trace/queue_clock_events.csv": {
+      "sha256": "f00e96f1dd811b95b919c7888942e1a4b5d36f57133416c17f3f042dfbc075ed",
+      "bytes": 38323,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_05/rtl_trace/run.log": {
+      "sha256": "b5208a068891dd42697a7dbd6b82a1cf0a6cb367f529ed098afb95793695a4e6",
+      "bytes": 9790,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\rtl_trace\\run.log"
+    },
+    "cases/case_06/input.npy": {
+      "sha256": "4b03a8c05e50c51b15259b80edbc27e3dc560a12c36541a41c9023d69cf0930e",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\input.npy"
+    },
+    "cases/case_06/output_512_rtl.npy": {
+      "sha256": "17592112b523b8e32efed8c9b022c5b80ff30248ad150e383ea1b42a895e99e6",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\output_512_rtl.npy"
+    },
+    "cases/case_06/output_1024_software.npy": {
+      "sha256": "d6b6d0f3f8b1da405c0781ef4a5a4e4f6abaf3a9b5b4700f02137c92360ad033",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\output_1024_software.npy"
+    },
+    "cases/case_06/case_result.json": {
+      "sha256": "ad04fe9409b1b70a511d6fffbbc94cc5a9f741d7a205719d28296f262cc97e5d",
+      "bytes": 2934,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\case_result.json"
+    },
+    "cases/case_06/software_stats.json": {
+      "sha256": "6844c7ae21721040e7540e5e0a9591173a802e9e325605ce6fa4e4ab7f8289f7",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\software_stats.json"
+    },
+    "cases/case_06/software_decisions.json": {
+      "sha256": "ea2e65614509b7990eadceccc0ea066180ab310807996c82f62d80af6200d226",
+      "bytes": 878567,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\software_decisions.json"
+    },
+    "cases/case_06/rtl_trace/authorizations.csv": {
+      "sha256": "33af104c516e1b9705a0fb274ee6a825c5b1ea71a07fa2b1b6ab1cb47fce99d5",
+      "bytes": 30846,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_06/rtl_trace/aux_history_audit.csv": {
+      "sha256": "7d0f3aeb15ffc30802e96d0024214a70ba2117e8fd6e4536c859c8c9e3de9ac1",
+      "bytes": 230594,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_06/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "b3ea02969d1bd4d794e66afee93525054e13a9a43ebd4e153425291f93d0bc70",
+      "bytes": 2003,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_06/rtl_trace/coefficient_writes.csv": {
+      "sha256": "322afff5a1950858e16d2487a62ef1cef60b787aa3ab480c55f09aa5cc40dc53",
+      "bytes": 97676,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_06/rtl_trace/events.csv": {
+      "sha256": "6ac3fe89bae1e65baaa64f97dfa57bd5952f0cbe1525b38d30fae0610dc35ea0",
+      "bytes": 445,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\events.csv"
+    },
+    "cases/case_06/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_06/rtl_trace/observations.csv": {
+      "sha256": "abc156f2bf48f4708a94c70239c60f707b86a3ffc669af9da054c479dfe5871e",
+      "bytes": 12986,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\observations.csv"
+    },
+    "cases/case_06/rtl_trace/pre_service.csv": {
+      "sha256": "16b4e58c0ad61c939862f3764c63808be42f68087dcb139f28032ec3d5df4558",
+      "bytes": 187338,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_06/rtl_trace/queue_clock_events.csv": {
+      "sha256": "71fa4b43d37495f5e466720fe04514189c726000455379273f5104bc722e701d",
+      "bytes": 36325,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_06/rtl_trace/run.log": {
+      "sha256": "9e7189dd3b077abf8e006a8373ac5baf03bf2ee6fc35607f4bd27b1b0662963d",
+      "bytes": 9831,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\rtl_trace\\run.log"
+    },
+    "cases/case_07/input.npy": {
+      "sha256": "fdebd9e2d90a968c410008e0137b479a87ac6d00e1f76cac7faa03a013a895fb",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\input.npy"
+    },
+    "cases/case_07/output_512_rtl.npy": {
+      "sha256": "7f146a9ad6885f01174fd6b15b20e170f7219875f027bbbb9da9ff36b28192e0",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\output_512_rtl.npy"
+    },
+    "cases/case_07/output_1024_software.npy": {
+      "sha256": "4c3832cf0bb597e1383e9e6e1e7dce8cb97a6643259ea32e84f3d4aa9b62601b",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\output_1024_software.npy"
+    },
+    "cases/case_07/case_result.json": {
+      "sha256": "8497eae3564456e786f11661d5d036a78bcc008d16255205b4418796db233978",
+      "bytes": 2937,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\case_result.json"
+    },
+    "cases/case_07/software_stats.json": {
+      "sha256": "87cd9193d960ad1485db893782c6ef15128b712665d7c7a5ad01f4d4c8a906ef",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\software_stats.json"
+    },
+    "cases/case_07/software_decisions.json": {
+      "sha256": "94e0ed405dd191bb289d06ca5f40252c2f525e96f9f94834653dcddb2cfe3763",
+      "bytes": 851762,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\software_decisions.json"
+    },
+    "cases/case_07/rtl_trace/authorizations.csv": {
+      "sha256": "33d4f2e6ad9fcd1d8a1d3958b9403c51ce1e8ec2a50e4fdfaa7958a10ac6de5f",
+      "bytes": 30812,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_07/rtl_trace/aux_history_audit.csv": {
+      "sha256": "3e61e350fdf72c891365158c5c32ae4d2a56b4cc1fb77aadc781832fd0f60b5b",
+      "bytes": 223725,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_07/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "c00f95e2e7ccb990e86d0f90983ed4286669f8fd21f9107e99eee54d6a2539db",
+      "bytes": 2244,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_07/rtl_trace/coefficient_writes.csv": {
+      "sha256": "a19925bb44be65f2864e89f3187c2d20154004cb788a8d92ec81e579cfb415c8",
+      "bytes": 109701,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_07/rtl_trace/events.csv": {
+      "sha256": "b579a7984fce8b0c5567dd21d95a47432a5cb07f56db958071376a2000a03fc7",
+      "bytes": 496,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\events.csv"
+    },
+    "cases/case_07/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_07/rtl_trace/observations.csv": {
+      "sha256": "eef5c8c707106c15b3e4c657d49252e0a521bffa563d0675f2693229c1de306d",
+      "bytes": 12890,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\observations.csv"
+    },
+    "cases/case_07/rtl_trace/pre_service.csv": {
+      "sha256": "ded95ce331590c17c7b15065b55e01aeb9e628670922dd29344c53040c0b2502",
+      "bytes": 184656,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_07/rtl_trace/queue_clock_events.csv": {
+      "sha256": "b8e5b17524aeaa2b4abd43d94b1e63e977c38487880a3235cac5604349e20b5a",
+      "bytes": 37615,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_07/rtl_trace/run.log": {
+      "sha256": "a3fb35932fa2ce6012c25730183892677da70be047a10ac3bf0ce69c1359052c",
+      "bytes": 9825,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\rtl_trace\\run.log"
+    },
+    "cases/case_08/input.npy": {
+      "sha256": "6f2e9d27ed475553974cc6a56d59646cee08cbbbfaf1149758cead203797a3b4",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\input.npy"
+    },
+    "cases/case_08/output_512_rtl.npy": {
+      "sha256": "1e15ba9994861d0ad882cdf9a330a1c3c3e1a2e7c05f54cad620d36744189835",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\output_512_rtl.npy"
+    },
+    "cases/case_08/output_1024_software.npy": {
+      "sha256": "f21f92979a04987c15fe212486a6ae06ec3f8694a5fac2dc380416b2ef934fc5",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\output_1024_software.npy"
+    },
+    "cases/case_08/case_result.json": {
+      "sha256": "bc44186ea1ceaf2a88ea4efec1ff3a2bc63b90707ee577f28810a8d3acb32208",
+      "bytes": 2936,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\case_result.json"
+    },
+    "cases/case_08/software_stats.json": {
+      "sha256": "86f4fdaadcae48005e0b6760bd1b9bfb1fac6b123a43f4e97ee44c3c789103df",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\software_stats.json"
+    },
+    "cases/case_08/software_decisions.json": {
+      "sha256": "217b3ae2c0b2c4663a0e6ea18a7fced49b3a5c49160e351e4af0ea149fbb9e53",
+      "bytes": 907560,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\software_decisions.json"
+    },
+    "cases/case_08/rtl_trace/authorizations.csv": {
+      "sha256": "a278246f6949ef248ea47b9a5292584cf3860faa60b05e3e6e8cbcab4e50559e",
+      "bytes": 30880,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_08/rtl_trace/aux_history_audit.csv": {
+      "sha256": "0d14801623827e8130300e5d553ac5709b5333ec7d7cf1736eaf688ac8cfe35d",
+      "bytes": 237945,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_08/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "ecd82034d7d397dc3cd96f91c40b227c01546e6f700ff3020f0071d8c553d553",
+      "bytes": 1891,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_08/rtl_trace/coefficient_writes.csv": {
+      "sha256": "4517ca08b462e1b74cbe6ab045c2e5e4fe34d6f96a9fa1f39ad34ad11fa4dd02",
+      "bytes": 97544,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_08/rtl_trace/events.csv": {
+      "sha256": "df4c03aefbc8c8dae8cffc1413d6a16f70ae452716361a80a5aa09dd079ee73b",
+      "bytes": 423,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\events.csv"
+    },
+    "cases/case_08/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_08/rtl_trace/observations.csv": {
+      "sha256": "3caa7fc3cb380740f02b313f52f1e708469a28e307e503886fa85b33a38bd238",
+      "bytes": 12993,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\observations.csv"
+    },
+    "cases/case_08/rtl_trace/pre_service.csv": {
+      "sha256": "c1b14711a5c77103a19ef14bf9a3010a4874d61a04cce38d71e2464e77e163ce",
+      "bytes": 191003,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_08/rtl_trace/queue_clock_events.csv": {
+      "sha256": "8ee7af7fa5ba63f0e715dcea538c9040801cf9bc38842e58a956c9659431624c",
+      "bytes": 35751,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_08/rtl_trace/run.log": {
+      "sha256": "af29b6b2af3556162b14d11c88d4f559458586a6b785674c47cdf7825271ce45",
+      "bytes": 9790,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\rtl_trace\\run.log"
+    },
+    "cases/case_09/input.npy": {
+      "sha256": "dd8323261b8e155a7447f60d1d5e9b06e5655c8db2c9c7c89c6ffa3ac0006279",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\input.npy"
+    },
+    "cases/case_09/output_512_rtl.npy": {
+      "sha256": "513530adeda0523bd5093efd9ed139aa0ded063b76e0b243f7b8e7f4c06bbcf3",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\output_512_rtl.npy"
+    },
+    "cases/case_09/output_1024_software.npy": {
+      "sha256": "be7d74867f06adcfbd341734e1b96ab22a84f41f6a0ea745ec986757939abf02",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\output_1024_software.npy"
+    },
+    "cases/case_09/case_result.json": {
+      "sha256": "8f645eb7ca446e70afb4a944ae01f126243fc6be0741252b2ea93491f957e295",
+      "bytes": 2933,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\case_result.json"
+    },
+    "cases/case_09/software_stats.json": {
+      "sha256": "8b053677124d83c740744cc414d4ffc9fca25923d036c35e23ce445c6b0baf61",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\software_stats.json"
+    },
+    "cases/case_09/software_decisions.json": {
+      "sha256": "a1d1835a5ce498b54c8e5c8f58341e88696b0c4f12c222ac36b14672fee4144f",
+      "bytes": 904542,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\software_decisions.json"
+    },
+    "cases/case_09/rtl_trace/authorizations.csv": {
+      "sha256": "c75eea77a52d099bdd53d72333ebab6d9dcefd22eac70d0bc6dc510aec4ed950",
+      "bytes": 30880,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_09/rtl_trace/aux_history_audit.csv": {
+      "sha256": "cad8e3e0d10b538cd9bdb85ef88e5180a6cd3871be4fedeb1ba43ef581aa1799",
+      "bytes": 238311,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_09/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "ad0509ccb9581519c5187f6ef1ec98a99d78b298f6411b1bd3c0de3e857c9795",
+      "bytes": 1891,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_09/rtl_trace/coefficient_writes.csv": {
+      "sha256": "e22c87d4dff5b857099cf671088b82214bef3378a05a30308eb119880a27035a",
+      "bytes": 97557,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_09/rtl_trace/events.csv": {
+      "sha256": "568c5638a42e5b3247253b5f2e68e87ba7d4737c284969e3d7d7ef3265338cfd",
+      "bytes": 423,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\events.csv"
+    },
+    "cases/case_09/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_09/rtl_trace/observations.csv": {
+      "sha256": "72056562460ce61dff4d304a7ca9b8d5ce6287cd3e6deeb39266b644fd3fa115",
+      "bytes": 12994,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\observations.csv"
+    },
+    "cases/case_09/rtl_trace/pre_service.csv": {
+      "sha256": "5f73c622627591ad6c475b7ded355e5e01dd99663e6a997050c808cdce967cc3",
+      "bytes": 190756,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_09/rtl_trace/queue_clock_events.csv": {
+      "sha256": "6e893c057ab0f3de93c40695bc795f066dd5b832dd6c1b16cdaf70f2a87dfb4d",
+      "bytes": 34880,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_09/rtl_trace/run.log": {
+      "sha256": "cee7acc8bf6eee86406c5aac0f973d8b0d30b8fb8217cf6417be72ddfe93be76",
+      "bytes": 9791,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\rtl_trace\\run.log"
+    },
+    "cases/case_10/input.npy": {
+      "sha256": "fae761516725026f34cb44d160634d94412873829e031a993301ac2b874bd403",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\input.npy"
+    },
+    "cases/case_10/output_512_rtl.npy": {
+      "sha256": "ef13191145091e421aa8ab62a8d4714ce34e6356c586f63a806f662a1f86659b",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\output_512_rtl.npy"
+    },
+    "cases/case_10/output_1024_software.npy": {
+      "sha256": "f6ed55b2082cd36e9993016b19dae694c0ca9169ae23cf665586f2007b6dc9b5",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\output_1024_software.npy"
+    },
+    "cases/case_10/case_result.json": {
+      "sha256": "e969fcf5711614e8f863c11ddcd618b4212a44dd0a060df02c895ca15714bf2b",
+      "bytes": 2934,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\case_result.json"
+    },
+    "cases/case_10/software_stats.json": {
+      "sha256": "86f4fdaadcae48005e0b6760bd1b9bfb1fac6b123a43f4e97ee44c3c789103df",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\software_stats.json"
+    },
+    "cases/case_10/software_decisions.json": {
+      "sha256": "b17448245a91d53b0d476bcf0163f1005be5334deef80d02e5f17f45afb9fb50",
+      "bytes": 907553,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\software_decisions.json"
+    },
+    "cases/case_10/rtl_trace/authorizations.csv": {
+      "sha256": "aec278f289e610568ba7ac538c1e8d58e85ae8b59e5a845d9b10cee7a36edcee",
+      "bytes": 30882,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_10/rtl_trace/aux_history_audit.csv": {
+      "sha256": "68360435977c0f27797cdfe69a9a84bae62daf9cc05f2d9f35eda581b6c574be",
+      "bytes": 238048,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_10/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "46d49de4b8dcffb1a73b3c3fa1a5b4d81690c19b83dd0ed1836a5f932a40c2ef",
+      "bytes": 1893,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_10/rtl_trace/coefficient_writes.csv": {
+      "sha256": "8be7fe0619ae72060852b0da2f71050275aef4e758881e79382737839367bc38",
+      "bytes": 91886,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_10/rtl_trace/events.csv": {
+      "sha256": "4e008af66cadd3c8f839a23417ac3b5c1f561878e4b6859b74be2e8290dd7612",
+      "bytes": 423,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\events.csv"
+    },
+    "cases/case_10/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_10/rtl_trace/observations.csv": {
+      "sha256": "ff727f6af491f59ef0e4a4befa654ba591bbfc1725ebd9d598c50a15e6a7b27c",
+      "bytes": 12989,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\observations.csv"
+    },
+    "cases/case_10/rtl_trace/pre_service.csv": {
+      "sha256": "d8f2adbdb273994dae202ab21fb38e7c3b4196909230546f8e7584f11f534dcd",
+      "bytes": 191617,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_10/rtl_trace/queue_clock_events.csv": {
+      "sha256": "866ff8d4b0fae526a84bf009dde08b4a84db955edc5e3e9c03638f1e3af5a082",
+      "bytes": 36154,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_10/rtl_trace/run.log": {
+      "sha256": "35bf5adaaae91ed9811e320c5d997944f6e758c0f8a8349a89cf3027c51aa11e",
+      "bytes": 9790,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\rtl_trace\\run.log"
+    },
+    "cases/case_11/input.npy": {
+      "sha256": "fba4dda6190f35b73651c5afe88754cda1c2635fb636f33b0bd277de319e0696",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\input.npy"
+    },
+    "cases/case_11/output_512_rtl.npy": {
+      "sha256": "9655fdbc1afc757618ae8153b0487b3f508316eff0e47ce27eddd6bf33fa4899",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\output_512_rtl.npy"
+    },
+    "cases/case_11/output_1024_software.npy": {
+      "sha256": "8a8698b7ab96d22ce1f2103a1294ddbc16141dac0f5168fbee403f2fdfff2a15",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\output_1024_software.npy"
+    },
+    "cases/case_11/case_result.json": {
+      "sha256": "65f1a0178dc2fa4ba83887a6b04a386f79efc03059c745c49e99e03d78a27e71",
+      "bytes": 2936,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\case_result.json"
+    },
+    "cases/case_11/software_stats.json": {
+      "sha256": "87cd9193d960ad1485db893782c6ef15128b712665d7c7a5ad01f4d4c8a906ef",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\software_stats.json"
+    },
+    "cases/case_11/software_decisions.json": {
+      "sha256": "626907138bc0b771325080258a66d492f1c882b2bc404715babf57b4ebd37770",
+      "bytes": 903167,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\software_decisions.json"
+    },
+    "cases/case_11/rtl_trace/authorizations.csv": {
+      "sha256": "0f9e008611b14b502d52ed973bdeaecacda78e3e64c1346f201395dd0e1da6ca",
+      "bytes": 30878,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_11/rtl_trace/aux_history_audit.csv": {
+      "sha256": "9c11cee1184cbfb71a7110b382873cb8a94ef3ff61fbeb985df091b350877301",
+      "bytes": 235482,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_11/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "95c4bd33e079791cdd3fbfeef6918224ff2d6ea374eedc95c100aac9a45e9766",
+      "bytes": 2379,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_11/rtl_trace/coefficient_writes.csv": {
+      "sha256": "fbc2ae1290905b816d86ad74e01122d1ad823ed5a559c731c310db5cfcd773aa",
+      "bytes": 134430,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_11/rtl_trace/events.csv": {
+      "sha256": "f72fae97332a124d244fc6480b2b6b3d283c9f069211218273f710976149b814",
+      "bytes": 531,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\events.csv"
+    },
+    "cases/case_11/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_11/rtl_trace/observations.csv": {
+      "sha256": "a14b5090675c70437ab6245fce16c775ab31844ba2969e62112ab7d767d3577a",
+      "bytes": 12980,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\observations.csv"
+    },
+    "cases/case_11/rtl_trace/pre_service.csv": {
+      "sha256": "e045a9bb6291add4346f03f2cff11d63217af35d4740bf7e263af42ea79e1b27",
+      "bytes": 189491,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_11/rtl_trace/queue_clock_events.csv": {
+      "sha256": "b04e0b3221d075c6cbf089de4b1b646061e07416f3ad98fd0eb72ba66d60885c",
+      "bytes": 40155,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_11/rtl_trace/run.log": {
+      "sha256": "bc7cf29a3007acd1287eb3c4a319fce804420b8aafd0524314b254b665ccb339",
+      "bytes": 9791,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\rtl_trace\\run.log"
+    },
+    "cases/case_12/input.npy": {
+      "sha256": "7dbec35b9b2a6185a36da8bb2cc7eb54eca1ed6f5c4d33fec765aa48dc37296f",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\input.npy"
+    },
+    "cases/case_12/output_512_rtl.npy": {
+      "sha256": "0f4abd09d39c1e9ae04aef8f097c1c58810abec2114fba6e2512a494a8f29bed",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\output_512_rtl.npy"
+    },
+    "cases/case_12/output_1024_software.npy": {
+      "sha256": "00d9f63b80a1a199fa0608e5c10d0018c7ffa5361504b9b5b07a14863373ae1e",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\output_1024_software.npy"
+    },
+    "cases/case_12/case_result.json": {
+      "sha256": "f3235f4894ce919dd362338fd7a2875118dfe0d621418e5f429915805a8a5188",
+      "bytes": 2929,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\case_result.json"
+    },
+    "cases/case_12/software_stats.json": {
+      "sha256": "f34eae3f69df20a80b6306674c992eabd5c03f12f1df523776325a26fe0975d4",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\software_stats.json"
+    },
+    "cases/case_12/software_decisions.json": {
+      "sha256": "5ff2de2e8b8b6da43fdc20907b5e6f3aa0dbbbc7f153fd7db51b7695a4e2bff7",
+      "bytes": 886150,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\software_decisions.json"
+    },
+    "cases/case_12/rtl_trace/authorizations.csv": {
+      "sha256": "4dc100d4e458c06f7a4d4ad5d0e7a46d41b2c65ffc41bcb388bbe92dbe226027",
+      "bytes": 30868,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_12/rtl_trace/aux_history_audit.csv": {
+      "sha256": "9800e9577ddbd775b80ea44625549e87570fb3e07a0bc3c5e1b233068babbf80",
+      "bytes": 234177,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_12/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "ecf902acaee6d6cba2281dfaae36cfc9188aa775792a197012053af9d4aa94ff",
+      "bytes": 1524,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_12/rtl_trace/coefficient_writes.csv": {
+      "sha256": "e30cb59222392c4b32c7429043fc423cf0435733c047d2928fad9b10832ce9a8",
+      "bytes": 73574,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_12/rtl_trace/events.csv": {
+      "sha256": "0a369b68894e8e17cce0be89e2c8769d93643afcd0c319b9f9c9c916d120a1b3",
+      "bytes": 344,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\events.csv"
+    },
+    "cases/case_12/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_12/rtl_trace/observations.csv": {
+      "sha256": "7601630468d7aea0fb44c7ac6f1878a693c7d9db0256497aaa4a20f111f290a1",
+      "bytes": 12917,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\observations.csv"
+    },
+    "cases/case_12/rtl_trace/pre_service.csv": {
+      "sha256": "d2d668a39e928db40eb4e13d97a5b29bf4aecffac54aea768fb3eb694f876396",
+      "bytes": 187841,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_12/rtl_trace/queue_clock_events.csv": {
+      "sha256": "b60d4a9976e296c591539a76c5ba83e2950efc13b4179702a8ec2f916e0a5bce",
+      "bytes": 32859,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_12/rtl_trace/run.log": {
+      "sha256": "dce61c896978f6c26e8ebc98386df92742ee606377736de16a346e9b8a3ad757",
+      "bytes": 9781,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\rtl_trace\\run.log"
+    },
+    "cases/case_13/input.npy": {
+      "sha256": "a5a50f4fcd8d224a182e3397fb95465adf82fe1e3affbb1f717eb11e696d9029",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\input.npy"
+    },
+    "cases/case_13/output_512_rtl.npy": {
+      "sha256": "cce557aa850069e2490bdf0b3850e9019116058fc4dab9bbbe92d6fbb6127370",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\output_512_rtl.npy"
+    },
+    "cases/case_13/output_1024_software.npy": {
+      "sha256": "514c21b55b26815e2cf8e181e6432cbdae5b5357b1a3b815f5611a62815992d6",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\output_1024_software.npy"
+    },
+    "cases/case_13/case_result.json": {
+      "sha256": "684c3825d67fa1bf3a24eea855e87d0d96ae76003733d04ca5092e2b78f00c1d",
+      "bytes": 2936,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\case_result.json"
+    },
+    "cases/case_13/software_stats.json": {
+      "sha256": "4894d0799f5d2775e33ee729b55c34a0a2f7bce7046601437b2c919ab45e6f4b",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\software_stats.json"
+    },
+    "cases/case_13/software_decisions.json": {
+      "sha256": "c8e1b830322bf370081706ad814179a81a4c495a5aa57cd9ed7dc596e11eff8c",
+      "bytes": 859975,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\software_decisions.json"
+    },
+    "cases/case_13/rtl_trace/authorizations.csv": {
+      "sha256": "d908f312c5f808ade273ba156f2123031c0bdafce9326ce2ec958a51d2239d04",
+      "bytes": 30850,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_13/rtl_trace/aux_history_audit.csv": {
+      "sha256": "591522e0600341e92f3c0a23b6f661ba4e2d4146c5682a221a625eade034aec8",
+      "bytes": 227406,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_13/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "69be7a9d14173cd4146c0ea936d1ee33a028be08d6fc8b2c67993c09f77c0efc",
+      "bytes": 1887,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_13/rtl_trace/coefficient_writes.csv": {
+      "sha256": "01909942ee1c7c34aa9295dac7c9a06eb881d4ee24951626f50ab15a067b5025",
+      "bytes": 91577,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_13/rtl_trace/events.csv": {
+      "sha256": "6157520bf40b614793e274c1c2e0669cd986a38bb1313a9bc3a0faec9285d7be",
+      "bytes": 421,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\events.csv"
+    },
+    "cases/case_13/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_13/rtl_trace/observations.csv": {
+      "sha256": "0f08ca39502f79077cc069e47d2a144384a73302e29ae344c44c15e3204fffb0",
+      "bytes": 12853,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\observations.csv"
+    },
+    "cases/case_13/rtl_trace/pre_service.csv": {
+      "sha256": "3b14ffa46383f513620aafc47ffc216582acd2a624ea6e6945de7e9a07c1b398",
+      "bytes": 185216,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_13/rtl_trace/queue_clock_events.csv": {
+      "sha256": "db38e46f76e60e1f6e8a528a809368801716047f10ceea9b9a14df9cc1b32d76",
+      "bytes": 35523,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_13/rtl_trace/run.log": {
+      "sha256": "d50b41048126ce716c9cc2b1a2ad38d0dbd22e9dbc158ec7040f0f5760179007",
+      "bytes": 9784,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\rtl_trace\\run.log"
+    },
+    "cases/case_14/input.npy": {
+      "sha256": "7f30f3f9763a93075aac1fe795dbd83e28c150c3f39763500598430c9800c105",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\input.npy"
+    },
+    "cases/case_14/output_512_rtl.npy": {
+      "sha256": "b5ac88dc39d71c10423fd45fa94914fa019a95e1b7c39bb3f7c0b412b4834aed",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\output_512_rtl.npy"
+    },
+    "cases/case_14/output_1024_software.npy": {
+      "sha256": "bda28a7d44001bd5f41265d7a0954f038750c23ba89163bdfa696328acf2d055",
+      "bytes": 32128,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\output_1024_software.npy"
+    },
+    "cases/case_14/case_result.json": {
+      "sha256": "94107c85f3997130921056fc8a73dc9471751d9408545f2834067c2d0d1bcb7a",
+      "bytes": 2937,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\case_result.json"
+    },
+    "cases/case_14/software_stats.json": {
+      "sha256": "6844c7ae21721040e7540e5e0a9591173a802e9e325605ce6fa4e4ab7f8289f7",
+      "bytes": 704,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\software_stats.json"
+    },
+    "cases/case_14/software_decisions.json": {
+      "sha256": "5d80fc095163ff60dcfb07ebd41b439820a3d6b1803c5092c7926810d2e10950",
+      "bytes": 808450,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\software_decisions.json"
+    },
+    "cases/case_14/rtl_trace/authorizations.csv": {
+      "sha256": "f2db3d0e26b2694d55d005e7d833fdda28ea43c79e1651fc47f0ad3168f4cf85",
+      "bytes": 30818,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\authorizations.csv"
+    },
+    "cases/case_14/rtl_trace/aux_history_audit.csv": {
+      "sha256": "74c9c8a4ed928a13381f1431a6ee84d77801ec06091a5ef865addc91122012b0",
+      "bytes": 216010,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\aux_history_audit.csv"
+    },
+    "cases/case_14/rtl_trace/cfg_snapshots.csv": {
+      "sha256": "985ee1f53bf1c8391b61eb5899512241551f657e477046f779ec02bcd20bb101",
+      "bytes": 1887,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\cfg_snapshots.csv"
+    },
+    "cases/case_14/rtl_trace/coefficient_writes.csv": {
+      "sha256": "fe98163d23a0cd6bd9f14f21a2bad51f34320b663bac20c4c294bb3276ffa8f8",
+      "bytes": 91577,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\coefficient_writes.csv"
+    },
+    "cases/case_14/rtl_trace/events.csv": {
+      "sha256": "a6dc9e9483b761788fd8a36282ace1bfb1b2fa212e4d767a33f8f2435632ede1",
+      "bytes": 421,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\events.csv"
+    },
+    "cases/case_14/rtl_trace/initial_banks.csv": {
+      "sha256": "3f263e32a23a939703792363096b75eb7bb15ab6c68741fd76fdb19b76cb29de",
+      "bytes": 8365,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\initial_banks.csv"
+    },
+    "cases/case_14/rtl_trace/observations.csv": {
+      "sha256": "03ed7a39b3c2fbaa064c991e3dbe1aa57b207d0f1c37ee84b8cc15d67a70842e",
+      "bytes": 12709,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\observations.csv"
+    },
+    "cases/case_14/rtl_trace/pre_service.csv": {
+      "sha256": "40e2704f543dc75980deb128a1a67db391b72de587010ff81a3862d2c4a3ba74",
+      "bytes": 179189,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\pre_service.csv"
+    },
+    "cases/case_14/rtl_trace/queue_clock_events.csv": {
+      "sha256": "b2fda4ff2004e7a98e0e83b1f5cd2fd09aeba48b1e46181de06326038e3bacff",
+      "bytes": 35459,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\queue_clock_events.csv"
+    },
+    "cases/case_14/rtl_trace/run.log": {
+      "sha256": "40cd4a6f0dabba25faa66e14a24dc01c7b662fafceab86ec978dca281719fc23",
+      "bytes": 9784,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\rtl_trace\\run.log"
+    },
+    "rtl_rebuild/tb_full_quality.v": {
+      "sha256": "f34b4472d6c8ca55dfdc5c3cba5e7c80b8903453216db36d825001f2014ecf49",
+      "bytes": 15553,
+      "original": "D:\\FPGA_Competition\\timing_sweep_work_20261028\\compiled\\tb_full_quality.v"
+    },
+    "rtl_rebuild/prim_fast_sim.v": {
+      "sha256": "4fb83f5431dd9597d3276f33acab0d325f2bcdb4de609f230dc3c3de1d4d7336",
+      "bytes": 713182,
+      "original": "D:\\FPGA_Competition\\timing_sweep_work_20261028\\compiled\\prim_fast_sim.v"
+    },
+    "rtl_rebuild/original_build_manifest.json": {
+      "sha256": "a7450356a58555d6425d0f4e43ff5437b2be815bb0a197791bfee01c25a0afde",
+      "bytes": 24823,
+      "original": "D:\\FPGA_Competition\\支撑材料\\项目资料\\04_PC_Software\\real_signal_validation_20261024\\rtl_smoke\\build_copy\\manifest.json"
+    }
+  },
+  "omitted": "Native/Verilator build caches and duplicate samples.csv/outputs.csv/input.mem; originals retained in support",
+  "source_files_modified": false,
+  "root_manifest_or_zip_modified": false
+}

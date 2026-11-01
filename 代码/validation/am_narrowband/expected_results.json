@@ -1,0 +1,62 @@
+{
+  "schema": "am-board-reference-expected-1",
+  "fs_hz": 32000,
+  "samples": 16000,
+  "alignment_samples": 320,
+  "input_payload_sha256": "701f2becab0b7458276490d20efa0e75afadd4f400e26e0e696fd27d4675349f",
+  "board_output_payload_sha256": "d085840a0e3476e7e826594f7d036fadd6a4e47b1aa17a7ac7423bf794aa4c9a",
+  "software_output_payload_sha256": "9f1f87db3619546f6f4863e672bc3282cd89183ffe099c13926bd2ea1d55af0f",
+  "windows": {
+    "full_common": {
+      "input_nrmse_pct": 1461.5959137908794,
+      "nrmse_512_pct": 206.57200519191352,
+      "nrmse_1024_pct": 266.90743883816003,
+      "relative_reduction_pct": 22.605377320648994,
+      "source_sample_range": [
+        0,
+        15680
+      ],
+      "output_sample_range": [
+        320,
+        16000
+      ],
+      "common_samples": 15680
+    },
+    "entry": {
+      "input_nrmse_pct": 1853.8696695559943,
+      "nrmse_512_pct": 338.56214410742064,
+      "nrmse_1024_pct": 449.7768023481363,
+      "relative_reduction_pct": 24.72663277876952,
+      "source_sample_range": [
+        2880,
+        7360
+      ],
+      "output_sample_range": [
+        3200,
+        7680
+      ],
+      "common_samples": 4480
+    },
+    "stable": {
+      "input_nrmse_pct": 1970.1384604988689,
+      "nrmse_512_pct": 40.2008690152035,
+      "nrmse_1024_pct": 37.37755749679223,
+      "relative_reduction_pct": -7.553493881063717,
+      "source_sample_range": [
+        7680,
+        10240
+      ],
+      "output_sample_range": [
+        8000,
+        10560
+      ],
+      "common_samples": 2560
+    }
+  },
+  "status_rows": 265,
+  "sample_frames": 250,
+  "samples_per_frame": 64,
+  "main_observations": 243,
+  "commits": 17,
+  "scope": "Historical real UART capture plus frozen software reference; re-score only, no new pipeline run."
+}

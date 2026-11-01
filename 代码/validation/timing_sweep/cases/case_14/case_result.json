@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "case_id": "case_14",
+  "input_payload_sha256": "6e49fe9ed80a9b2c7664483cc6c0fb0760c7402c9fc8acf2cb10f3c2f1cc3a33",
+  "output_512_payload_sha256": "197267ebdc6d17c7aa0b1d9746d2f859a5e6941d813ce89d2fcfc74703832f17",
+  "output_1024_payload_sha256": "98a288ddd1313880b41703b12ce52f7f8a0d49eeb749cdcd1847ab368d2bc9f7",
+  "rtl_status": {
+    "case": 0,
+    "sent": 16000,
+    "outputs": 16000,
+    "obs": 243,
+    "commits": 15,
+    "max_fir": 1296,
+    "detect": 81466,
+    "active": 0,
+    "waiting": 0,
+    "running": 0,
+    "dropped": 0,
+    "sat": 0,
+    "numeric": 0,
+    "deadline": 0,
+    "seqfault": 0,
+    "errors": 0,
+    "error_code": 0,
+    "gap_min": 1562,
+    "gap_max": 1563
+  },
+  "waiting_max": 1,
+  "software_stats": {
+    "observations": 235,
+    "updates": 20,
+    "strong_overflow_observations": 0,
+    "maximum_active_centers": 4,
+    "sample_count": 16000,
+    "sample_rate_hz": 32000,
+    "window_samples": 1024,
+    "hop_samples": 64,
+    "threshold_db": 21,
+    "max_centers": 4,
+    "filter_taps": 641,
+    "coefficient_fraction_bits": 16,
+    "fade_samples": 32,
+    "alignment_samples": 320,
+    "coefficient_guard_failures": 0,
+    "output_saturations": 0,
+    "frontend_compute_waiting_samples": 0,
+    "coefficient_prepare_waiting_samples": 0,
+    "layer": "Finite-arithmetic software reference; not FPGA timing or board output",
+    "input_information": "Mixed samples only; no reference, labels, or actual output supplied"
+  },
+  "metrics": {
+    "full_common": {
+      "nrmse_512_pct": 203.83085798240944,
+      "nrmse_1024_pct": 267.0537888588786,
+      "relative_reduction_pct": 23.674231002908016,
+      "score_start_s": 0.0,
+      "score_stop_s": 0.49,
+      "common_samples": 15680
+    },
+    "entry": {
+      "nrmse_512_pct": 330.54351966556817,
+      "nrmse_1024_pct": 449.6242653346649,
+      "relative_reduction_pct": 26.484501582774325,
+      "score_start_s": 0.09,
+      "score_stop_s": 0.23,
+      "common_samples": 4480
+    },
+    "stable": {
+      "nrmse_512_pct": 25.960640196639158,
+      "nrmse_1024_pct": 22.715684483062212,
+      "relative_reduction_pct": -14.285088860062851,
+      "score_start_s": 0.24,
+      "score_stop_s": 0.32,
+      "common_samples": 2560
+    }
+  },
+  "plan_sha256": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+  "command": [
+    "D:\\FPGA_Competition\\timing_sweep_work_20261028\\compiled\\native\\Release\\fullrtl.exe",
+    "+SAMPLES=16000",
+    "+INPUT=D:/FPGA_Competition/timing_sweep_work_20261028/case_14/attempt_20261028_003608_561932/input.mem",
+    "+FOLDER=D:/FPGA_Competition/timing_sweep_work_20261028/case_14/attempt_20261028_003608_561932/"
+  ],
+  "raw_trace": "D:\\FPGA_Competition\\timing_sweep_work_20261028\\case_14\\attempt_20261028_003608_561932",
+  "native_exe_sha256": "b8f57f0f1d2143a38551020eed93b51d48d1884eff4b3b1cd5778ba34a7f0550",
+  "wall_seconds_not_fpga_latency": 140.10830349999742
+}

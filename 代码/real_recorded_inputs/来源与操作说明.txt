@@ -1,0 +1,63 @@
+本目录：公开实录信号筛查与输入准备（2026-10-24）
+
+一、建议先用的文件
+prepared/drm_recorded_two_pairs/input.wav
+  厂商现场接收的DRM数字广播录音 + 人工加入两对强窄带干扰。
+prepared/drm_recorded_two_pairs_no_interference/input.wav
+  完全相同录音、相同前端增益，不加上述人工干扰。必须成对测试。
+prepared/drm_recorded_reference32k.wav
+  同段录音的原接收电平转换，另作电平/误启动检查；不要与低增益配对文件混作相同条件。
+
+前两份均为2秒、64000点、32000Hz、单声道PCM16，已实际重读并校验输入/参考哈希和分量重构。
+两对频率4311.3/4436.3Hz和5972.7/6097.7Hz，间距均125Hz。
+出现时刻0.250/0.251/0.258/0.259秒，消失1.30/1.40/1.55/1.65秒。
+每路人工干扰相对本段接收录音全带功率+20dB；这是离线场景定义，不是在线21dB局部谱门槛。
+混合输入和参考统一缩放，最大样本31130，未逐点削顶。保存的参考包含原接收噪声、多径及导频。
+
+二、怎么导入
+打开 D:/FPGA_Competition/pro_v32_ready/RUN_C4_GUI.bat。
+点击“导入 WAV/NPY”，先选本目录无附加干扰的 input.wav，选板上CH9102串口（此前COM9），开始收发并保存结果。
+再导入附加两对干扰的 input.wav，以相同配置再次收发并保存。
+请整体保留每个场景文件夹，不要只移动WAV：components.npz/source_metadata.json用于验证并显示匹配参考。
+只有混合int16样本送入FPGA；真实频率、时间、接收参考均留在电脑作离线评分，不给检测器答案。
+当前固件无需为了导入这些文件重新编译或烧录。
+
+三、来源和修改
+原始来源页：https://winradio.com/home/g313-drm.htm
+原始压缩包：https://winradio.com/home/drm-6095.if.zip
+WiNRADiO厂商明确称其为Radio Luxembourg/Deutsche Welle广播的live IF recordings。
+本次使用Radio Luxembourg 6095kHz的60.016秒、48kHz单路PCM16中频实录，固定截取原10–12秒，不根据滤波成绩挑片段。
+原WAV SHA256：5fa96dcb2e92b3dd2c4da80f68baa116b570d0eae1602902d7ad8ed2c9171860。
+
+转换为：完整DRM通道选择6.5–17.5kHz（2049抽头对称Kaiser FIR，beta=8），解析信号下移4kHz（名义12kHz中频→8kHz），48k→32k抗混叠重采样。
+离线居中卷积，转换前后各留250ms保护并裁掉；没有时间拉伸，没有删导频，没有在输入中先做陷波。
+通道选择保留该段原采样总功率约94.03%，其余主要在选定通道之外；所有评价参考以通道选择后信号为准，不能把这一步的变化算成板端收益。
+变频逆变换相对RMS误差约0.000732%；这只是转换自检，不是FPGA滤波误差。
+转换后99%能量约3.23–12.87kHz。当前检测只搜索1–7kHz，因此两对人工干扰放在其覆盖区；不声称整个DRM频带任意位置的干扰都能处理。
+
+四、这些实验能证明什么
+可以检验：独立实录通信波形上的已知附加窄带干扰抑制、原接收波形的保留、无附加干扰时是否误滤，以及板端连续处理。
+不能据此声称：全现场干扰场景实测、板端ADC实测、原始接收噪声已被清除、DRM解码/误码率已改善。
+NRMSE参考是“未附加干扰的同段接收录音”，不是无噪声发射原信号；值表示注入干扰之后能否恢复这段录音。
+已完成输入准备、格式校验和短段实际核心RTL检查；尚无这些新文件的实际板端输出。短段结果见“短段RTL结果.txt”，不能作为完整2秒或板测成绩。
+原始下载页用于testing/familiarization，未找到明确开放再分发许可。保留来源署名；暂作本地测试，不把原始录音打包公开发布。
+
+五、其他实际查到的来源
+1. SM5BSZ / Linrad 20mnoise1实录，96kHz双路I/Q，34.528秒：
+https://www.sm5bsz.com/linuxdsp/spur/autospur.htm
+https://www.sm5bsz.com/linuxdsp/spur/file1/20mnoise1.zip
+含真实杂散、脉冲，也有合法CW发射。没有干净参考和逐峰标签，适合边界观察；不能默认强峰都是应滤干扰，未作为成功演示。
+
+2. KiwiSDR HFDL / DRM测试样本：
+https://distro.kiwisdr.com/samples/
+已下载，分别是12kHz双路WAV和12kHz双路AU。目录没有充分说明全部录制出处，保留作格式与备用检查，不冒称已独立核实现场来源。
+
+3. MIT RF Challenge：
+https://rfchallenge.mit.edu/datasets/
+有真实OTA干扰记录，但整包数GB、25MHz下每帧仅毫秒量级，当前连续2秒32k实验不便直接使用。未下载大包，未拿时间拉伸凑数据。
+
+六、复现
+项目Python：C:/Users/User/Desktop/agent/FPGA_Competition/.venv/Scripts/python.exe
+在工作区 real_signal_validation_20261024 中运行 prepare_recorded_drm.py（输出目录必须全新），再运行 make_preview.py。
+源与输出的准确参数、哈希、共同增益见 prepared/preparation_check.json 及各场景source_metadata.json。
+input_preview.png仅显示准备好的输入和参考，不含任何模拟或伪造的FPGA输出。

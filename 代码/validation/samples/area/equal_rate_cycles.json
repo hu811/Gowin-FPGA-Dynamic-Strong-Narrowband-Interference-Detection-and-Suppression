@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "evidence_level": "component RTL; not a full online executor or P&R",
+  "capacity": 4,
+  "samples": 1536,
+  "rows": [
+    {
+      "phase": "normal",
+      "samples": 1504,
+      "merged_cycles": 645,
+      "dual_lane_cycles": 649,
+      "merged_products": 321,
+      "dual_lane_products": 1284,
+      "max_error_lsb": 0,
+      "sample_budget": 1562
+    },
+    {
+      "phase": "whole_bank_fade",
+      "samples": 32,
+      "merged_cycles": 1296,
+      "dual_lane_cycles": 1304,
+      "merged_products": 642,
+      "dual_lane_products": 2568,
+      "max_error_lsb": 0,
+      "sample_budget": 1562
+    }
+  ],
+  "precision": "legal generated correction range +/-1024, signed12 storage sign restored18; same44/50bit final RNE/saturation",
+  "lifecycle": "Caller must freeze the two correction slots throughout a sample/fade. No full online queue/version ownership integration.",
+  "scope": "Two II=1 multiply/accumulate lanes; mirrored common history, four nonduplicated1024x12 caches. Actual outputs equal production merged core and previous integer-checked benchmark.",
+  "source_hashes": {
+    "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v21_quality_area_work\\area_equal_rate\\dual_lane_correction_mac.v": "9636d02496fb29671cab09621ee1880fdcdfb0869b28eaaab2bdc5e708d39b0a",
+    "D:\\FPGA_Competition\\evidence_v21_equal_rate\\fir_mac_core.v": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+    "D:\\FPGA_Competition\\evidence_v21_equal_rate\\tb_architecture.v": "2f44c364f07de8d2740dfba8fffdb201f2c3628d05ab1986e2dd50a859fb5df7",
+    "D:\\FPGA_Competition\\evidence_v21_equal_rate\\input.mem": "592097c2452e96cd8a316dc27997817dbab62ee9d773c98659815bf6fae29513",
+    "D:\\FPGA_Competition\\evidence_v21_equal_rate\\merged.mem": "163e24ea386a39ee75f3bb18958b3d22ac7a775e429aa7a8b6c1e9361c44f47f",
+    "D:\\FPGA_Competition\\evidence_v21_equal_rate\\corrections.mem": "b1007ce845f72ac1cca3311b6eca0b695bb630e1c4815cf37c376088bf4c67b3"
+  }
+}

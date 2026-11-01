@@ -1,0 +1,100 @@
+{
+  "name": "c4_temporal_gap2ms_dev",
+  "capacity": 4,
+  "seed": 26102130,
+  "seconds": 0.9,
+  "frequencies_hz": [
+    2177.3,
+    2302.3,
+    5173.7,
+    5298.7
+  ],
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "segments": [
+    [
+      0,
+      0.16290625,
+      0.63490625
+    ],
+    [
+      1,
+      0.16390625,
+      0.63590625
+    ],
+    [
+      2,
+      0.16490625,
+      0.73440625
+    ],
+    [
+      3,
+      0.16590625,
+      0.73540625
+    ]
+  ],
+  "role": "development",
+  "pair_start_gap_samples": 64,
+  "member_stagger_samples": 32,
+  "fs": 32000,
+  "samples": 28800,
+  "events": [
+    {
+      "center": 0,
+      "frequency_hz": 2177.3,
+      "start_sample": 5213,
+      "end_sample": 20317
+    },
+    {
+      "center": 1,
+      "frequency_hz": 2302.3,
+      "start_sample": 5245,
+      "end_sample": 20349
+    },
+    {
+      "center": 2,
+      "frequency_hz": 5173.7,
+      "start_sample": 5277,
+      "end_sample": 23501
+    },
+    {
+      "center": 3,
+      "frequency_hz": 5298.7,
+      "start_sample": 5309,
+      "end_sample": 23533
+    }
+  ],
+  "probe_frequencies_hz": [
+    2239.8,
+    5236.2
+  ],
+  "primary_output_sample_range": [
+    5213,
+    25133
+  ],
+  "front_end_gain": 1.0,
+  "actual_target_rms": 0.01,
+  "pre_gain_clean_power": 0.00010240078678253849,
+  "actual_jammer_peak_amplitude": 0.14310890033994286,
+  "phases_rad": [
+    -0.6739794469944611,
+    1.7712521160296122,
+    -1.503972942389778,
+    2.1895625341646614
+  ],
+  "maximum_simultaneous_interferers": 4,
+  "max_input_abs_counts": 18678,
+  "input_sha256": "a1ffd57756831e746160bd6a41e57f403df328e3c1a56232d4fdcd86efa49547",
+  "plan_sha256": "15eeba4440c098a1c4f7cc12e2ee3a3a7256a95f789cafec1c275a7808c5c611",
+  "generator_sha256": "0096455c9b8934e810a9a3c782d0cae093c195bb1f2da896f4ca6da86c843cb7",
+  "input_encoding": "signed int16, RNE normalized*32768; labels offline only",
+  "online_truth_access": false
+}

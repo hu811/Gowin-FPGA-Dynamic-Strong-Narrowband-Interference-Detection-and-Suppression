@@ -1,0 +1,25 @@
+{
+  "status": "GOLDEN_CALIBRATION_PASS",
+  "new_native_prefix_samples": 4096,
+  "new_native_output_mismatches_lsb": 0,
+  "existing_native_vs_actual_board": [
+    {
+      "record": "rtl_smoke",
+      "samples": 4096,
+      "output_mismatches_lsb": 0
+    },
+    {
+      "record": "rtl_smoke_mixed_16000",
+      "samples": 16000,
+      "output_mismatches_lsb": 0
+    }
+  ],
+  "wall_seconds_not_fpga_latency": 56.81152590000056,
+  "command": [
+    "D:\\FPGA_Competition\\timing_sweep_work_20261028\\compiled\\native\\Release\\fullrtl.exe",
+    "+SAMPLES=4096",
+    "+INPUT=D:/FPGA_Competition/timing_sweep_work_20261028/golden_prefix/input.mem",
+    "+FOLDER=D:/FPGA_Competition/timing_sweep_work_20261028/golden_prefix/"
+  ],
+  "output_sha256": "78ce02563435baa4b33ab8b1d799e54bcba0b575a5e1b6ec21da327e9d0ab0c7"
+}

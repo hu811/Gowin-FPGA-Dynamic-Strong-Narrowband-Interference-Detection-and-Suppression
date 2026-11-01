@@ -1,0 +1,335 @@
+{
+  "schema": "v27-fast-dpb-full-rtl-1",
+  "capacity": 4,
+  "variant": "v31_queue_status_alu31_c4",
+  "frozen_source_bundle": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v31_physical_delivery_work\\validation\\final_sources\\queue_status_alu31_c4_ascii",
+  "production_changed": false,
+  "authoritative_gpr": "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\pro_v2.gprj",
+  "backend_override": null,
+  "basis_generator": false,
+  "packed_generator": false,
+  "source_sha256": {
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\divide_coefficient_bound10.v": "0892acc04ea7f5debc4cb7b66dcd436c7a289fea15f7d0eeb524459996fd94ca",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\analysis_fft.v": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\analysis_frontend.v": "03a7d4c217da2a73b7138e8f608aa6c6d65dcd376caa8d8a90cf85f737bad6be",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\aux_peak_tracker.v": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\basis_generator_service.v": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\coefficient_manager.v": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\config_scheduler.v": "066364b9ba5d93386b009765db3a794eada754270b48271a3e92dade07bd8f31",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\divide_round.v": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\dynamic_executor_v14.v": "52b50c9f0606f822d57deb392c57a728e63f670c9012e7ba658e09a4b71af50f",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\fir_mac_core.v": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\fitting_solver.v": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\group_controller_v14.v": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\orthogonal_fitter.v": "985a00834767c7fb9f2a675a7d7d80711abcd55d27bfb69d7f25c423660bd435",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\pro_v2_auto_core.v": "7500f797940db7e719602f8ae73b3c0bef7b287a37f5d3423e395d4c710d3bad",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\reset_sync.v": "d41842839519b82e0feb78f9d89e72f858338e9a754608744e27834a0b75bda6",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\sample_tick.v": "f46f5d8154127e11acaa0c159469ef1769d0cea96ab5c4d8922917a5fc17ded2",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\strong_gate.v": "f74c3eb4d7c090818c17e3b00ca0ded523dbbdffc8206d16cd14f0de85e819d6",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\transition_controller.v": "477a48ad1994f75cd3de08615d68b8d37512640696af98eb0b17bbaabb9f257b",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\uart_rx.v": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\uart_tx.v": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\oled_dashboard.v": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\i2c_write3.v": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\pro_v2_digital_top.v": "51a6698c885a01603305b9aa89b1dc91670ba9531828c2aa858286242256a1f0",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\digital_link.v": "b9153dc9fb67dd1d6f96d4d77baa47d8d343301da9dd4ed184c3d8d6d53032c6",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\digital_link_uart_rx.v": "5c644d79fee0a619670a624e7bebb06c32b520348d594a9fec26b0b9e8b3eab3",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\digital_link_ram.v": "a8f73754f67828b0ba12ce97fd51eccaa0026935377bc3af10667f87a47dfb53",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\digital_link_dsp_add.v": "92270eed41204849d0d71231d610ad6cc5a87817482d2aba21c72150bf0767fd",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\overlap_backend.v": "286578130717cd7df39d01809c59832e1a2ee5ac096ab09e439139d22f9bbabd",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\overlap_backend_microstore.v": "8f2b8f95b2cf959b774406ba2a4ef6e88d3bfe878abb57c5410e9cba06102153",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\overlap_backend_tight.v": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\overlap_backend_sp.v": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\backend_work_sp.v": "ad5cf9e32a5e7c8cce0c286c6fd25a86ac16bda93e8811e349d2350e5acd2922",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\overlap_backend_q15_mac.v": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\backend_dsp_arithmetic.v": "9125c7a15291005991072574d7bf76dbacc611aa3bc85e12444ed772e06db44c",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\q15_dsp_mac.v": "368b747887a3eeba5d9338949c7f81099558ad710c383814cdb640fbeb2e5fab",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\equality_lut.v": "ca19a888ff2714e262163f5bb98fe786458a02c72ecbc47190c1666e5c5a868d",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rtl\\rne31_alu34.v": "b44934cfc361803d726fcce7101fb3905141edbabee7dc78edfb6f80723ece85",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\aux_log2_low18.mem": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\aux_log2_pair36.mem": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\aux_log2_q22.mem": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\basis_prototype.mem": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\bypass.mem": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\cosine_prototype_packed.mem": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\cos_grid_direct.mem": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\cos_grid_lossless.mem": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\cos_quarter.mem": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\detector_gram_compact_q26.mem": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\detector_gram_half_q26.mem": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\detector_gram_q26.mem": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\detector_template_q24.mem": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\fft_hann_half_q30.mem": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\fft_hann_q30.mem": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\fft_twiddle_im_q30.mem": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\fft_twiddle_re_q30.mem": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\fixed_bank.mem": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\oled_screen.mem": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\rom\\prototype.mem": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a",
+    "D:\\Gowin\\Gowin_V1.9.11.03_Education_x64\\IDE\\simlib\\gw5a\\prim_sim.v": "202f65ccf77126d04e47db36c95e237e48522f3a105a3e64d9fcbf4e3b782f27",
+    "D:\\FPGA_Competition\\evidence_v31_physical\\c4\\r05_alu_round31\\pro_v2.gprj": "eb331245a604e98e834248b7945f1994f8a26510c831b084893b3aed37bdc7f6"
+  },
+  "rom_preflight": {
+    "status": "PASS",
+    "scope": "Every readmemb/readmemh expression in copied project RTL, including string-parameter defaults; all copied project ROMs also hashed. Unresolved expressions fail closed.",
+    "required": [
+      {
+        "path": "rom/aux_log2_pair36.mem",
+        "exists": true,
+        "sha256": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+        "references": [
+          {
+            "source": "sources\\aux_peak_tracker.v",
+            "expression": "LOG_FILE"
+          }
+        ]
+      },
+      {
+        "path": "rom/bypass.mem",
+        "exists": true,
+        "sha256": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+        "references": [
+          {
+            "source": "sources\\fir_mac_core.v",
+            "expression": "INIT0"
+          },
+          {
+            "source": "sources\\fir_mac_core.v",
+            "expression": "\"rom/bypass.mem\""
+          }
+        ]
+      },
+      {
+        "path": "rom/cos_grid_lossless.mem",
+        "exists": true,
+        "sha256": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+        "references": [
+          {
+            "source": "sources\\overlap_backend.v",
+            "expression": "\"rom/cos_grid_lossless.mem\""
+          }
+        ]
+      },
+      {
+        "path": "rom/cosine_prototype_packed.mem",
+        "exists": true,
+        "sha256": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+        "references": [
+          {
+            "source": "sources\\basis_generator_service.v",
+            "expression": "\"rom/cosine_prototype_packed.mem\""
+          }
+        ]
+      },
+      {
+        "path": "rom/detector_gram_compact_q26.mem",
+        "exists": true,
+        "sha256": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+        "references": [
+          {
+            "source": "sources\\orthogonal_fitter.v",
+            "expression": "\"rom/detector_gram_compact_q26.mem\""
+          }
+        ]
+      },
+      {
+        "path": "rom/detector_template_q24.mem",
+        "exists": true,
+        "sha256": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+        "references": [
+          {
+            "source": "sources\\orthogonal_fitter.v",
+            "expression": "\"rom/detector_template_q24.mem\""
+          }
+        ]
+      },
+      {
+        "path": "rom/fft_hann_half_q30.mem",
+        "exists": true,
+        "sha256": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+        "references": [
+          {
+            "source": "sources\\analysis_fft.v",
+            "expression": "HANN_FILE"
+          }
+        ]
+      },
+      {
+        "path": "rom/fft_twiddle_im_q30.mem",
+        "exists": true,
+        "sha256": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+        "references": [
+          {
+            "source": "sources\\analysis_fft.v",
+            "expression": "TWIDDLE_IM_FILE"
+          }
+        ]
+      },
+      {
+        "path": "rom/fft_twiddle_re_q30.mem",
+        "exists": true,
+        "sha256": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+        "references": [
+          {
+            "source": "sources\\analysis_fft.v",
+            "expression": "TWIDDLE_RE_FILE"
+          }
+        ]
+      },
+      {
+        "path": "rom/oled_screen.mem",
+        "exists": true,
+        "sha256": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+        "references": [
+          {
+            "source": "sources\\oled_dashboard.v",
+            "expression": "\"rom/oled_screen.mem\""
+          }
+        ]
+      }
+    ],
+    "missing": [],
+    "unresolved": [],
+    "all_copied_rom_sha256": {
+      "rom\\aux_log2_low18.mem": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+      "rom\\aux_log2_pair36.mem": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+      "rom\\aux_log2_q22.mem": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+      "rom\\basis_prototype.mem": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+      "rom\\bypass.mem": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+      "rom\\cos_grid_direct.mem": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+      "rom\\cos_grid_lossless.mem": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+      "rom\\cos_quarter.mem": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+      "rom\\cosine_prototype_packed.mem": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+      "rom\\detector_gram_compact_q26.mem": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+      "rom\\detector_gram_half_q26.mem": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+      "rom\\detector_gram_q26.mem": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+      "rom\\detector_template_q24.mem": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+      "rom\\fft_hann_half_q30.mem": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+      "rom\\fft_hann_q30.mem": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+      "rom\\fft_twiddle_im_q30.mem": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+      "rom\\fft_twiddle_re_q30.mem": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+      "rom\\fixed_bank.mem": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+      "rom\\oled_screen.mem": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+      "rom\\prototype.mem": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a"
+    }
+  },
+  "sim_copies_sha256": {
+    "sources\\divide_coefficient_bound10.v": "f4519befea418e5339dc00a07c1af97dd2ba07c2ac5647829094c9c3565288c4",
+    "sources\\analysis_fft.v": "a77fb9f1dbabba3dd4713d15b7974bb93a6bfee675b711bd6bb402857e133222",
+    "sources\\analysis_frontend.v": "964e5c0e18de5ead07691f2fd872ca2a61efb121be6d606029747478b531e41d",
+    "sources\\aux_peak_tracker.v": "b5e6f49a8f96b6c84058b7ed662823277852e44335484e65d2a29ff012dcc843",
+    "sources\\basis_generator_service.v": "e48c12f475ab2631c5e6f89144f9705876d3e077507e33301659221251fa4121",
+    "sources\\coefficient_manager.v": "6469bca03cc6c5ee468b6c86607cf806953289b4b9a1ae789e5e242aa2944452",
+    "sources\\config_scheduler.v": "066364b9ba5d93386b009765db3a794eada754270b48271a3e92dade07bd8f31",
+    "sources\\divide_round.v": "805c387df4540fd31ac6719c57be67330487e1b72ea7582eccffba91b36382e6",
+    "sources\\dynamic_executor_v14.v": "52b50c9f0606f822d57deb392c57a728e63f670c9012e7ba658e09a4b71af50f",
+    "sources\\fir_mac_core.v": "affbec2112439aca90de8061a395f89e669db58da1f45639ef51a16aaf0365e0",
+    "sources\\fitting_solver.v": "69a2d55fd5b6faf42a027480b780fe69a7664b87a7b6c917044f5450b20c5863",
+    "sources\\group_controller_v14.v": "902174283ea44636d59aa59c88a73cabfe551ccd4358599edd11fb56baa25897",
+    "sources\\orthogonal_fitter.v": "985a00834767c7fb9f2a675a7d7d80711abcd55d27bfb69d7f25c423660bd435",
+    "sources\\pro_v2_auto_core.v": "c168d96ef847ad60867305aee73592a8262744f30ff9afa6ed91847ff7f07704",
+    "sources\\reset_sync.v": "f38dff2319e152ff9966abb54fc5142545eeb4f4f562e435b61d7fd515d74199",
+    "sources\\sample_tick.v": "84358287163c166b643add430654f3ca9c94a01d8cc131bcb04c3e8923c4558b",
+    "sources\\strong_gate.v": "a871bb9cf2ce64d271eecaea523d7249f8bcfd405b6d0256ccfe97c97a6fbcf8",
+    "sources\\transition_controller.v": "3ccc4886fb959e1de1b1b98adc1a982bc47ff9a06506ac71936bea7188827b96",
+    "sources\\uart_rx.v": "9d22443454b5f01a09c2c5fd71795bf11db57675180e7b11298b99e6d1f55e1c",
+    "sources\\uart_tx.v": "f275bed9ca062dd008de54e862e874ec678ac2c5666b5939d08d07e81319bf02",
+    "sources\\oled_dashboard.v": "5557a195e55e786bcd11078c290767ef84efd340f03663fc017e0ee9cd632a85",
+    "sources\\i2c_write3.v": "3ca01a9d2787f369756ee6a6b32593523589429cfc0e7af4d084c8c63661494c",
+    "sources\\pro_v2_digital_top.v": "fb0458f62ceae70f3c1cccceb99f745f0d34cd7a94bfb24078f140d007f75f25",
+    "sources\\digital_link.v": "18f8e3c738f2a254cc7cc58b7fdf5c72ad2262298b9f8500d15b9942b467bcae",
+    "sources\\digital_link_uart_rx.v": "c76793c32adc2278a67021c4299776bff150ba164da54aa3f2f42e4407e98602",
+    "sources\\digital_link_ram.v": "78a948fe8402692111398657b12d50944c792630e9a1a031afd39dfc1100e21a",
+    "sources\\digital_link_dsp_add.v": "50a3abca34f354a4d681adcbdaef15d4ed8d6727f753447f91cef426eb6f92e2",
+    "sources\\overlap_backend.v": "7c3a1444b0b49e5da8a27285de73003331279e92409ea7cb988b9ade393c0956",
+    "sources\\overlap_backend_microstore.v": "640e9a11e89df66cd7d40631e7556b5f40a7358c60cdddde9bf9584de27d5e64",
+    "sources\\overlap_backend_tight.v": "0e13bfffaae3b8790f307f8902a08d410b1df3e3bc26322ca006a5132329d7d2",
+    "sources\\overlap_backend_sp.v": "4d33d0bc6a8d0da687f4c65db2a6341b72de04e764b9ff76bd128c3ca29df4ab",
+    "sources\\backend_work_sp.v": "cdc01b259a68d8ebb86bfcd5f393e05ca0476a01cae616ab77d9e108a9a89845",
+    "sources\\overlap_backend_q15_mac.v": "566d2d20761ac2e7e8756daf2cbaa80c4d2ea461cb25d04c5f3c9cb761150358",
+    "sources\\backend_dsp_arithmetic.v": "f86b758ef7614e854c89a2e64182f89a0bde9ecd17e64d6d351cefe24a0430e0",
+    "sources\\q15_dsp_mac.v": "29c27cbc8301032087ad15d73fa60132f91c095f33aab2b75e8bb77a2c4c0509",
+    "sources\\equality_lut.v": "ca19a888ff2714e262163f5bb98fe786458a02c72ecbc47190c1666e5c5a868d",
+    "sources\\rne31_alu34.v": "b44934cfc361803d726fcce7101fb3905141edbabee7dc78edfb6f80723ece85",
+    "prim_fast_sim.v": "4fb83f5431dd9597d3276f33acab0d325f2bcdb4de609f230dc3c3de1d4d7336",
+    "tb_full_quality.v": "f34b4472d6c8ca55dfdc5c3cba5e7c80b8903453216db36d825001f2014ecf49",
+    "rom\\aux_log2_low18.mem": "778117766eaecf10922c6ad52c598b8f8fdc9b96cc3be0c0199d2682901aab65",
+    "rom\\aux_log2_pair36.mem": "89fef05b33aa9b8d8e2bfa5db43e8bc1d2b7b534ae75e5630632ebb5fad5f701",
+    "rom\\aux_log2_q22.mem": "a847758a68f83cc0437d60a4bdb2d85f2b1f416cec03c03ac3d43c271e7a155a",
+    "rom\\basis_prototype.mem": "0b8ed0a84f6cea32268af28c3d3709614d8b250cd17865f12dc1dc1be978d719",
+    "rom\\bypass.mem": "06d0f34dfda88d95045f7e2ede7606652e45b0ca67d3f036ada93a1f78e712ec",
+    "rom\\cosine_prototype_packed.mem": "49757b03afee15eb5680ffa8ecac669cd257e63545ec73910285c2fbdc71526c",
+    "rom\\cos_grid_direct.mem": "280321ff7b89988949de7e10c292e1ee59e4f6b6edccb18ff8239ff86705ea3c",
+    "rom\\cos_grid_lossless.mem": "624961eb8d08eda65ae1e9a6ea87ae56acfd0044ac075f44845c964409f6b774",
+    "rom\\cos_quarter.mem": "49ab364cf020babb4a78ba35d1ab8ffeca87ad3b3be11b89b39f26a21dfc9f78",
+    "rom\\detector_gram_compact_q26.mem": "d6e7a2f99a162ed781b7fa205a3a34ba0e02926fc0cba7ba2227d482d3bdfbf8",
+    "rom\\detector_gram_half_q26.mem": "bc035a99458fa76b6149999c540a3856cf487f624b44c789e46f698472b80e3d",
+    "rom\\detector_gram_q26.mem": "cc8a8c6c71259aa2fb78d805b2b73ae3cfd32e595cbce308ffa10a799bcddac0",
+    "rom\\detector_template_q24.mem": "b1c1f906a0f390acc4020dff2282359e208d74abba2a391e8c3e0a9db7e29fea",
+    "rom\\fft_hann_half_q30.mem": "2a5f15fd9963ab486121b356a06e0917bdea7a78faf08a1578f924c70aa0ef48",
+    "rom\\fft_hann_q30.mem": "d6e1e591bc94e969816d1e5be8ef939bf7d21e6c1cd11186ab84ff06eb7c66a2",
+    "rom\\fft_twiddle_im_q30.mem": "579c0ed58db0710dfbc601e0ce756984342a5c0328dfd870ac95d8aeb6b1cb92",
+    "rom\\fft_twiddle_re_q30.mem": "d75ca18e34d303f6896cc07db4c2d8567f7ad93bbedab55e6b43ba22f25597ec",
+    "rom\\fixed_bank.mem": "f13e77096981c7711e76c480a02c8bc014c0464ae36ccc386547d0b5ac5c235a",
+    "rom\\oled_screen.mem": "6d84e1906d6a950e774cddd011952c28e0315ea8cf9a7b9ec32e9f14d4662468",
+    "rom\\prototype.mem": "e02d71a6faf6238948f8d43831c10b72b60119e613068e40e32d13652401bc8a"
+  },
+  "simulation_only_changes": [
+    "Icarus assertion declaration ordering including backend forward declarations if needed",
+    "DPB16/SP32 wordarray models for actualmode00; same synchronous timing/byte enables/normal write output hold",
+    "generic bench paths/length/capacity and read-only snapshot/service/authorization logs",
+    "Immutable V30AUTO fullcapture bench copied byte-for-byte before native compile; only mixed samples drive DUT, all manager captures read-only. Existing official ALU model retained unchanged."
+  ],
+  "command": [
+    "D:\\FPGA_Competition\\05_Tools\\iverilog\\ucrt64\\bin\\iverilog.exe",
+    "-g2012",
+    "-s",
+    "tb_full_quality",
+    "-I",
+    "sources",
+    "-o",
+    "sim.vvp",
+    "tb_full_quality.v",
+    "sources\\divide_coefficient_bound10.v",
+    "sources\\analysis_fft.v",
+    "sources\\analysis_frontend.v",
+    "sources\\aux_peak_tracker.v",
+    "sources\\basis_generator_service.v",
+    "sources\\coefficient_manager.v",
+    "sources\\config_scheduler.v",
+    "sources\\divide_round.v",
+    "sources\\dynamic_executor_v14.v",
+    "sources\\fir_mac_core.v",
+    "sources\\fitting_solver.v",
+    "sources\\group_controller_v14.v",
+    "sources\\orthogonal_fitter.v",
+    "sources\\pro_v2_auto_core.v",
+    "sources\\reset_sync.v",
+    "sources\\sample_tick.v",
+    "sources\\strong_gate.v",
+    "sources\\transition_controller.v",
+    "sources\\uart_rx.v",
+    "sources\\uart_tx.v",
+    "sources\\oled_dashboard.v",
+    "sources\\i2c_write3.v",
+    "sources\\pro_v2_digital_top.v",
+    "sources\\digital_link.v",
+    "sources\\digital_link_uart_rx.v",
+    "sources\\digital_link_ram.v",
+    "sources\\digital_link_dsp_add.v",
+    "sources\\overlap_backend.v",
+    "sources\\overlap_backend_microstore.v",
+    "sources\\overlap_backend_tight.v",
+    "sources\\overlap_backend_sp.v",
+    "sources\\backend_work_sp.v",
+    "sources\\overlap_backend_q15_mac.v",
+    "sources\\backend_dsp_arithmetic.v",
+    "sources\\q15_dsp_mac.v",
+    "sources\\equality_lut.v",
+    "sources\\rne31_alu34.v",
+    "prim_fast_sim.v"
+  ],
+  "baseline_full_capture_build": "D:\\FPGA_Competition\\evidence_v30_rtl_scratch\\v27_c4_capture",
+  "baseline_full_capture_manifest_sha256": "a6d179c80d83ddd425f0cfe30a6c9f509cd1ef5833209381a16a929798afaafc",
+  "command_scope": "Inherited Icarus preparation only; actual Verilator/native commands bound separately."
+}

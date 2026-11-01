@@ -1,0 +1,15 @@
+{
+  "source_release": "D:\\FPGA_Competition\\pro_v32_ready",
+  "source_bitstream_sha256": "835eb5645e18e8e1f38263dc8a39eace5ddeb4878bab2d5b4e19eb76f3f6e0a2",
+  "firmware_modified": false,
+  "host_algorithm_modified": false,
+  "pnr_executed": false,
+  "serial_opened": false,
+  "gui_opened": false,
+  "changes": [
+    "relative tool include path",
+    "reset absent GUI cache state",
+    "configurable build/Python paths",
+    "portable recorded experiment default/replay launcher"
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "schema": "current-c4-onset-spacing-sweep-1",
+  "fs_hz": 32000,
+  "sample_count": 16000,
+  "seed": 26102131,
+  "target_generation": "Existing host raised-cosine PSD Gaussian bandpass target600..7400Hz, RMS0.01; independent fixed noise RMS0.001",
+  "frequencies_hz": [
+    2311.3,
+    2436.3,
+    4972.7,
+    5097.7
+  ],
+  "onset_phase_rad": [
+    -0.3,
+    0.8,
+    1.2,
+    -1.0
+  ],
+  "fixed_jammer_peak_before_gain": 0.1414213562373095,
+  "phase_convention": "sin(2*pi*f*(t-onset)+phi); per-source onset phase fixed, global phase changes with onset.",
+  "first_pair_internal_ms": 1,
+  "nominal_each_jammer_js_db": 20,
+  "js_note": "One fixed sine amplitude across every input; finite active-segment RMS J/S is recorded, not renormalized.",
+  "common_frontend_gain": 1.0,
+  "target_array_sha256": "7e517754c31116075e80d7589c95f462e6a9093273b3d10f468d2639e888ebd8",
+  "noise_array_sha256": "2092c0ea965c0c04dca3a679345c430a5606eda2dc06d0de55a3fc0dd7c3d461",
+  "axis_values_ms": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "plan_cases": [
+    {
+      "axis": "internal_delta",
+      "delay_ms": 0,
+      "internal_delta_ms": 0,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3456
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        20.000219163430422
+      ],
+      "case_id": "case_00",
+      "input_payload_sha256": "a99f7e6ee5f68d6b19ba0b300cc6e9ed0b07eeea0ad5d89ad4a43beb1029dd89",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\input.npy",
+      "max_abs_input_counts": 18507
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 1,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3488
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999913234500536
+      ],
+      "case_id": "case_01",
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\input.npy",
+      "max_abs_input_counts": 17800
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 2,
+      "internal_delta_ms": 2,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3520
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999665063797725
+      ],
+      "case_id": "case_02",
+      "input_payload_sha256": "bfc3f8323de1b99918ba08a44b20ecfb5f09e06722f97ddd8280f32cc70483d5",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\input.npy",
+      "max_abs_input_counts": 16889
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 4,
+      "internal_delta_ms": 4,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3584
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        20.000150126799895
+      ],
+      "case_id": "case_03",
+      "input_payload_sha256": "fdee88d00f8c903bb3b7d2ef49b7846ef9586e831826ed8624c9fd4bd163127e",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\input.npy",
+      "max_abs_input_counts": 13932
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 8,
+      "internal_delta_ms": 8,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3712
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999765589860313
+      ],
+      "case_id": "case_04",
+      "input_payload_sha256": "c7d4c81b5429b5a1b0cc34c07d552c5749f229c9ffd85d1f607486c2baf04337",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\input.npy",
+      "max_abs_input_counts": 18518
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 16,
+      "internal_delta_ms": 16,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3968
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        20.00004329021747
+      ],
+      "case_id": "case_05",
+      "input_payload_sha256": "9d0d3f7f797fe48f6be5de55f65eb9943b8d9d661ab34f43eb9cd481d8f24979",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\input.npy",
+      "max_abs_input_counts": 15900
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 32,
+      "internal_delta_ms": 32,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        4480
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.99978816265514
+      ],
+      "case_id": "case_06",
+      "input_payload_sha256": "12adb1fa5fc3784fdfe3c9dd1deb87e58f9829a748709bb83aefb2ed20d96a31",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\input.npy",
+      "max_abs_input_counts": 17641
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 64,
+      "internal_delta_ms": 64,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        5504
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999611419182205
+      ],
+      "case_id": "case_07",
+      "input_payload_sha256": "4b9b170f9a0e0248e505f7ff344c68d13db7c7cc79604d84ff52119427bb79ea",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\input.npy",
+      "max_abs_input_counts": 15972
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 0,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 0,
+      "start_samples": [
+        3200,
+        3232,
+        3200,
+        3232
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.000270716801644,
+        19.999889443014712
+      ],
+      "case_id": "case_08",
+      "input_payload_sha256": "d2345f0f01315cc3af28a22015ff9b78c5d051b7709848423ca708f50fd97438",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\input.npy",
+      "max_abs_input_counts": 18439
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 1,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 1,
+      "start_samples": [
+        3200,
+        3232,
+        3232,
+        3264
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.000375372981274,
+        20.000200565702187
+      ],
+      "case_id": "case_09",
+      "input_payload_sha256": "c0a9128cbd4ec66ea9565c0eef413cbc7b644a60cd52c79c5773704a08313819",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\input.npy",
+      "max_abs_input_counts": 17158
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 2,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 2,
+      "start_samples": [
+        3200,
+        3232,
+        3264,
+        3296
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.000472129700956,
+        20.000192628609025
+      ],
+      "case_id": "case_10",
+      "input_payload_sha256": "bf7108c15570fe6bf44124af91ec09903d8ff22b1ac03167a1c50fb0419e4672",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\input.npy",
+      "max_abs_input_counts": 14745
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 4,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 4,
+      "start_samples": [
+        3200,
+        3232,
+        3328,
+        3360
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.000599130226004,
+        19.99966614353464
+      ],
+      "case_id": "case_11",
+      "input_payload_sha256": "5868a84ead368c5caf3d6ac166852dbe6a56e00d02d532c75e2d2a454685795a",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\input.npy",
+      "max_abs_input_counts": 16780
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 8,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 8,
+      "start_samples": [
+        3200,
+        3232,
+        3456,
+        3488
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00045745404922,
+        19.999913234500536
+      ],
+      "case_id": "case_01",
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\input.npy",
+      "max_abs_input_counts": 17800
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 16,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 16,
+      "start_samples": [
+        3200,
+        3232,
+        3712,
+        3744
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.00006817480387,
+        20.00011700895769
+      ],
+      "case_id": "case_12",
+      "input_payload_sha256": "a77cc5428f4061d4b117f72f0c753e3a87575bb9d5bce9fcacf255f7be622409",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\input.npy",
+      "max_abs_input_counts": 18157
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 32,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 32,
+      "start_samples": [
+        3200,
+        3232,
+        4224,
+        4256
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        19.999998532984694,
+        20.000272141579785
+      ],
+      "case_id": "case_13",
+      "input_payload_sha256": "90d842249b5f8f866644f1720cfc56e692cba4feb477f807e7db43e9c42ee52c",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\input.npy",
+      "max_abs_input_counts": 17857
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 64,
+      "internal_delta_ms": 1,
+      "pair_gap_ms": 64,
+      "start_samples": [
+        3200,
+        3232,
+        5248,
+        5280
+      ],
+      "stop_samples": [
+        11200,
+        11520,
+        11840,
+        12160
+      ],
+      "actual_active_js_db": [
+        19.999392931046266,
+        19.999994837850064,
+        20.000445659356778,
+        20.000025506508123
+      ],
+      "case_id": "case_14",
+      "input_payload_sha256": "6e49fe9ed80a9b2c7664483cc6c0fb0760c7402c9fc8acf2cb10f3c2f1cc3a33",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\input.npy",
+      "max_abs_input_counts": 17919
+    }
+  ],
+  "unique_cases": [
+    {
+      "case_id": "case_00",
+      "input_payload_sha256": "a99f7e6ee5f68d6b19ba0b300cc6e9ed0b07eeea0ad5d89ad4a43beb1029dd89",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_00\\input.npy",
+      "max_abs_input_counts": 18507
+    },
+    {
+      "case_id": "case_01",
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_01\\input.npy",
+      "max_abs_input_counts": 17800
+    },
+    {
+      "case_id": "case_02",
+      "input_payload_sha256": "bfc3f8323de1b99918ba08a44b20ecfb5f09e06722f97ddd8280f32cc70483d5",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_02\\input.npy",
+      "max_abs_input_counts": 16889
+    },
+    {
+      "case_id": "case_03",
+      "input_payload_sha256": "fdee88d00f8c903bb3b7d2ef49b7846ef9586e831826ed8624c9fd4bd163127e",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_03\\input.npy",
+      "max_abs_input_counts": 13932
+    },
+    {
+      "case_id": "case_04",
+      "input_payload_sha256": "c7d4c81b5429b5a1b0cc34c07d552c5749f229c9ffd85d1f607486c2baf04337",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_04\\input.npy",
+      "max_abs_input_counts": 18518
+    },
+    {
+      "case_id": "case_05",
+      "input_payload_sha256": "9d0d3f7f797fe48f6be5de55f65eb9943b8d9d661ab34f43eb9cd481d8f24979",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_05\\input.npy",
+      "max_abs_input_counts": 15900
+    },
+    {
+      "case_id": "case_06",
+      "input_payload_sha256": "12adb1fa5fc3784fdfe3c9dd1deb87e58f9829a748709bb83aefb2ed20d96a31",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_06\\input.npy",
+      "max_abs_input_counts": 17641
+    },
+    {
+      "case_id": "case_07",
+      "input_payload_sha256": "4b9b170f9a0e0248e505f7ff344c68d13db7c7cc79604d84ff52119427bb79ea",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_07\\input.npy",
+      "max_abs_input_counts": 15972
+    },
+    {
+      "case_id": "case_08",
+      "input_payload_sha256": "d2345f0f01315cc3af28a22015ff9b78c5d051b7709848423ca708f50fd97438",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_08\\input.npy",
+      "max_abs_input_counts": 18439
+    },
+    {
+      "case_id": "case_09",
+      "input_payload_sha256": "c0a9128cbd4ec66ea9565c0eef413cbc7b644a60cd52c79c5773704a08313819",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_09\\input.npy",
+      "max_abs_input_counts": 17158
+    },
+    {
+      "case_id": "case_10",
+      "input_payload_sha256": "bf7108c15570fe6bf44124af91ec09903d8ff22b1ac03167a1c50fb0419e4672",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_10\\input.npy",
+      "max_abs_input_counts": 14745
+    },
+    {
+      "case_id": "case_11",
+      "input_payload_sha256": "5868a84ead368c5caf3d6ac166852dbe6a56e00d02d532c75e2d2a454685795a",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_11\\input.npy",
+      "max_abs_input_counts": 16780
+    },
+    {
+      "case_id": "case_12",
+      "input_payload_sha256": "a77cc5428f4061d4b117f72f0c753e3a87575bb9d5bce9fcacf255f7be622409",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_12\\input.npy",
+      "max_abs_input_counts": 18157
+    },
+    {
+      "case_id": "case_13",
+      "input_payload_sha256": "90d842249b5f8f866644f1720cfc56e692cba4feb477f807e7db43e9c42ee52c",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_13\\input.npy",
+      "max_abs_input_counts": 17857
+    },
+    {
+      "case_id": "case_14",
+      "input_payload_sha256": "6e49fe9ed80a9b2c7664483cc6c0fb0760c7402c9fc8acf2cb10f3c2f1cc3a33",
+      "input_file": "D:\\FPGA_Competition\\支撑材料\\项目资料\\08_Simulation\\20261028_timing_sweep\\cases\\case_14\\input.npy",
+      "max_abs_input_counts": 17919
+    }
+  ],
+  "score_windows": {
+    "full_common": {
+      "first_sample": 0,
+      "stop_sample_exclusive": 15680,
+      "start_s": 0.0,
+      "stop_s": 0.49
+    },
+    "entry": {
+      "first_sample": 2880,
+      "stop_sample_exclusive": 7360,
+      "start_s": 0.09,
+      "stop_s": 0.23
+    },
+    "stable": {
+      "first_sample": 7680,
+      "stop_sample_exclusive": 10240,
+      "start_s": 0.24,
+      "stop_s": 0.32
+    }
+  },
+  "primary": "Full common interval0..490ms; R=100*(E1024-E512)/E1024. Entry/stable are secondary; negative values retained.",
+  "online_information": "Only mixed signed-int16 samples and sample cadence; no labels/target/frequencies sent to DUT or software detector.",
+  "layers": {
+    "current512": "Actual complete V32-equivalent native RTL,50MHz/32kHz,live1024aux,queue,coefficient preparation,fade and FIR",
+    "reference1024": "Frozen finite-arithmetic independent estimator with zero frontend/coefficient preparation waiting; same641/Q16/32fade numeric backend, software latest-deferred update policy"
+  },
+  "architecture_limits": "Not a pure-window ablation or two board measurements; 1024 software timing differs. Sample-onset gap does not guarantee queue waiting.",
+  "native_executable_sha256": "b8f57f0f1d2143a38551020eed93b51d48d1884eff4b3b1cd5778ba34a7f0550",
+  "engine_source_sha256": "13bcd91f146efc148237120c366fdad1513a4d9e7c43ffb4f2cbdc355e675b77",
+  "runtime_identity_sha256": "f038d587fa97ad5a46c3613f7d6c8c2265fbee2f7f7b758d4ec82f803746aee5",
+  "generator_source_sha256": "866a37474c3304fa2fc53ba39d2e577f65a2f87c4c3466f8125c501966260546"
+}

@@ -1,0 +1,27 @@
+# Python and editor/runtime files
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+~$*
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
+*.log
+
+# New hardware build products; the frozen .fs and original resource evidence stay tracked.
+代码/c4/impl/gwsynthesis/
+代码/c4/impl/pnr/
+代码/c4/impl/*.log
+
+# Preserve only archived, intentionally included records; ignore new captures.
+代码/host_ui/captures/*
+代码/recorded_experiment/captures/*
+代码/comparison_results/*
+!代码/host_ui/captures/c4_20261027_223512_015471/
+!代码/host_ui/captures/c4_20261027_223556_432532/
+!代码/recorded_experiment/captures/paired_20261027_223621_560531/
+!代码/comparison_results/20261028_230454_196243_701f2bec/

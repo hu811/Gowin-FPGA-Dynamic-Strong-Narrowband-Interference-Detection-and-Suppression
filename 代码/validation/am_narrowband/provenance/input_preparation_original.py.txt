@@ -1,0 +1,146 @@
+"""Frozen paired tone/AM inputs; offline preparation only, no serial access."""
+from pathlib import Path
+from hashlib import sha256
+from copy import deepcopy
+import argparse,json,sys,wave,shutil
+import numpy as np
+
+HERE=Path(__file__).resolve().parent
+RELEASE=Path('D:/FPGA_Competition/最终提交/代码')
+ORIGINAL=HERE.parent/'20261028_timing_sweep'
+sha=lambda p:sha256(Path(p).read_bytes()).hexdigest()
+payload=lambda x:sha256(np.asarray(x,dtype='<i2').tobytes(order='C')).hexdigest()
+rms=lambda x:float(np.sqrt(np.mean(np.asarray(x,dtype=np.float64)**2)))
+
+def write_json(p,value):
+    text=json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n'
+    if p.exists():assert json.loads(p.read_text(encoding='utf-8'))==value,str(p)
+    else:p.write_text(text,encoding='utf-8')
+
+def source_data():
+    plan=json.loads((ORIGINAL/'experiment_plan.json').read_text(encoding='utf-8'))
+    case=next(x for x in plan['plan_cases'] if x['case_id']=='case_01')
+    with np.load(ORIGINAL/'base_reference.npz',allow_pickle=False) as a:
+        target,noise=a['target'].copy(),a['noise'].copy()
+    n=plan['sample_count'];fs=plan['fs_hz'];idx=np.arange(n);t=idx/fs
+    tones=np.array([plan['fixed_jammer_peak_before_gain']*np.sin(2*np.pi*f*(t-s/fs)+phase)*((idx>=s)&(idx<e))
+        for f,s,e,phase in zip(plan['frequencies_hz'],case['start_samples'],case['stop_samples'],plan['onset_phase_rad'])])
+    original=np.rint((target+noise+tones.sum(axis=0))*32768).astype('<i2')
+    assert np.array_equal(original,np.load(ORIGINAL/'cases/case_01/input.npy',allow_pickle=False))
+    assert payload(original)==case['input_payload_sha256']
+    return plan,case,target,noise,tones,original
+
+def prepare():
+    sys.path.insert(0,str(RELEASE/'host_ui'))
+    from scene import default_config
+    from wav_bundle import load_import_bundle
+    p,c,target,noise,tones,original=source_data()
+    n,fs=p['sample_count'],p['fs_hz'];idx=np.arange(n);t=idx/fs
+    depth,fm=.3,10.0;theta=[0.,float(np.pi/2),float(np.pi),float(3*np.pi/2)]
+    am=[];factors=[]
+    for i,(tone,s,e) in enumerate(zip(tones,c['start_samples'],c['stop_samples'])):
+        envelope=1+depth*np.sin(2*np.pi*fm*(t-s/fs)+theta[i])
+        changed=tone*envelope
+        factor=rms(tone[s:e])/rms(changed[s:e]);changed*=factor
+        assert np.isclose(rms(tone[s:e]),rms(changed[s:e]),rtol=2e-15,atol=0)
+        am.append(changed);factors.append(float(factor))
+    am=np.array(am)
+    config=default_config(4);config['seconds']=n/fs
+    for i,event in enumerate(config['events']):
+        event['start_s']=c['start_samples'][i]/fs;event['end_s']=c['stop_samples'][i]/fs
+        event['change_s']=(event['start_s']+event['end_s'])/2
+    definitions={
+        'tone_control':{'jammers':tones,'kind':'Four gated constant-amplitude sine interferers; exact original case01 input'},
+        'am_interference':{'jammers':am,'kind':'Four gated amplitude-modulated narrowband interferers; not arbitrary non-sinusoidal noise'}}
+    result={}
+    for name,definition in definitions.items():
+        folder=HERE/'prepared'/name;folder.mkdir(parents=True,exist_ok=True)
+        jams=definition['jammers']
+        raw=np.rint((target+noise+jams.sum(axis=0))*32768)
+        assert np.isfinite(raw).all() and raw.min()>=-32768 and raw.max()<=32767
+        data=raw.astype('<i2')
+        if name=='tone_control':assert np.array_equal(data,original)
+        comps={'target':target.copy(),'noise':noise.copy()}
+        comps.update({f'jam_{i+1}':jams[i].copy() for i in range(4)})
+        mixture_names=list(comps);ordered=np.zeros(n)
+        for k in mixture_names:ordered+=comps[k]
+        comps['quantization_error']=data.astype(float)/32768-ordered
+        assert np.max(abs(comps['quantization_error']))<=.500001/32768
+        component_rms={k:rms(v) for k,v in comps.items()}
+        events=[]
+        for i,event in enumerate(config['events']):
+            s,e=c['start_samples'][i],c['stop_samples'][i]
+            active=rms(jams[i,s:e]);quantized=np.rint(jams[i,s:e]*32768)/32768
+            events.append(dict(deepcopy(event),name=f'jam_{i+1}',start_sample=s,stop_sample_exclusive=e,
+                actual_start_s=s/fs,actual_end_s=e/fs,active_rms=active,actual_js_db=20*np.log10(active/rms(target)),
+                quantized_isolated_component_active_rms=rms(quantized),
+                quantized_isolated_component_js_db=20*np.log10(rms(quantized)/rms(target)),
+                quantized_component_note='Separate rounding diagnostic only; components are not separately transmitted.',
+                amplitude_model='constant' if name=='tone_control' else 'power-matched AM',
+                am_frequency_hz=0 if name=='tone_control' else fm,
+                am_depth=0 if name=='tone_control' else depth,
+                am_phase_rad=None if name=='tone_control' else theta[i],
+                am_power_match_factor=1. if name=='tone_control' else factors[i],
+                steady_state_spectral_components_hz=[event['frequency_hz']] if name=='tone_control' else [event['frequency_hz']-fm,event['frequency_hz'],event['frequency_hz']+fm]))
+        meta=dict(generator_version='frozen-power-matched-am-1',config=deepcopy(config),fs_hz=fs,sample_count=n,
+            actual_seconds=n/fs,scale=1.0,scale_policy='one shared frontend gain 1.0; no clipping; only AM generation uses a fixed per-source offline effective-power match',
+            input_sha256=payload(data),mixture_component_names=mixture_names,diagnostic_component_names=[],
+            pre_scale_component_rms={k:component_rms[k] for k in mixture_names},component_rms=component_rms,
+            actual_max_abs_sample=int(np.max(np.abs(data.astype(np.int32)))),actual_min_sample=int(data.min()),actual_max_sample=int(data.max()),
+            target_definition='Same frozen smooth Gaussian target as timing_sweep case01; no midpoint probes',
+            reference_use='offline display/scoring only; only mixed int16 samples and ordinary commands go to FPGA',
+            events=events,enabled_sources=4,max_simultaneous_sources=4,over_capacity=False,
+            supported_detection_hz=[1000.,7000.],waveform_definition=definition['kind'],
+            modulation_note='Each AM source has a carrier and two ideal steady-state sidebands, not one spectral line. Abrupt finite on/off creates leakage; not strictly band-limited to 20 Hz. Four AM sources do not imply only four spectral components.',
+            generator_source_sha256=sha(__file__))
+        npy=folder/'input.npy';wav=folder/'input.wav';npz=folder/'components.npz'
+        if npy.exists():assert np.array_equal(np.load(npy,allow_pickle=False),data)
+        else:np.save(npy,data,allow_pickle=False)
+        if not wav.exists():
+            with wave.open(str(wav),'wb') as w:
+                w.setnchannels(1);w.setsampwidth(2);w.setframerate(fs);w.writeframes(data.tobytes())
+        if not npz.exists():np.savez_compressed(npz,**comps)
+        else:
+            with np.load(npz,allow_pickle=False) as a:
+                assert set(a.files)==set(comps) and all(np.array_equal(a[k],comps[k]) for k in comps)
+        write_json(folder/'scene.json',config)
+        meta.update(input_npy_sha256=sha(npy),input_wav_sha256=sha(wav),components_npz_sha256=sha(npz))
+        write_json(folder/'source_metadata.json',meta)
+        for input_path in (npy,wav):
+            loaded,loaded_meta,loaded_components=load_import_bundle(input_path)
+            assert np.array_equal(data,loaded) and loaded_meta['reference_bundle_verified'] is True
+            assert np.array_equal(loaded_components['target'],target)
+        (folder/'input.mem').write_text(''.join(f'{int(x)&65535:04x}\n' for x in data),encoding='ascii')
+        result[name]={'bundle_path':folder.relative_to(HERE).as_posix(),'input_payload_sha256':payload(data),
+            'files':{k:sha(folder/k) for k in ('input.npy','input.wav','components.npz','source_metadata.json','scene.json')},
+            'actual_max_abs_sample':meta['actual_max_abs_sample'],'effective_active_rms':[x['active_rms'] for x in events],
+            'effective_active_js_db':[float(x['actual_js_db']) for x in events],
+            'isolated_quantized_component_active_js_db':[float(x['quantized_isolated_component_js_db']) for x in events]}
+    assert np.array_equal(np.load(HERE/result['tone_control']['bundle_path']/'input.npy'),original)
+    bitstream=RELEASE/'c4/ACG525_C4_V32_512_OLED.fs'
+    definition={'schema':'paired-tone-am-narrowband-input-1','case_order':['tone_control','am_interference'],
+        'fs_hz':fs,'sample_count':n,'common_gain':1.0,'capacity':4,
+        'frequencies_hz':p['frequencies_hz'],'start_samples':c['start_samples'],'stop_samples':c['stop_samples'],
+        'onset_phases_rad':p['onset_phase_rad'],'source_case':'20261028_timing_sweep/case_01',
+        'source_plan_sha256':sha(ORIGINAL/'experiment_plan.json'),'target_array_sha256':sha256(target.astype('<f8').tobytes()).hexdigest(),
+        'noise_array_sha256':sha256(noise.astype('<f8').tobytes()).hexdigest(),
+        'am':{'depth':depth,'frequency_hz':fm,'phases_rad':theta,'per_source_power_match_factors':factors,
+            'formula':'j_i(t)=c_i*A*sin(2*pi*f_i*(t-onset_i)+phi_i)*(1+0.3*sin(2*pi*10*(t-onset_i)+theta_i)) inside the original half-open active interval',
+            'power_matching':'Each fixed c_i makes AM active-interval RMS equal to the corresponding original tone active-interval RMS. Computed once before detector/RTL runs.',
+            'scope':'Four deterministic amplitude-modulated narrowband sources; not arbitrary narrowband random noise or wideband suppression'},
+        'windows':{'full_common':[0,15680],'entry':[2880,7360],'stable':[7680,10240]},
+        'alignment_samples':320,'clean_reference':'Frozen target only; noise and interferers excluded from the offline reference',
+        'release_root':str(RELEASE),'bitstream_sha256':sha(bitstream),
+        'host_source_hashes':{name:sha(RELEASE/'host_ui'/name) for name in ('board_io.py','wav_bundle.py','scene.py','scene_modes.py','metrics.py')},
+        'generator_source_sha256':sha(__file__),'cases':result,'board_experiment_performed':False,
+        'selection':'Parameters fixed before outputs; no result-driven phase or threshold tuning. Same input payload for each algorithm.',
+        'online_information':'Mixed samples and existing protocol controls only; clean target/components/true frequency/timing never online inputs.'}
+    write_json(HERE/'experiment.json',definition)
+    print(json.dumps({'status':'INPUTS_PREPARED_AND_IMPORT_VERIFIED','experiment_sha256':sha(HERE/'experiment.json'),'board_experiment_performed':False,'cases':result},ensure_ascii=True))
+    return definition
+
+def main():
+    argparse.ArgumentParser(description=__doc__).parse_args()
+    prepare()
+
+if __name__=='__main__':main()

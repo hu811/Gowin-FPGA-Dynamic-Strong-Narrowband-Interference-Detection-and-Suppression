@@ -1,0 +1,35 @@
+{
+  "scope": "Precomputed mixed-input-only detector/controller trajectory into unchanged actual RTL coefficient_manager, queue, generator, Q15 balancer, three-bank transition and FIR. Detector/track/group computation not simulated here; all backend service/fade/output clocks actual. Offline decomposition only after zero-LSB mixed replay.",
+  "variant": {
+    "capacity": 4,
+    "variant": "v27_baseline_c4",
+    "frozen_source_bundle": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v29_c4_control_repair_work\\rtl_validation\\final_sources\\v27_baseline_c4",
+    "authoritative_gpr": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v27_dynamic_validation_work\\rtl_validation\\final_sources\\q15_mac_c4\\pro_v2.gprj",
+    "backend_override": null,
+    "basis_generator": false,
+    "packed_generator": false
+  },
+  "raw_trace": "D:\\FPGA_Competition\\evidence_v30_rtl_scratch\\c4_temporal_gap8ms_heldout_current_backend",
+  "fixture": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v30_temporal_c4_work\\software\\fixtures\\c4_temporal_gap8ms_heldout",
+  "verification": {
+    "status": "PASS",
+    "mixed_output_bit_mismatches": 0,
+    "output_samples": 30400,
+    "independently_reconstructed_saturated_samples": 0,
+    "input_component_sum_max_error_counts": 0.0,
+    "linear_component_sum_max_error_counts": 8.391509709326783e-12,
+    "joint_output_rounding_saturation_residual_max_counts": 0.4999847412109375,
+    "joint_output_rounding_saturation_residual_rms_counts": 0.23546656079005163,
+    "input_quantization_max_counts": 0.4999946688903236,
+    "unique_complete_banks": 11,
+    "note": "Components use the same actual Q16 banks/alpha and are NOT separately rounded/saturated. Common final rounding/saturation residue is separate."
+  },
+  "export_source_sha256": "5d7700379ba73607cd6cb882cf1670e3b78f91a9cb361995fb25a19070c6c9eb",
+  "replay_source_sha256": "dd9822c76f989f5027bad256057fcfc7414c04d44a38814a40f4640d069bfbdf",
+  "kind": "HYBRID",
+  "method": "unchanged_v27_current_backend_replay",
+  "policy_manifest": "C:\\Users\\User\\Desktop\\agent\\FPGA_Competition\\09_RTL\\v30_temporal_c4_work\\rtl_validation\\hybrid_backend\\c4_temporal_gap8ms_heldout_current_inputs\\adapter_manifest.json",
+  "policy_manifest_sha256": "67aa781b38d2cfbcf8ddc683f8e2a80da74331ccb2ef6b622aeffd963bef0464",
+  "board_measurement": false,
+  "complete_online_detector_rtl": false
+}

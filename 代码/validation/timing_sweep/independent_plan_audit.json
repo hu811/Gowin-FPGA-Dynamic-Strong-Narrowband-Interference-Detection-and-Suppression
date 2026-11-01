@@ -1,0 +1,143 @@
+{
+  "status": "INDEPENDENT_FROZEN_PLAN_PASS",
+  "plan_sha256": "c2f4b57eb5f604b7be5c108483270854695c0ada5afb5ab849e96d2e77c3cf02",
+  "target_type": "Synthetic band-limited Gaussian target and fixed independent noise; not the DRM recording",
+  "conditions": 16,
+  "unique_inputs": 15,
+  "records": [
+    {
+      "axis": "internal_delta",
+      "delay_ms": 0,
+      "case_id": "case_00",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "a99f7e6ee5f68d6b19ba0b300cc6e9ed0b07eeea0ad5d89ad4a43beb1029dd89"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 1,
+      "case_id": "case_01",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 2,
+      "case_id": "case_02",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "bfc3f8323de1b99918ba08a44b20ecfb5f09e06722f97ddd8280f32cc70483d5"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 4,
+      "case_id": "case_03",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "fdee88d00f8c903bb3b7d2ef49b7846ef9586e831826ed8624c9fd4bd163127e"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 8,
+      "case_id": "case_04",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "c7d4c81b5429b5a1b0cc34c07d552c5749f229c9ffd85d1f607486c2baf04337"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 16,
+      "case_id": "case_05",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "9d0d3f7f797fe48f6be5de55f65eb9943b8d9d661ab34f43eb9cd481d8f24979"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 32,
+      "case_id": "case_06",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "12adb1fa5fc3784fdfe3c9dd1deb87e58f9829a748709bb83aefb2ed20d96a31"
+    },
+    {
+      "axis": "internal_delta",
+      "delay_ms": 64,
+      "case_id": "case_07",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "4b9b170f9a0e0248e505f7ff344c68d13db7c7cc79604d84ff52119427bb79ea"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 0,
+      "case_id": "case_08",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "d2345f0f01315cc3af28a22015ff9b78c5d051b7709848423ca708f50fd97438"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 1,
+      "case_id": "case_09",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "c0a9128cbd4ec66ea9565c0eef413cbc7b644a60cd52c79c5773704a08313819"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 2,
+      "case_id": "case_10",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "bf7108c15570fe6bf44124af91ec09903d8ff22b1ac03167a1c50fb0419e4672"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 4,
+      "case_id": "case_11",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "5868a84ead368c5caf3d6ac166852dbe6a56e00d02d532c75e2d2a454685795a"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 8,
+      "case_id": "case_01",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "78d099767319caee5e9a554ebac088579e7599c6ec2feaef3a549f4076794e5f"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 16,
+      "case_id": "case_12",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "a77cc5428f4061d4b117f72f0c753e3a87575bb9d5bce9fcacf255f7be622409"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 32,
+      "case_id": "case_13",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "90d842249b5f8f866644f1720cfc56e692cba4feb477f807e7db43e9c42ee52c"
+    },
+    {
+      "axis": "pair_gap",
+      "delay_ms": 64,
+      "case_id": "case_14",
+      "reconstruction_mismatches_lsb": 0,
+      "input_payload_sha256": "6e49fe9ed80a9b2c7664483cc6c0fb0760c7402c9fc8acf2cb10f3c2f1cc3a33"
+    }
+  ],
+  "common_gain": 1.0,
+  "phase": "sin(2*pi*f*(t-onset)+phi); per-source onset phase fixed, global phase changes with onset.",
+  "windows": {
+    "full_common": [
+      0,
+      15680
+    ],
+    "entry": [
+      2880,
+      7360
+    ],
+    "stable": [
+      7680,
+      10240
+    ]
+  },
+  "limits": [
+    "Single frozen target/noise seed, not a statistical robustness estimate.",
+    "Main interval includes fixed exit events and varying active duration; entry/stable are separate diagnostics.",
+    "512 complete RTL versus zero-compute-time software1024 reference, not a pure-window or two-board comparison.",
+    "This audit reconstructs inputs and checks fixed design; it does not run detectors or generate performance results."
+  ]
+}
