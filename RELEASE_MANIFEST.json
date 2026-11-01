@@ -15,8 +15,8 @@
       "sha256": "32efd7327acaf1a68ff4624882be068bc3b004aa3dbe64b8c34b1833cb96f880"
     },
     "README.md": {
-      "bytes": 4731,
-      "sha256": "e0c4497fd59fb4f41fe0dea591fd78e319f1f15fb1f11a9c7cac27c1035338c4"
+      "bytes": 4857,
+      "sha256": "a52d93a111c64774cb81e874bca53f8df357a9ba96e2e6e9e466f57eb1712c3f"
     },
     "RELEASE_CHECKS.json": {
       "bytes": 2552,
@@ -296,7 +296,7 @@
     },
     "代码/code_package_manifest.json": {
       "bytes": 178147,
-      "sha256": "cc43115d1812616818026e2955877e27de1f3b3bde9095f39032277f3efbc1a1"
+      "sha256": "f5dedeefc61555500b122aa52cd36d8c2be733ab86543d4a19ba4d35fcdc927a"
     },
     "代码/comparison_results/20261028_230454_196243_701f2bec/actual_capture_metadata.json": {
       "bytes": 13654,
@@ -591,8 +591,8 @@
       "sha256": "fdc82b6c04a7305ac7206ba4aec9397c4273bc6cb82b3e741b4ec25f26e5e448"
     },
     "代码/README.md": {
-      "bytes": 15163,
-      "sha256": "d1de9490126068237e253acc60534ec87aaebed2fceb970f9b0b321370509efc"
+      "bytes": 15181,
+      "sha256": "fec69211a0554bd947b09220e3078b9d020bd947321d89938ae501e28e9683be"
     },
     "代码/real_recorded_inputs/prepared/drm_recorded_two_pairs/components.npz": {
       "bytes": 2096846,
