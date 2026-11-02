@@ -19,8 +19,8 @@
       "sha256": "a52d93a111c64774cb81e874bca53f8df357a9ba96e2e6e9e466f57eb1712c3f"
     },
     "RELEASE_CHECKS.json": {
-      "bytes": 2552,
-      "sha256": "49562e6a88eba322d3581bb17e2310c19fd40446b40e9fd22aa50b2fe91d8d02"
+      "bytes": 3445,
+      "sha256": "a1eb938fbe1234b7dab13907a1ab8208416aeee3a4f8515e2327bbbcbcf0bb1c"
     },
     "REPRODUCIBILITY.md": {
       "bytes": 2773,
@@ -3695,12 +3695,13 @@
       "sha256": "9f8adc6a6e23aafeb1c48394a433e83e0fe4956d5929dadb149c90d2e6add038"
     },
     "基于高云FPGA的动态强窄带干扰检测与抑制系统_设计报告.docx": {
-      "bytes": 33903093,
-      "sha256": "4e6b21ca7383ba3680c5e705d3e7706bea99ce23dfbc55c71f59aa68de5c3afa"
+      "bytes": 33898525,
+      "sha256": "afc741ff8429641edb12389c95204b9830b66e47452bf6ab8959020f431810be"
     },
     "基于高云FPGA的动态强窄带干扰检测与抑制系统_设计报告.pdf": {
-      "bytes": 2928086,
-      "sha256": "d6c87f8f605dbf543b1462f1018f6b83241d6b96b25e59eee327847de7b2bc40"
+      "bytes": 2934753,
+      "sha256": "5729113bf0c9cc8a5f81bb844e0566922972a7ea0900e344ef16e0ab7e4ff0f0"
     }
-  }
+  },
+  "updated": "2026-11-03"
 }

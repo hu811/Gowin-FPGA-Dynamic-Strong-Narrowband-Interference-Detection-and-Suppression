@@ -9,7 +9,7 @@
   "canonical_code_file_count": 916,
   "canonical_code_changes": "Launcher/test/documentation consolidation only; no FPGA/GUI/transport/numerical algorithm change.",
   "contains_runtime_virtual_environment": false,
-  "published_to_github": false,
+  "published_to_github": true,
   "privacy_check": "Personal usernames in 32 archived path records anonymized as User; dependent metadata hashes updated. Python/RTL/ROM/bitstream/sample bytes unchanged. Published Git history and Release assets checked separately.",
   "third_party_data": "Includes derived recording samples for local/private reproduction; public redistribution permission is not confirmed.",
   "launcher_cleanup_checks": {
@@ -49,5 +49,20 @@
     "timing_sweep_48_rows": "PASS",
     "am_metrics": "PASS",
     "new_synthesis_pnr_or_board_run": false
+  },
+  "report_language_revision": {
+    "date": "2026-11-03",
+    "scope": "Language-only report revision; no source code, FPGA image, data or scoring change. Earlier implementation checks are retained, not rerun for this prose update.",
+    "reviewed_changed_paragraphs": 64,
+    "substantive_meaning_changes_found_after_final_review": false,
+    "numeric_tokens_per_changed_paragraph_unchanged": true,
+    "tables_equations_images_unchanged": true,
+    "pages": 44,
+    "abstract_characters_including_keywords_excluding_whitespace": 788,
+    "innovation_characters_excluding_whitespace": 196,
+    "toc_bookmark_pages_unchanged": true,
+    "docx_and_print_quality_pdf_synced": true,
+    "personal_information_check": "PASS; no personal names, email addresses, school or team identifiers found in report content or metadata.",
+    "new_synthesis_simulation_or_board_run": false
   }
 }
